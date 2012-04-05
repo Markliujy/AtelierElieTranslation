@@ -8,12 +8,12 @@ The files still need a substantial amount of sorting through, updating for depen
 
 Folder Overview:
 
-	Assembly 								- Assembly routines
-	Atelier Elie Scripter		- C# Script Editing Program.
-	AtelierElieCode 				- Python Scripts
-	CD Image								- TODO: ISO Placeholder
-	Font										- Useless?
-	Notes										- Information
-	Original Files					- Original Files
-	Translated Files				- Translated Files for Insertion
-	Translations						- Translations
+	Assembly - Assembly routines
+	Atelier Elie Scripter - C# Script Editing Program.
+	AtelierElieCode - Python Scripts
+	CD Image - TODO: ISO Placeholder
+	Font - Useless?
+	Notes - Information
+	Original Files - Original Files
+	Translated Files - Translated Files for Insertion
+	Translations - Translations
