@@ -1,0 +1,32 @@
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\bin\Debug\AtelierElieScripter.exe
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\bin\Debug\AtelierElieScripter.pdb
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Dialogue.DialogueControl.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.MainForm.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.ResourceObjects.EngFontResourceObject.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.ResourceObjects.JapFontResourceObject.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.ResourceObjects.NameResourceObject.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Res.GameFiles.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Res.Misc.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.exe
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.pdb
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.DialogueChoices.DialogueChoicesControl.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.AlchemyItems.Control.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Res.AlchemyItems.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\bin\Debug\AtelierElieScripter.exe
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\bin\Debug\AtelierElieScripter.pdb
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.AlchemyItems.Control.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.DialogueChoices.DialogueChoicesControl.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Dialogue.DialogueControl.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.MainForm.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.ResourceObjects.EngFontResourceObject.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.ResourceObjects.JapFontResourceObject.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.ResourceObjects.NameResourceObject.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Res.GameFiles.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Res.Misc.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.Res.AlchemyItems.resources
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.csproj.GenerateResource.Cache
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.exe
+D:\Mark\Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Debug\AtelierElieScripter.pdb

@@ -1,0 +1,12 @@
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\bin\Release\AtelierElieScripter.exe
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.Dialogue.DialogueControl.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.MainForm.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.ResourceObjects.EngFontResourceObject.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.ResourceObjects.JapFontResourceObject.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.ResourceObjects.NameResourceObject.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.Res.GameFiles.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.Res.Misc.resources
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.exe
+C:\Documents and Settings\Mark Liu\My Documents\SharpDevelop Projects\Atelier Elie Scripter\Atelier Elie Scripter\obj\x86\Release\AtelierElieScripter.DialogueChoices.DialogueChoicesControl.resources

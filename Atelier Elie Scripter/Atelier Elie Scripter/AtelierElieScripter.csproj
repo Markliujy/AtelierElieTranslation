@@ -1,0 +1,129 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7183B8E9-E1F6-4434-8787-AD375E91A1F2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AtelierElieScripter</RootNamespace>
+    <AssemblyName>AtelierElieScripter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\Mark Liu\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\AbstractTextBlock.cs" />
+    <Compile Include="Abstract\IFontResourceObject.cs" />
+    <Compile Include="AlchemyItems\Collection.cs" />
+    <Compile Include="AlchemyItems\Control.cs" />
+    <Compile Include="AlchemyItems\Control.Designer.cs">
+      <DependentUpon>Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlchemyItems\Item.cs" />
+    <Compile Include="AlchemyItems\Module.cs" />
+    <Compile Include="DialogueChoices\DialogueChoicesBlock.cs" />
+    <Compile Include="DialogueChoices\DialogueChoicesControl.cs" />
+    <Compile Include="DialogueChoices\DialogueChoicesControl.Designer.cs">
+      <DependentUpon>DialogueChoicesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DialogueChoices\DialogueChoicesEntry.cs" />
+    <Compile Include="DialogueChoices\DialogueChoicesMainBlock.cs" />
+    <Compile Include="DialogueChoices\DialogueChoicesModule.cs" />
+    <Compile Include="Dialogue\DialogueControl.cs" />
+    <Compile Include="Dialogue\DialogueControl.Designer.cs">
+      <DependentUpon>DialogueControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogue\DialogueEntry.cs" />
+    <Compile Include="Dialogue\DialogueMainBlocks.cs" />
+    <Compile Include="Dialogue\DialogueModule.cs" />
+    <Compile Include="Dialogue\DialogueTextBlocks.cs" />
+    <Compile Include="Lib\CustListView.cs" />
+    <Compile Include="Lib\ListViewColumnSorter.cs" />
+    <Compile Include="Lib\NoBackgroundPaintPanel.cs" />
+    <Compile Include="Lib\Tools.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceObjects\EngFontResourceObject.cs" />
+    <Compile Include="ResourceObjects\GraphicResourceObject.cs" />
+    <Compile Include="ResourceObjects\JapFontResourceObject.cs" />
+    <Compile Include="ResourceObjects\NameResourceObject.cs" />
+    <Compile Include="Res\Misc.Designer.cs">
+      <DependentUpon>Misc.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Res\Variables.cs" />
+    <EmbeddedResource Include="AlchemyItems\Control.resx">
+      <DependentUpon>Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogueChoices\DialogueChoicesControl.resx">
+      <DependentUpon>DialogueChoicesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogue\DialogueControl.resx">
+      <DependentUpon>DialogueControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceObjects\EngFontResources.resx">
+      <DependentUpon>EngFontResourceObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceObjects\JapFontResources.resx">
+      <DependentUpon>JapFontResourceObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResourceObjects\NameResource.resx">
+      <DependentUpon>NameResourceObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\GameFiles.resx" />
+    <EmbeddedResource Include="Res\Misc.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\AlchemyItems.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dialogue" />
+    <Folder Include="Lib" />
+    <Folder Include="DialogueChoices" />
+    <Folder Include="Abstract" />
+    <Folder Include="AlchemyItems" />
+    <Folder Include="Res" />
+    <Folder Include="ResourceObjects" />
+  </ItemGroup>
+</Project>
