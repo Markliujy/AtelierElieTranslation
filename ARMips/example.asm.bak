@@ -1,0 +1,119 @@
+
+
+.psx					; Set the architecture to PSX
+
+
+.open "OLD_SLPS_017.51","SLPS_017.51",0x8000F800		; Open SLPS_010.57 for output.
+
+FreeSpace equ 0x800C2358
+
+.org FreeSpace
+	Font_Table:
+		.incbin New_Font.bin
+	Width_Table:
+		.incbin Width_Table.bin
+
+.org 0x8002a838				; Text/Graphic Routine
+
+
+
+	lbu r2,0x0000(r16)					;r16 = text block position
+	nop
+	beq r2,r0,0x8002aac8
+	sll r3,r10,0x10
+
+
+	lbu r4,0x0000(r16)					;load single byte only
+	addiu r2, r0, 0x60
+	addiu r4, r4, 0xFFE0				;Dec by 20 for ASCII
+	sltu r2, r2, r4							;check if greater than font table! possible DTE here
+	beq r3, r0, ValueOK
+	nop
+
+	addiu r4, r0, 0x1
+	
+	ValueOK:
+	;sra r3,r3,0x10
+	;sll r2,r3,0x01
+	;addu r2,r2,r3
+	;sll r2,r2,0x01
+	
+	li r3, Width_Table
+	nop
+	addu r3, r3, r4
+	lbu r2, 0x0000(r3)
+	
+	addiu r3,r29,0x0010					;r29 + 0x10 = base RAM position to draw to
+	
+	addu r6,r3,r2								; r2 is calculated as no. character x 6
+	
+	
+	
+	ori r2,r0,0x818f
+	andi r3,r4,0x00ff
+	beq r3,r2,0x8002aac8				;check if 818f = line break
+	addiu r16,r16,0x0001				;increment text block position
+	
+	
+	
+	
+	
+	
+	
+	
+		sll r3, r4, 0x4
+		sll r4, r4, 0x1
+		addu r4, r3, r4
+		
+	
+	
+	
+		li r3, Font_Table
+		addu r5, r3, r4
+		addiu r4, r5, 0x4
+		addu r7,r0,r0
+		j 0x8002a930
+		nop
+	
+
+	
+
+
+
+
+.org 0x8002ae50									;Text draw routine
+	lbu r2,0x0000(r7)
+	nop
+	beq r2,r0,0x8002aeb8
+	addiu r2,r5,0x0001
+	sll r2,r11,0x10
+	sra r2,r2,0x10
+	slt r2,r2,r15
+	beq r2,r0,0x8002aeb8
+	addiu r2,r5,0x0001
+	
+	lbu r2,0x0000(r7)
+	nop; addiu r7,r7,0x0001
+	nop; lbu r2,0x0000(r7)
+	nop; sll r3,r3,0x08
+	nop; or r2,r2,r3
+	
+	
+	beq r2,r25,0x8002aeb0
+	addiu r7,r7,0x0001
+	lhu r2,0x0010(r4)
+	addiu r11,r11,0x0001
+	addiu r2,r2,0x000c
+	sh r2,0x0010(r4)
+	sh r2,0x0574(r4)
+	addiu r2,r0,0x0001
+
+
+
+
+
+
+
+.close
+
+ ; make sure to leave an empty line at the end

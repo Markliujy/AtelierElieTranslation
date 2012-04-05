@@ -1,0 +1,529 @@
+; 6 files included
+; 870 lines
+; 41 labels
+; 8 equations
+
+; ./Code/base.asm
+; ./code/textdrawtovram.asm
+; ./code/gettextwidth.asm
+; ./code/hijacks/textdrawtovram.asm
+; ./code/hijacks/dialoguedma.asm
+; ./code/intro.asm
+
+00000000 .open "OLD_SLPS_017.51","D:\AtelierElie\New\Packed\SLPS_017.51",0x8000F800; ./Code/base.asm line 6
+8000F800 .org 0x800C2358                                              ; ./Code/base.asm line 17
+800C2358 data_font_table:                                             ; ./Code/base.asm line 18
+800C2358 .incbin "new_font.bin"                                       ; ./Code/base.asm line 19
+800C2A18 data_width_table:                                            ; ./Code/base.asm line 21
+800C2A18 .incbin "width_table.bin"                                    ; ./Code/base.asm line 22
+800C2A78 ram_new_width:                                               ; ./Code/base.asm line 24
+800C2A78 .fill 0x00000001,0x00                                        ; ./Code/base.asm line 25
+800C2A79 ram_prev_width:                                              ; ./Code/base.asm line 27
+800C2A79 .fill 0x00000001,0x00                                        ; ./Code/base.asm line 28
+800C2A7A ram_width:                                                   ; ./Code/base.asm line 30
+800C2A7A .fill 0x00000001,0x00                                        ; ./Code/base.asm line 31
+800C2A7B ram_row_buffer:                                              ; ./Code/base.asm line 33
+800C2A7B .fill 0x00000008,0x00                                        ; ./Code/base.asm line 34
+800C2A83 ram_dte_buffer:                                              ; ./Code/base.asm line 36
+800C2A83 .fill 0x00000001,0x00                                        ; ./Code/base.asm line 37
+800C2A84 data_dte_table:                                              ; ./Code/base.asm line 39
+800C2A84 .incbin "dte_table.bin"                                      ; ./Code/base.asm line 40
+800C2BD0 .align 0x00000004                                            ; ./Code/base.asm line 42
+800C2BD0 textdrawtovram:                                              ; ./code/textdrawtovram.asm line 16
+800C2BD0    lbu     r2,0x0(r16)                                       ; ./code/textdrawtovram.asm line 19
+800C2BD4    nop                                                       ; ./code/textdrawtovram.asm line 20
+800C2BD8    beqz    r2,0x800C30E0                                     ; ./code/textdrawtovram.asm line 21
+800C2BDC    nop                                                       ; ./code/textdrawtovram.asm line 22
+800C2BE0    lh      r2,0x4(r17)                                       ; ./code/textdrawtovram.asm line 26
+800C2BE4    nop                                                       ; ./code/textdrawtovram.asm line 27
+800C2BE8    blez    r2,0x800C2FC8                                     ; ./code/textdrawtovram.asm line 28
+800C2BEC    move    r10,r0                                            ; ./code/textdrawtovram.asm line 29
+800C2BF0 textdrawtovram_newtextchar:                                  ; ./code/textdrawtovram.asm line 33
+800C2BF0    lbu     r4,0x0(r16)                                       ; ./code/textdrawtovram.asm line 37
+800C2BF4    move    r10,r0                                            ; ./code/textdrawtovram.asm line 38
+800C2BF8    beq     r4,r0,0x800C2FC8                                  ; ./code/textdrawtovram.asm line 41
+800C2BFC    nop                                                       ; ./code/textdrawtovram.asm line 42
+800C2C00    ori     r2,r0,0x818F                                      ; ./code/textdrawtovram.asm line 45
+800C2C04    andi    r3,r4,0xFF                                        ; ./code/textdrawtovram.asm line 46
+800C2C08    beq     r3,r2,0x800C2FC8                                  ; ./code/textdrawtovram.asm line 47
+800C2C0C    nop                                                       ; ./code/textdrawtovram.asm line 48
+800C2C10    addiu   r2,r0,0x5A                                        ; ./code/textdrawtovram.asm line 51
+800C2C14    addiu   r4,r4,0xFFE0                                      ; ./code/textdrawtovram.asm line 52
+800C2C18    andi    r4,r4,0xFF                                        ; ./code/textdrawtovram.asm line 53
+800C2C1C    sltu    r2,r2,r4                                          ; ./code/textdrawtovram.asm line 56
+800C2C20    beq     r2,r0,0x800C2C8C                                  ; ./code/textdrawtovram.asm line 57
+800C2C24    nop                                                       ; ./code/textdrawtovram.asm line 58
+800C2C28    addiu   r4,r4,0xFFA5                                      ; ./code/textdrawtovram.asm line 63
+800C2C2C    sll     r4,r4,0x1                                         ; ./code/textdrawtovram.asm line 64
+800C2C30    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 65
+800C2C34    addiu   r2,r2,0x2A84                                      ; ./code/textdrawtovram.asm line 65
+800C2C38    addu    r4,r4,r2                                          ; ./code/textdrawtovram.asm line 66
+800C2C3C    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 69
+800C2C40    lbu     r2,0x2A83(r2)                                     ; ./code/textdrawtovram.asm line 69
+800C2C44    nop                                                       ; ./code/textdrawtovram.asm line 70
+800C2C48    addu    r4,r2,r4                                          ; ./code/textdrawtovram.asm line 73
+800C2C4C    lbu     r4,0x0(r4)                                        ; ./code/textdrawtovram.asm line 74
+800C2C50    nop                                                       ; ./code/textdrawtovram.asm line 75
+800C2C54    addiu   r4,r4,0xFFE0                                      ; ./code/textdrawtovram.asm line 76
+800C2C58    addiu   r2,0x1                                            ; ./code/textdrawtovram.asm line 78
+800C2C5C    move    r10,r2                                            ; ./code/textdrawtovram.asm line 79
+800C2C60    slti    r1,r2,0x2                                         ; ./code/textdrawtovram.asm line 81
+800C2C64    beqz    r1,0x800C2C7C                                     ; ./code/textdrawtovram.asm line 81
+800C2C68    nop                                                       ; ./code/textdrawtovram.asm line 82
+800C2C6C    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 85
+800C2C70    sb      r2,0x2A83(r1)                                     ; ./code/textdrawtovram.asm line 85
+800C2C74    j       0x800C2C94                                        ; ./code/textdrawtovram.asm line 86
+800C2C78    nop                                                       ; ./code/textdrawtovram.asm line 87
+800C2C7C @@stopdte:                                                   ; ./code/textdrawtovram.asm line 89
+800C2C7C    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 90
+800C2C80    sb      r0,0x2A83(r1)                                     ; ./code/textdrawtovram.asm line 90
+800C2C84    j       0x800C2C94                                        ; ./code/textdrawtovram.asm line 92
+800C2C88    nop                                                       ; ./code/textdrawtovram.asm line 93
+800C2C8C @@value_ok:                                                  ; ./code/textdrawtovram.asm line 98
+800C2C8C    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 100
+800C2C90    sb      r0,0x2A83(r1)                                     ; ./code/textdrawtovram.asm line 100
+800C2C94 @@dte_value_ok:                                              ; ./code/textdrawtovram.asm line 103
+800C2C94    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 106
+800C2C98    addiu   r3,r3,0x2A18                                      ; ./code/textdrawtovram.asm line 106
+800C2C9C    nop                                                       ; ./code/textdrawtovram.asm line 107
+800C2CA0    addu    r3,r3,r4                                          ; ./code/textdrawtovram.asm line 108
+800C2CA4    lbu     r2,0x0(r3)                                        ; ./code/textdrawtovram.asm line 109
+800C2CA8    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 110
+800C2CAC    sb      r2,0x2A7A(r1)                                     ; ./code/textdrawtovram.asm line 110
+800C2CB0    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 114
+800C2CB4    lbu     r3,0x2A78(r3)                                     ; ./code/textdrawtovram.asm line 114
+800C2CB8    nop                                                       ; ./code/textdrawtovram.asm line 115
+800C2CBC    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 116
+800C2CC0    sb      r3,0x2A79(r1)                                     ; ./code/textdrawtovram.asm line 116
+800C2CC4    addu    r2,r3,r2                                          ; ./code/textdrawtovram.asm line 119
+800C2CC8    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 120
+800C2CCC    sb      r2,0x2A78(r1)                                     ; ./code/textdrawtovram.asm line 120
+800C2CD0    lh      r7,0x4(r17)                                       ; ./code/textdrawtovram.asm line 123
+800C2CD4    nop                                                       ; ./code/textdrawtovram.asm line 124
+800C2CD8    sll     r5,r7,0x2                                         ; ./code/textdrawtovram.asm line 125
+800C2CDC    sll     r7,r7,0x1                                         ; ./code/textdrawtovram.asm line 126
+800C2CE0    addu    r5,r5,r7                                          ; ./code/textdrawtovram.asm line 127
+800C2CE4    sll     r5,r5,0x1                                         ; ./code/textdrawtovram.asm line 128
+800C2CE8    slt     r1,r2,r5                                          ; ./code/textdrawtovram.asm line 131
+800C2CEC    bnez    r1,0x800C2D20                                     ; ./code/textdrawtovram.asm line 131
+800C2CF0    addiu   r18,r18,0x1                                       ; ./code/textdrawtovram.asm line 132
+800C2CF4    bne     r0,r10,0x800C2D0C                                 ; ./code/textdrawtovram.asm line 134
+800C2CF8    nop                                                       ; ./code/textdrawtovram.asm line 135
+800C2CFC    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 136
+800C2D00    sb      r10,0x2A83(r1)                                    ; ./code/textdrawtovram.asm line 136
+800C2D04    j       0x800C2FC8                                        ; ./code/textdrawtovram.asm line 137
+800C2D08    nop                                                       ; ./code/textdrawtovram.asm line 138
+800C2D0C @@dteeol:                                                    ; ./code/textdrawtovram.asm line 140
+800C2D0C    addiu   r10,0xFFFF                                        ; ./code/textdrawtovram.asm line 141
+800C2D10    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 142
+800C2D14    sb      r10,0x2A83(r1)                                    ; ./code/textdrawtovram.asm line 142
+800C2D18    j       0x800C2FC8                                        ; ./code/textdrawtovram.asm line 143
+800C2D1C    nop                                                       ; ./code/textdrawtovram.asm line 144
+800C2D20 @@not_eol:                                                   ; ./code/textdrawtovram.asm line 146
+800C2D20    lui     r10,0x800C                                        ; ./code/textdrawtovram.asm line 147
+800C2D24    lbu     r10,0x2A83(r10)                                   ; ./code/textdrawtovram.asm line 147
+800C2D28    nop                                                       ; ./code/textdrawtovram.asm line 148
+800C2D2C    bne     r0,r10,0x800C2D38                                 ; ./code/textdrawtovram.asm line 149
+800C2D30    nop                                                       ; ./code/textdrawtovram.asm line 150
+800C2D34    addiu   r16,r16,0x1                                       ; ./code/textdrawtovram.asm line 151
+800C2D38 @@not_eol_dte:                                               ; ./code/textdrawtovram.asm line 153
+800C2D38    ori     r7,r0,0x1                                         ; ./code/textdrawtovram.asm line 158
+800C2D3C    and     r7,r7,r3                                          ; ./code/textdrawtovram.asm line 159
+800C2D40    add     r3,r3,r7                                          ; ./code/textdrawtovram.asm line 160
+800C2D44    srl     r3,r3,0x1                                         ; ./code/textdrawtovram.asm line 161
+800C2D48    addiu   r6,r29,0x10                                       ; ./code/textdrawtovram.asm line 163
+800C2D4C    addu    r6,r6,r3                                          ; ./code/textdrawtovram.asm line 164
+800C2D50    srl     r5,r5,0x1                                         ; ./code/textdrawtovram.asm line 165
+800C2D54    subu    r10,r5,r3                                         ; ./code/textdrawtovram.asm line 167
+800C2D58    sll     r3,r4,0x4                                         ; ./code/textdrawtovram.asm line 171
+800C2D5C    sll     r4,r4,0x1                                         ; ./code/textdrawtovram.asm line 172
+800C2D60    addu    r4,r3,r4                                          ; ./code/textdrawtovram.asm line 173
+800C2D64    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 176
+800C2D68    addiu   r3,r3,0x2358                                      ; ./code/textdrawtovram.asm line 176
+800C2D6C    addu    r5,r3,r4                                          ; ./code/textdrawtovram.asm line 177
+800C2D70    addiu   r4,r5,0x4                                         ; ./code/textdrawtovram.asm line 178
+800C2D74    addiu   r4,r0,0x0                                         ; ./code/textdrawtovram.asm line 190
+800C2D78    addu    r7,r0,r0                                          ; ./code/textdrawtovram.asm line 191
+800C2D7C loop_row_blocks:                                             ; ./code/textdrawtovram.asm line 197
+800C2D7C loop_rows:                                                   ; ./code/textdrawtovram.asm line 200
+800C2D7C    slti    r1,r7,0x2                                         ; ./code/textdrawtovram.asm line 203
+800C2D80    bnez    r1,0x800C2D94                                     ; ./code/textdrawtovram.asm line 203
+800C2D84    nop                                                       ; ./code/textdrawtovram.asm line 204
+800C2D88    slti    r1,r4,0x3                                         ; ./code/textdrawtovram.asm line 205
+800C2D8C    beqz    r1,0x800C2FA4                                     ; ./code/textdrawtovram.asm line 205
+800C2D90    nop                                                       ; ./code/textdrawtovram.asm line 206
+800C2D94 @@not_last_row:                                              ; ./code/textdrawtovram.asm line 211
+800C2D94    lhu     r2,0x0(r5)                                        ; ./code/textdrawtovram.asm line 215
+800C2D98    addiu   r5,r5,0x2                                         ; ./code/textdrawtovram.asm line 216
+800C2D9C    srlv    r2,r2,r4                                          ; ./code/textdrawtovram.asm line 217
+800C2DA0    andi    r2,r2,0x1111                                      ; ./code/textdrawtovram.asm line 218
+800C2DA4    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 219
+800C2DA8    sh      r2,0x2A7B(r1)                                     ; ./code/textdrawtovram.asm line 219
+800C2DAC    lhu     r2,0x0(r5)                                        ; ./code/textdrawtovram.asm line 224
+800C2DB0    addiu   r5,r5,0x2                                         ; ./code/textdrawtovram.asm line 225
+800C2DB4    srlv    r2,r2,r4                                          ; ./code/textdrawtovram.asm line 226
+800C2DB8    andi    r2,r2,0x1111                                      ; ./code/textdrawtovram.asm line 227
+800C2DBC    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 228
+800C2DC0    sh      r2,0x2A7D(r1)                                     ; ./code/textdrawtovram.asm line 228
+800C2DC4    lhu     r2,0x0(r5)                                        ; ./code/textdrawtovram.asm line 233
+800C2DC8    addiu   r5,r5,0x2                                         ; ./code/textdrawtovram.asm line 234
+800C2DCC    srlv    r2,r2,r4                                          ; ./code/textdrawtovram.asm line 235
+800C2DD0    andi    r2,r2,0x1111                                      ; ./code/textdrawtovram.asm line 236
+800C2DD4    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 237
+800C2DD8    sh      r2,0x2A7F(r1)                                     ; ./code/textdrawtovram.asm line 237
+800C2DDC    addiu   r4,r4,0x1                                         ; ./code/textdrawtovram.asm line 240
+800C2DE0    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 250
+800C2DE4    lbu     r2,0x2A79(r2)                                     ; ./code/textdrawtovram.asm line 250
+800C2DE8    nop                                                       ; ./code/textdrawtovram.asm line 251
+800C2DEC    andi    r2,r2,0x1                                         ; ./code/textdrawtovram.asm line 252
+800C2DF0    beq     r2,r0,0x800C2EEC                                  ; ./code/textdrawtovram.asm line 253
+800C2DF4    nop                                                       ; ./code/textdrawtovram.asm line 254
+800C2DF8    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 259
+800C2DFC    lhu     r3,0x2A7B(r3)                                     ; ./code/textdrawtovram.asm line 259
+800C2E00    nop                                                       ; ./code/textdrawtovram.asm line 260
+800C2E04    lhu     r2,0xFFFE(r6)                                     ; ./code/textdrawtovram.asm line 261
+800C2E08    sll     r3,r3,0xC                                         ; ./code/textdrawtovram.asm line 263
+800C2E0C    sll     r2,r2,0x4                                         ; ./code/textdrawtovram.asm line 264
+800C2E10    srl     r2,r2,0x4                                         ; ./code/textdrawtovram.asm line 265
+800C2E14    or      r2,r2,r3                                          ; ./code/textdrawtovram.asm line 267
+800C2E18    sh      r2,0xFFFE(r6)                                     ; ./code/textdrawtovram.asm line 268
+800C2E1C    ori     r1,r0,0x0                                         ; ./code/textdrawtovram.asm line 270
+800C2E20    beq     r10,r1,0x800C2F7C                                 ; ./code/textdrawtovram.asm line 270
+800C2E24    nop                                                       ; ./code/textdrawtovram.asm line 271
+800C2E28    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 274
+800C2E2C    lhu     r3,0x2A7B(r3)                                     ; ./code/textdrawtovram.asm line 274
+800C2E30    nop                                                       ; ./code/textdrawtovram.asm line 275
+800C2E34    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 276
+800C2E38    lhu     r2,0x2A7D(r2)                                     ; ./code/textdrawtovram.asm line 276
+800C2E3C    srl     r3,r3,0x4                                         ; ./code/textdrawtovram.asm line 277
+800C2E40    sll     r2,r2,0xC                                         ; ./code/textdrawtovram.asm line 278
+800C2E44    or      r2,r2,r3                                          ; ./code/textdrawtovram.asm line 279
+800C2E48    slti    r1,r10,0x2                                        ; ./code/textdrawtovram.asm line 280
+800C2E4C    beqz    r1,0x800C2E60                                     ; ./code/textdrawtovram.asm line 280
+800C2E50    nop                                                       ; ./code/textdrawtovram.asm line 281
+800C2E54    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 283
+800C2E58    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 284
+800C2E5C    nop                                                       ; ./code/textdrawtovram.asm line 285
+800C2E60 @@largerthan2:                                               ; ./code/textdrawtovram.asm line 287
+800C2E60    sh      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 288
+800C2E64    ori     r1,r0,0x2                                         ; ./code/textdrawtovram.asm line 289
+800C2E68    beq     r10,r1,0x800C2F7C                                 ; ./code/textdrawtovram.asm line 289
+800C2E6C    nop                                                       ; ./code/textdrawtovram.asm line 290
+800C2E70    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 293
+800C2E74    lhu     r3,0x2A7D(r3)                                     ; ./code/textdrawtovram.asm line 293
+800C2E78    nop                                                       ; ./code/textdrawtovram.asm line 294
+800C2E7C    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 295
+800C2E80    lhu     r2,0x2A7F(r2)                                     ; ./code/textdrawtovram.asm line 295
+800C2E84    srl     r3,r3,0x4                                         ; ./code/textdrawtovram.asm line 296
+800C2E88    sll     r2,r2,0xC                                         ; ./code/textdrawtovram.asm line 297
+800C2E8C    or      r2,r2,r3                                          ; ./code/textdrawtovram.asm line 298
+800C2E90    slti    r1,r10,0x4                                        ; ./code/textdrawtovram.asm line 300
+800C2E94    beqz    r1,0x800C2EA8                                     ; ./code/textdrawtovram.asm line 300
+800C2E98    nop                                                       ; ./code/textdrawtovram.asm line 301
+800C2E9C    sb      r2,0x2(r6)                                        ; ./code/textdrawtovram.asm line 303
+800C2EA0    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 304
+800C2EA4    nop                                                       ; ./code/textdrawtovram.asm line 305
+800C2EA8 @@largerthan4:                                               ; ./code/textdrawtovram.asm line 307
+800C2EA8    sh      r2,0x2(r6)                                        ; ./code/textdrawtovram.asm line 308
+800C2EAC    ori     r1,r0,0x4                                         ; ./code/textdrawtovram.asm line 309
+800C2EB0    beq     r10,r1,0x800C2F7C                                 ; ./code/textdrawtovram.asm line 309
+800C2EB4    nop                                                       ; ./code/textdrawtovram.asm line 310
+800C2EB8    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 313
+800C2EBC    lhu     r3,0x2A7F(r3)                                     ; ./code/textdrawtovram.asm line 313
+800C2EC0    nop                                                       ; ./code/textdrawtovram.asm line 314
+800C2EC4    srl     r3,r3,0x4                                         ; ./code/textdrawtovram.asm line 315
+800C2EC8    slti    r1,r10,0x6                                        ; ./code/textdrawtovram.asm line 316
+800C2ECC    beqz    r1,0x800C2EE0                                     ; ./code/textdrawtovram.asm line 316
+800C2ED0    nop                                                       ; ./code/textdrawtovram.asm line 317
+800C2ED4    sb      r2,0x4(r6)                                        ; ./code/textdrawtovram.asm line 319
+800C2ED8    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 320
+800C2EDC    nop                                                       ; ./code/textdrawtovram.asm line 321
+800C2EE0 @@largerthan6:                                               ; ./code/textdrawtovram.asm line 324
+800C2EE0    sh      r3,0x4(r6)                                        ; ./code/textdrawtovram.asm line 326
+800C2EE4    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 327
+800C2EE8    nop                                                       ; ./code/textdrawtovram.asm line 328
+800C2EEC @@even_width:                                                ; ./code/textdrawtovram.asm line 334
+800C2EEC    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 337
+800C2EF0    lhu     r2,0x2A7B(r2)                                     ; ./code/textdrawtovram.asm line 337
+800C2EF4    nop                                                       ; ./code/textdrawtovram.asm line 338
+800C2EF8    slti    r1,r10,0x2                                        ; ./code/textdrawtovram.asm line 339
+800C2EFC    beqz    r1,0x800C2F10                                     ; ./code/textdrawtovram.asm line 339
+800C2F00    nop                                                       ; ./code/textdrawtovram.asm line 340
+800C2F04    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 342
+800C2F08    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 343
+800C2F0C    nop                                                       ; ./code/textdrawtovram.asm line 344
+800C2F10 @@elargerthan2:                                              ; ./code/textdrawtovram.asm line 346
+800C2F10    sh      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 349
+800C2F14    ori     r1,r0,0x2                                         ; ./code/textdrawtovram.asm line 350
+800C2F18    beq     r10,r1,0x800C2F7C                                 ; ./code/textdrawtovram.asm line 350
+800C2F1C    nop                                                       ; ./code/textdrawtovram.asm line 351
+800C2F20    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 352
+800C2F24    lhu     r2,0x2A7D(r2)                                     ; ./code/textdrawtovram.asm line 352
+800C2F28    nop                                                       ; ./code/textdrawtovram.asm line 353
+800C2F2C    slti    r1,r10,0x4                                        ; ./code/textdrawtovram.asm line 354
+800C2F30    beqz    r1,0x800C2F44                                     ; ./code/textdrawtovram.asm line 354
+800C2F34    nop                                                       ; ./code/textdrawtovram.asm line 355
+800C2F38    sb      r2,0x2(r6)                                        ; ./code/textdrawtovram.asm line 357
+800C2F3C    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 358
+800C2F40    nop                                                       ; ./code/textdrawtovram.asm line 359
+800C2F44 @@elargerthan4:                                              ; ./code/textdrawtovram.asm line 361
+800C2F44    sh      r2,0x2(r6)                                        ; ./code/textdrawtovram.asm line 364
+800C2F48    ori     r1,r0,0x4                                         ; ./code/textdrawtovram.asm line 365
+800C2F4C    beq     r10,r1,0x800C2F7C                                 ; ./code/textdrawtovram.asm line 365
+800C2F50    nop                                                       ; ./code/textdrawtovram.asm line 366
+800C2F54    lui     r2,0x800C                                         ; ./code/textdrawtovram.asm line 367
+800C2F58    lhu     r2,0x2A7F(r2)                                     ; ./code/textdrawtovram.asm line 367
+800C2F5C    nop                                                       ; ./code/textdrawtovram.asm line 368
+800C2F60    slti    r1,r10,0x6                                        ; ./code/textdrawtovram.asm line 369
+800C2F64    beqz    r1,0x800C2F78                                     ; ./code/textdrawtovram.asm line 369
+800C2F68    nop                                                       ; ./code/textdrawtovram.asm line 370
+800C2F6C    sb      r2,0x4(r6)                                        ; ./code/textdrawtovram.asm line 372
+800C2F70    j       0x800C2F7C                                        ; ./code/textdrawtovram.asm line 373
+800C2F74    nop                                                       ; ./code/textdrawtovram.asm line 374
+800C2F78 @@elargerthan6:                                              ; ./code/textdrawtovram.asm line 376
+800C2F78    sh      r2,0x4(r6)                                        ; ./code/textdrawtovram.asm line 377
+800C2F7C @@return:                                                    ; ./code/textdrawtovram.asm line 382
+800C2F7C    lh      r3,0x4(r17)                                       ; ./code/textdrawtovram.asm line 385
+800C2F80    nop                                                       ; ./code/textdrawtovram.asm line 386
+800C2F84    sll     r2,r3,0x1                                         ; ./code/textdrawtovram.asm line 387
+800C2F88    addu    r2,r2,r3                                          ; ./code/textdrawtovram.asm line 388
+800C2F8C    sll     r2,r2,0x1                                         ; ./code/textdrawtovram.asm line 389
+800C2F90    addu    r6,r6,r2                                          ; ./code/textdrawtovram.asm line 390
+800C2F94    addiu   r5,r5,0xFFFA                                      ; ./code/textdrawtovram.asm line 393
+800C2F98    slti    r1,r4,0x4                                         ; ./code/textdrawtovram.asm line 394
+800C2F9C    bnez    r1,0x800C2D7C                                     ; ./code/textdrawtovram.asm line 394
+800C2FA0    nop                                                       ; ./code/textdrawtovram.asm line 395
+800C2FA4 end_loop_rows:                                               ; ./code/textdrawtovram.asm line 397
+800C2FA4    slti    r1,r7,0x2                                         ; ./code/textdrawtovram.asm line 400
+800C2FA8    beqz    r1,0x800C2FC0                                     ; ./code/textdrawtovram.asm line 400
+800C2FAC    nop                                                       ; ./code/textdrawtovram.asm line 401
+800C2FB0    addiu   r5,r5,0x6                                         ; ./code/textdrawtovram.asm line 403
+800C2FB4    addu    r4,r0,r0                                          ; ./code/textdrawtovram.asm line 404
+800C2FB8    j       0x800C2D7C                                        ; ./code/textdrawtovram.asm line 406
+800C2FBC    addiu   r7,r7,0x1                                         ; ./code/textdrawtovram.asm line 407
+800C2FC0 end_loop_row_blocks:                                         ; ./code/textdrawtovram.asm line 409
+800C2FC0    j       0x800C2BF0                                        ; ./code/textdrawtovram.asm line 413
+800C2FC4    nop                                                       ; ./code/textdrawtovram.asm line 414
+800C2FC8 endofline:                                                   ; ./code/textdrawtovram.asm line 419
+800C2FC8    lh      r3,0x4(r17)                                       ; ./code/textdrawtovram.asm line 428
+800C2FCC    nop                                                       ; ./code/textdrawtovram.asm line 429
+800C2FD0    sll     r2,r3,0x1                                         ; ./code/textdrawtovram.asm line 430
+800C2FD4    addu    r2,r2,r3                                          ; ./code/textdrawtovram.asm line 431
+800C2FD8    sll     r5,r2,0x1                                         ; ./code/textdrawtovram.asm line 432
+800C2FDC    lui     r3,0x800C                                         ; ./code/textdrawtovram.asm line 435
+800C2FE0    lbu     r3,0x2A78(r3)                                     ; ./code/textdrawtovram.asm line 435
+800C2FE4    nop                                                       ; ./code/textdrawtovram.asm line 436
+800C2FE8    andi    r2,r3,0x1                                         ; ./code/textdrawtovram.asm line 438
+800C2FEC    addu    r3,r2,r3                                          ; ./code/textdrawtovram.asm line 439
+800C2FF0    srl     r3,r3,0x1                                         ; ./code/textdrawtovram.asm line 440
+800C2FF4    addiu   r6,r29,0x10                                       ; ./code/textdrawtovram.asm line 442
+800C2FF8    addu    r6,r3,r6                                          ; ./code/textdrawtovram.asm line 443
+800C2FFC    addiu   sp,sp,0xFFFC                                      ; ./code/textdrawtovram.asm line 445
+800C3000    sw      r6,0x0(sp)                                        ; ./code/textdrawtovram.asm line 446
+800C3004    subu    r3,r5,r3                                          ; ./code/textdrawtovram.asm line 450
+800C3008    ori     r2,r0,0x11                                        ; ./code/textdrawtovram.asm line 453
+800C300C    blez    r3,0x800C308C                                     ; ./code/textdrawtovram.asm line 454
+800C3010    move    r4,r0                                             ; ./code/textdrawtovram.asm line 455
+800C3014 @@loop:                                                      ; ./code/textdrawtovram.asm line 463
+800C3014    addiu   r4,0x1                                            ; ./code/textdrawtovram.asm line 464
+800C3018    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 467
+800C301C    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 468
+800C3020    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 469
+800C3024    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 470
+800C3028    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 471
+800C302C    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 472
+800C3030    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 473
+800C3034    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 474
+800C3038    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 475
+800C303C    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 476
+800C3040    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 477
+800C3044    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 478
+800C3048    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 479
+800C304C    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 480
+800C3050    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 481
+800C3054    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 482
+800C3058    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 483
+800C305C    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 484
+800C3060    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 485
+800C3064    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 486
+800C3068    sb      r2,0x0(r6)                                        ; ./code/textdrawtovram.asm line 487
+800C306C    addu    r6,r5,r6                                          ; ./code/textdrawtovram.asm line 488
+800C3070    lw      r6,0x0($sp)                                       ; ./code/textdrawtovram.asm line 491
+800C3074    nop                                                       ; ./code/textdrawtovram.asm line 492
+800C3078    addiu   r6,0x1                                            ; ./code/textdrawtovram.asm line 493
+800C307C    sw      r6,0x0(sp)                                        ; ./code/textdrawtovram.asm line 494
+800C3080    slt     r1,r4,r3                                          ; ./code/textdrawtovram.asm line 495
+800C3084    bnez    r1,0x800C3014                                     ; ./code/textdrawtovram.asm line 495
+800C3088    nop                                                       ; ./code/textdrawtovram.asm line 496
+800C308C @@noloop:                                                    ; ./code/textdrawtovram.asm line 498
+800C308C    addiu   sp,0x4                                            ; ./code/textdrawtovram.asm line 499
+800C3090    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 500
+800C3094    sb      r0,0x2A78(r1)                                     ; ./code/textdrawtovram.asm line 500
+800C3098    j       0x800C30A0                                        ; ./code/textdrawtovram.asm line 501
+800C309C    nop                                                       ; ./code/textdrawtovram.asm line 502
+800C30A0 copytovram:                                                  ; ./code/textdrawtovram.asm line 505
+800C30A0    jal     0x800B3860                                        ; ./code/textdrawtovram.asm line 506
+800C30A4    move    r4,r0                                             ; ./code/textdrawtovram.asm line 507
+800C30A8    addiu   r4,r29,0x580                                      ; ./code/textdrawtovram.asm line 508
+800C30AC    jal     0x800B3B0C                                        ; ./code/textdrawtovram.asm line 509
+800C30B0    addiu   r5,r29,0x10                                       ; ./code/textdrawtovram.asm line 510
+800C30B4    addiu   r2,r19,0x1                                        ; ./code/textdrawtovram.asm line 511
+800C30B8    move    r19,r2                                            ; ./code/textdrawtovram.asm line 512
+800C30BC    lhu     r3,0x582(r29)                                     ; ./code/textdrawtovram.asm line 513
+800C30C0    sll     r2,0x10                                           ; ./code/textdrawtovram.asm line 514
+800C30C4    addiu   r3,0xB                                            ; ./code/textdrawtovram.asm line 515
+800C30C8    sh      r3,0x582(r29)                                     ; ./code/textdrawtovram.asm line 516
+800C30CC    lh      r3,0x6(r17)                                       ; ./code/textdrawtovram.asm line 517
+800C30D0    sra     r2,0x10                                           ; ./code/textdrawtovram.asm line 518
+800C30D4    slt     r2,r3                                             ; ./code/textdrawtovram.asm line 519
+800C30D8    bnez    r2,0x800C2BD0                                     ; ./code/textdrawtovram.asm line 520
+800C30DC    nop                                                       ; ./code/textdrawtovram.asm line 521
+800C30E0 textdrawtovram_end:                                          ; ./code/textdrawtovram.asm line 525
+800C30E0    lui     r1,0x800C                                         ; ./code/textdrawtovram.asm line 526
+800C30E4    sb      r0,0x2A83(r1)                                     ; ./code/textdrawtovram.asm line 526
+800C30E8    lui     r2,0x8003                                         ; ./code/textdrawtovram.asm line 527
+800C30EC    addiu   r2,r2,0xAB48                                      ; ./code/textdrawtovram.asm line 527
+800C30F0    jr      r2                                                ; ./code/textdrawtovram.asm line 528
+800C30F4    nop                                                       ; ./code/textdrawtovram.asm line 529
+800C30F8 gettextwidth:                                                ; ./code/gettextwidth.asm line 15
+800C30F8    addi    sp,sp,0xFFE4                                      ; ./code/gettextwidth.asm line 20
+800C30FC    sw      r2,0x0(sp)                                        ; ./code/gettextwidth.asm line 21
+800C3100    sw      r3,0x4(sp)                                        ; ./code/gettextwidth.asm line 22
+800C3104    sw      r4,0x8(sp)                                        ; ./code/gettextwidth.asm line 23
+800C3108    sw      r5,0xC(sp)                                        ; ./code/gettextwidth.asm line 24
+800C310C    sw      r6,0x10(sp)                                       ; ./code/gettextwidth.asm line 25
+800C3110    sw      r7,0x14(sp)                                       ; ./code/gettextwidth.asm line 26
+800C3114    sw      r8,0x18(sp)                                       ; ./code/gettextwidth.asm line 27
+800C3118    lw      r8,0x20(sp)                                       ; ./code/gettextwidth.asm line 29
+800C311C    lw      r7,0x24(sp)                                       ; ./code/gettextwidth.asm line 30
+800C3120    lw      r6,0x28(sp)                                       ; ./code/gettextwidth.asm line 31
+800C3124    move    r5,r0                                             ; ./code/gettextwidth.asm line 32
+800C3128 @@nextchar:                                                  ; ./code/gettextwidth.asm line 36
+800C3128    lbu     r3,0x0(r8)                                        ; ./code/gettextwidth.asm line 39
+800C312C    nop                                                       ; ./code/gettextwidth.asm line 40
+800C3130    beqz    r3,0x800C31D8                                     ; ./code/gettextwidth.asm line 43
+800C3134    nop                                                       ; ./code/gettextwidth.asm line 44
+800C3138    addiu   r3,0xFFE0                                         ; ./code/gettextwidth.asm line 47
+800C313C    andi    r3,r3,0xFF                                        ; ./code/gettextwidth.asm line 48
+800C3140    slti    r1,r3,0x5B                                        ; ./code/gettextwidth.asm line 49
+800C3144    bnez    r1,0x800C3174                                     ; ./code/gettextwidth.asm line 49
+800C3148    nop                                                       ; ./code/gettextwidth.asm line 50
+800C314C    addiu   r4,r3,0xFFA5                                      ; ./code/gettextwidth.asm line 55
+800C3150    sll     r4,r4,0x1                                         ; ./code/gettextwidth.asm line 56
+800C3154    lui     r2,0x800C                                         ; ./code/gettextwidth.asm line 57
+800C3158    addiu   r2,r2,0x2A84                                      ; ./code/gettextwidth.asm line 57
+800C315C    addu    r4,r4,r2                                          ; ./code/gettextwidth.asm line 58
+800C3160    addu    r4,r7                                             ; ./code/gettextwidth.asm line 61
+800C3164    lbu     r4,0x0(r4)                                        ; ./code/gettextwidth.asm line 62
+800C3168    nop                                                       ; ./code/gettextwidth.asm line 63
+800C316C    addiu   r3,r4,0xFFE0                                      ; ./code/gettextwidth.asm line 64
+800C3170    addiu   r7,0x1                                            ; ./code/gettextwidth.asm line 67
+800C3174 @@nondte:                                                    ; ./code/gettextwidth.asm line 71
+800C3174    lui     r2,0x800C                                         ; ./code/gettextwidth.asm line 74
+800C3178    addiu   r2,r2,0x2A18                                      ; ./code/gettextwidth.asm line 74
+800C317C    nop                                                       ; ./code/gettextwidth.asm line 75
+800C3180    addu    r2,r3,r2                                          ; ./code/gettextwidth.asm line 76
+800C3184    lbu     r2,0x0(r2)                                        ; ./code/gettextwidth.asm line 77
+800C3188    nop                                                       ; ./code/gettextwidth.asm line 78
+800C318C    addu    r4,r2,r5                                          ; ./code/gettextwidth.asm line 79
+800C3190    slt     r1,r4,r6                                          ; ./code/gettextwidth.asm line 82
+800C3194    beqz    r1,0x800C31C4                                     ; ./code/gettextwidth.asm line 82
+800C3198    nop                                                       ; ./code/gettextwidth.asm line 83
+800C319C    addu    r5,r2                                             ; ./code/gettextwidth.asm line 84
+800C31A0    beqz    r7,0x800C31B4                                     ; ./code/gettextwidth.asm line 87
+800C31A4    nop                                                       ; ./code/gettextwidth.asm line 88
+800C31A8    slti    r1,r7,0x2                                         ; ./code/gettextwidth.asm line 91
+800C31AC    bnez    r1,0x800C3128                                     ; ./code/gettextwidth.asm line 91
+800C31B0    nop                                                       ; ./code/gettextwidth.asm line 92
+800C31B4 @@increment:                                                 ; ./code/gettextwidth.asm line 96
+800C31B4    move    r7,r0                                             ; ./code/gettextwidth.asm line 97
+800C31B8    addiu   r8,0x1                                            ; ./code/gettextwidth.asm line 98
+800C31BC    j       0x800C3128                                        ; ./code/gettextwidth.asm line 100
+800C31C0    nop                                                       ; ./code/gettextwidth.asm line 101
+800C31C4 @@eol:                                                       ; ./code/gettextwidth.asm line 103
+800C31C4    beqz    r7,0x800C31D8                                     ; ./code/gettextwidth.asm line 105
+800C31C8    nop                                                       ; ./code/gettextwidth.asm line 106
+800C31CC    addiu   r7,0xFFFF                                         ; ./code/gettextwidth.asm line 109
+800C31D0    j       0x800C31D8                                        ; ./code/gettextwidth.asm line 110
+800C31D4    nop                                                       ; ./code/gettextwidth.asm line 111
+800C31D8 @@endfunction:                                               ; ./code/gettextwidth.asm line 115
+800C31D8    sw      r8,0x20(sp)                                       ; ./code/gettextwidth.asm line 116
+800C31DC    sw      r7,0x24(sp)                                       ; ./code/gettextwidth.asm line 117
+800C31E0    sw      r5,0x1C(sp)                                       ; ./code/gettextwidth.asm line 119
+800C31E4    lw      r2,0x0(sp)                                        ; ./code/gettextwidth.asm line 122
+800C31E8    lw      r3,0x4(sp)                                        ; ./code/gettextwidth.asm line 123
+800C31EC    lw      r4,0x8(sp)                                        ; ./code/gettextwidth.asm line 124
+800C31F0    lw      r5,0xC(sp)                                        ; ./code/gettextwidth.asm line 125
+800C31F4    lw      r6,0x10(sp)                                       ; ./code/gettextwidth.asm line 126
+800C31F8    lw      r7,0x14(sp)                                       ; ./code/gettextwidth.asm line 127
+800C31FC    lw      r8,0x18(sp)                                       ; ./code/gettextwidth.asm line 128
+800C3200    addi    sp,sp,0x1C                                        ; ./code/gettextwidth.asm line 129
+800C3204    jr      ra                                                ; ./code/gettextwidth.asm line 130
+800C3208    nop                                                       ; ./code/gettextwidth.asm line 131
+800C320C .org 0x8002A818                                              ; ./code/hijacks/textdrawtovram.asm line 4
+8002A818    lui     r2,0x800C                                         ; ./code/hijacks/textdrawtovram.asm line 6
+8002A81C    addiu   r2,r2,0x2BD0                                      ; ./code/hijacks/textdrawtovram.asm line 6
+8002A820    jr      r2                                                ; ./code/hijacks/textdrawtovram.asm line 7
+8002A824    nop                                                       ; ./code/hijacks/textdrawtovram.asm line 8
+8002A828 .org 0x8002AD30                                              ; ./code/hijacks/dialoguedma.asm line 6
+8002AD30    sw      r0,0xFFF8(sp)                                     ; ./code/hijacks/dialoguedma.asm line 7
+8002AD34 .org 0x8002AE50                                              ; ./code/hijacks/dialoguedma.asm line 9
+8002AE50    lh      r3,0x4(r8)                                        ; ./code/hijacks/dialoguedma.asm line 13
+8002AE54    nop                                                       ; ./code/hijacks/dialoguedma.asm line 14
+8002AE58    addu    r3,r3,r6                                          ; ./code/hijacks/dialoguedma.asm line 15
+8002AE5C    sll     r2,r3,0x2                                         ; ./code/hijacks/dialoguedma.asm line 16
+8002AE60    sll     r3,r3,0x1                                         ; ./code/hijacks/dialoguedma.asm line 17
+8002AE64    addu    r2,r2,r3                                          ; ./code/hijacks/dialoguedma.asm line 18
+8002AE68    sll     r2,r2,0x1                                         ; ./code/hijacks/dialoguedma.asm line 19
+8002AE6C    addiu   sp,0xFFF0                                         ; ./code/hijacks/dialoguedma.asm line 22
+8002AE70    sw      r2,0xC(sp)                                        ; ./code/hijacks/dialoguedma.asm line 23
+8002AE74    sw      r7,0x4(sp)                                        ; ./code/hijacks/dialoguedma.asm line 24
+8002AE78    jal     0x800C30F8                                        ; ./code/hijacks/dialoguedma.asm line 27
+8002AE7C    nop                                                       ; ./code/hijacks/dialoguedma.asm line 28
+8002AE80    lw      r7,0x4(sp)                                        ; ./code/hijacks/dialoguedma.asm line 30
+8002AE84    lw      r2,0x0(sp)                                        ; ./code/hijacks/dialoguedma.asm line 31
+8002AE88    addiu   sp,0x10                                           ; ./code/hijacks/dialoguedma.asm line 32
+8002AE8C    sh      r2,0x10(r4)                                       ; ./code/hijacks/dialoguedma.asm line 34
+8002AE90    sh      r2,0x574(r4)                                      ; ./code/hijacks/dialoguedma.asm line 35
+8002AE94    ori     r2,r0,0x1                                         ; ./code/hijacks/dialoguedma.asm line 36
+8002AE98    j       0x8002AED8                                        ; ./code/hijacks/dialoguedma.asm line 37
+8002AE9C    sb      r2,0xAD4(r9)                                      ; ./code/hijacks/dialoguedma.asm line 38
+8002AEA0 .org 0x801594F8                                              ; ./code/intro.asm line 11
+801594F8 .halfword 0x006B,0x0000,0x007C,0x000C                        ; ./code/intro.asm line 12
+80159500 .halfword 0x00A0,0x000C,0x00B4,0x000C                        ; ./code/intro.asm line 13
+80159508 .halfword 0x009A,0x0018,0x00B4,0x0018                        ; ./code/intro.asm line 14
+80159510 .halfword 0x009A,0x0030,0x00B4,0x0018                        ; ./code/intro.asm line 15
+80159518 .halfword 0x0094,0x0048,0x00B4,0x0024                        ; ./code/intro.asm line 16
+80159520 .halfword 0x009A,0x006C,0x00B4,0x0018                        ; ./code/intro.asm line 17
+80159528 .halfword 0x0094,0x0084,0x00B4,0x0024                        ; ./code/intro.asm line 18
+80159530 .halfword 0x00B5,0x00AD,0x00C8,0x0001                        ; ./code/intro.asm line 19
+80159538 .halfword 0x0038,0x00BB,0x0070,0x003D                        ; ./code/intro.asm line 20
+80159540 .org 0x801566F4                                              ; ./code/intro.asm line 23
+801566F4 .halfword 0x00AD                                             ; ./code/intro.asm line 24
+801566F6 .close                                                       ; ./Code/base.asm line 69
+801566F6 .open "D:\AtelierElie\Decompressed\REQUEST.CRS","D:\AtelierElie\New\Unpacked\OV\REQUEST.CRS",0x8014B700; ./Code/base.asm line 77
+8014B700 .org 0x80158768                                              ; ./Code/base.asm line 80
+80158768    jal     0x800C30F8                                        ; ./Code/base.asm line 82
+8015876C    nop                                                       ; ./Code/base.asm line 83
+80158770 end_get_width:                                               ; ./Code/base.asm line 84
+80158770    addiu   r4,r16,0x20                                       ; ./Code/base.asm line 85
+80158774    nop                                                       ; ./Code/base.asm line 86
+80158778    jal     0x8002A74C                                        ; ./Code/base.asm line 87
+8015877C    sh      r2,0x6(r16)                                       ; ./Code/base.asm line 88
+80158780 .org 0x80157930                                              ; ./Code/base.asm line 90
+80157930    sll     r2,r3,0x4                                         ; ./Code/base.asm line 92
+80157934    nop                                                       ; ./Code/base.asm line 93
+80157938    nop                                                       ; ./Code/base.asm line 94
+8015793C .org 0x801579A0                                              ; ./Code/base.asm line 96
+801579A0    addu    r7,r0,r8                                          ; ./Code/base.asm line 98
+801579A4    nop                                                       ; ./Code/base.asm line 99
+801579A8    sll     r7,r7,0x10                                        ; ./Code/base.asm line 100
+801579AC .org 0x801579F4                                              ; ./Code/base.asm line 102
+801579F4    sll     r2,r3,0x4                                         ; ./Code/base.asm line 104
+801579F8    nop                                                       ; ./Code/base.asm line 105
+801579FC    nop                                                       ; ./Code/base.asm line 106
+80157A00 .org 0x80157A64                                              ; ./Code/base.asm line 108
+80157A64    addu    r7,r0,r8                                          ; ./Code/base.asm line 109
+80157A68    nop                                                       ; ./Code/base.asm line 110
+80157A6C    sll     r7,r7,0x10                                        ; ./Code/base.asm line 111
+80157A70 .close                                                       ; ./Code/base.asm line 117

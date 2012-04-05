@@ -1,0 +1,591 @@
+
+
+.psx					//  Set the architecture to PSX
+
+
+.open "OLD_SLPS_017.51","D:\AtelierElie\New\Packed\SLPS_017.51",0x8000F800		//  Open SLPS_010.57 for output.
+
+FreeSpace equ 0x800C2358			// Start of Freespace block (From Font Tables)
+TestValue equ 0x32						// Test Value for NonASCII bytes
+ASCIIOffset equ -0x20					// ASCII Offset
+ASCIIBound equ 0x5A						// Number of Characs in Font Table
+
+// ----------------------------------------------------------
+// FreeSpace Area - Tables, RAM
+// ----------------------------------------------------------
+.org FreeSpace
+	DATA_Font_Table:
+		.incbin New_Font.bin
+
+	DATA_Width_Table:
+		.incbin Width_Table.bin
+
+	RAM_New_Width:
+		.fill 0x1
+
+	RAM_Prev_Width:
+		.fill 0x1
+
+	RAM_Width:
+		.fill 0x1
+
+	RAM_Row_Buffer:
+		.fill 0x8
+
+	.align
+
+// ----------------------------------------------------------
+// FreeSpace Area - DMA End of Line Check
+// ----------------------------------------------------------
+
+	NEWFUNC_Dma_Line_End_Check:
+
+		// Load text byte from ROM
+		lbu r2,0x0000(r7)
+		nop
+
+		// If Text = 00, End
+		bne r2, r0, @@Non_Zero
+		nop
+		sb r0, RAM_New_Width
+		li r2, RETURN_Dma_Line_End_Check
+		jr r2
+		nop
+
+
+		// Compare Max Bytes per row with Current Bytes
+		@@Non_Zero:
+
+			sll r2, r3, 0x2
+			sll r3, r3, 0x1
+			addu r2, r2, r3
+			sll r2, r2, 0x1						// r2 = max width
+
+
+			lbu r3, RAM_New_Width
+			nop
+			addiu r3, r3, 12
+
+			// If Out of Bound - Reset RAM_New_Width//  Stop DMA Loop
+			sltu r2, r3, r2
+			bne r2, r0, @@Jump_Routine
+			nop
+			sb r0, RAM_New_Width
+			li r2, RETURN_Dma_Line_End_Check
+			jr r2
+			nop
+
+
+		// Else if within Bounds - Loop DMA Routine
+		@@Jump_Routine:
+
+			li r2, FUNC_Dma_Routine
+			jr r2
+			nop
+
+// ----------------------------------------------------------
+// FreeSpace Area - DMA Width Routine
+// ----------------------------------------------------------
+	NEWFUNC_Dma_Width:
+		// r2 = chara byte
+
+		// Push r4
+		addiu sp, sp, -4
+		sw r4, 0(sp)
+
+		// If linebreak
+		beq r2,r25,@@Jump
+		addiu r7,r7,0x0001
+
+		// Check ASCII Bounds
+		addiu r4, r0, ASCIIBound
+		addiu r2, r2, ASCIIOffset
+		sltu r4, r4, r2						// check if greater than font table! possible DTE here
+		beq r4, r0, @@Value_OK
+		nop
+
+		// ASCII out of Bounds - DTE Routine
+		addiu r2, r0, TestValue				// Resets to TestValue if not within table - DTE etc later here
+
+
+		// ASCII within Bounds
+		@@Value_OK:
+
+			// Load RAM_New_Width and add current tile's width to it
+			li r3, DATA_Width_Table
+			nop
+			addu r3, r3, r2
+			lbu r3, 0x0000(r3)					// r3 = width
+			lbu r4, RAM_New_Width
+			nop
+			addu r4,r3,r4
+			sb r4, RAM_New_Width					// load prev width and use as position of now+width/2
+			nop
+
+
+			// Pop r4
+			lw r4, 0($sp)
+			addiu sp, sp, 4
+
+			// Load DMA Width (?)
+			lhu r2,0x0010(r4)
+			addiu r11,r11,0x0001
+			addu r2,r2,r3						// r3 = current tile's width
+			sh r2,0x0010(r4)
+			sh r2,0x0574(r4)
+			addiu r2,r0,0x0001
+
+			// End Routine
+			li r3, RETURN_Dma_Width
+			jr r3
+			nop
+
+
+		// Linebreak
+		@@Jump:
+			li r3, 0x8002aeb0
+			jr r3
+			nop
+
+// ----------------------------------------------------------
+// FreeSpace Area - VWF Draw Routine
+// ----------------------------------------------------------
+	NEWFUNC_VWF_Draw:
+
+				// Can use:
+				// 	r2, r3
+				lbu r2, RAM_Prev_Width
+				nop
+				andi r2, r2, 0x1
+				beq r2, r0, @@Even_Width
+				nop
+
+				// Odd Width
+					lhu r3, RAM_Row_Buffer
+					nop
+					lhu r2, -0x0002(r6)
+					sll r3, r3, 0xc
+					or r2, r2, r3
+					sh r2, -0x0002(r6)
+					nop
+
+					lhu r3, RAM_Row_Buffer
+					nop
+					lhu r2, RAM_Row_Buffer+2
+					srl r3, r3, 0x4
+					sll r2, r2, 0xc
+					or r2, r2, r3
+					sh r2, 0x0000(r6)
+					nop
+
+
+					lhu r3, RAM_Row_Buffer+2
+					nop
+					lhu r2, RAM_Row_Buffer+4
+					srl r3, r3, 0x4
+					sll r2, r2, 0xc
+					or r2, r2, r3
+					sh r2, 0x0002(r6)
+					nop
+
+
+
+					lhu r3, RAM_Row_Buffer
+					nop
+					srl r3, r3, 0x4
+					sh r3, 0x0004(r6)
+					nop
+					j @@Return
+					nop
+
+
+
+
+				@@Even_Width:
+					lw r2, RAM_Row_Buffer
+					nop
+					sw r2, 0x0000(r6)
+					nop
+					lhu r2, RAM_Row_Buffer+4
+					nop
+					sh r2, 0x0004(r6)
+					nop
+
+
+				// Return
+				@@Return:
+				li r2, RETURN_VWF_Draw
+				jr r2
+				nop
+				
+// ----------------------------------------------------------
+// FreeSpace Area - Get Width Function
+//
+//	r4 = Read Pos
+//
+//	Usable:	
+//		r2, r3
+//
+// ----------------------------------------------------------				
+
+NEWFUNC_Get_Width:
+	
+	// Push r5, r6
+	addi sp, sp, -8
+	sw r5, 0(sp)
+	sw r6, 4(sp)
+	
+	// r6 is Width counter
+	addu r6, r0, r0
+	
+	@@LOOP_Get_Width:
+		
+		// Load next char
+		lbu r5, 0x0(r4)
+		addiu r4, r4, 0x1
+		beq r5, r0, @@ENDLOOP
+		nop
+		
+		// Check ASCII Bounds
+		addiu r3, r0, ASCIIBound
+		addiu r5, r5, ASCIIOffset			// Dec by 20 for ASCII
+	
+		// ASCII Out of Bounds - DTE
+		sltu r3, r3, r5						// check if greater than font table
+		beq r3, r0, @@Value_OK
+		nop
+	
+		// TODO - DTE - If out of ASCII bounds
+		addiu r5, r0, TestValue
+	
+		// ASCII In Bounds - Normal
+		@@Value_OK:
+	
+			// Load Width of tile
+			li r3, DATA_Width_Table
+			nop
+			addu r3, r3, r5
+			lbu r2, 0x0000(r3)
+			nop
+			// Inc. Width Counter
+			addu r6, r6, r2
+			
+			j @@LOOP_Get_Width
+			nop
+			
+		// End Loop, return to call
+		@@ENDLOOP:
+			
+			addu r2, r6, r0
+
+			// Pop r5, r6
+			lw r5, 0(sp)
+			lw r6, 4(sp)
+			addi sp, sp, 8
+			jr ra
+			nop
+			
+
+
+// ----------------------------------------------------------
+//  Text/Graphic Routine 0x8002a838 - 0x8002aac8
+// ----------------------------------------------------------
+.org 0x8002a838
+
+	// r17 - RAM Position
+	//		0x0004 - Max Chars
+	// r10 - ?? Counter
+	// r16 - Script block position
+
+
+	FUNC_Text_Draw:
+
+		// If text byte = 0 - End Routine
+		lbu r2,0x0000(r16)					// r16 = text block position
+		nop
+		beq r2,r0,FUNC_New_Line
+		sll r3,r10,0x10
+
+		// Load textbyte
+		lbu r4,0x0000(r16)					// load single byte only
+
+		// LineBreak
+		ori r2,r0,0x818f
+		andi r3,r4,0x00ff
+		beq r3,r2,FUNC_New_Line
+
+
+		// Check ASCII Bounds
+		addiu r2, r0, ASCIIBound
+		addiu r4, r4, ASCIIOffset			// Dec by 20 for ASCII
+
+		// ASCII Out of Bounds - DTE
+		sltu r2, r2, r4						// check if greater than font table! possible DTE here
+		beq r2, r0, @@Value_OK
+		nop
+
+		// TODO - DTE - If out of ASCII bounds
+		addiu r4, r0, TestValue
+
+		// ASCII In Bounds - Normal
+		@@Value_OK:
+
+			// Load Width of tile
+			li r3, DATA_Width_Table
+			nop
+			addu r3, r3, r4
+			lbu r2, 0x0000(r3)
+			sb r2, RAM_Width
+			// Determines Dest. RAM Position
+			addiu r6,r29,0x0010					// r29 + 0x10 = base RAM position to draw to
+			lbu r3, RAM_New_Width
+			nop
+			sb r3, RAM_Prev_Width
+			// Add width to RAM_New_Width
+			addu r2,r3,r2
+			sb r2, RAM_New_Width
+
+			// EOL Check
+			lh r7,0x0004(r17)
+			nop
+			sll r5, r7, 0x2
+			sll r7, r7, 0x1
+			addu r5, r5, r7
+			sll r5, r5, 0x1
+			addiu r5, r5, 0xFFF4						// Bug - Character tiles are 12x12!
+
+			blt r3, r5, @@Not_EOL
+			addiu r18,r18,0x0001
+			addiu r2,r10,0x0001
+			addu r10,r2,r0								// Increments ?? Counter
+			j FUNC_New_Line
+			nop
+
+		@@Not_EOL:
+
+			// Used regs:
+			//	r7, r5,
+
+			li r7, 0x1
+			and r7, r7, r3
+			add r3, r3, r7
+			srl r3, r3, 0x1
+
+			addu r6,r6,r3
+
+			// Obtain position in DATA_Font_Table (x18 Bytes)
+			sll r3, r4, 0x4
+			sll r4, r4, 0x1
+			addu r4, r3, r4
+
+			// Load Tile position in ROM
+			li r3, DATA_Font_Table
+			addu r5, r3, r4
+			addiu r4, r5, 0x4					// place character pos. in ROM into r5, +0x4 into r4
+
+			j FUNC_Copy_RAM
+			addiu r16,r16,0x0001				// increment text block position
+
+	// New Line Highjack to reset RAM_New_Width
+	NEWFUNC_New_Line:
+		sll r2,r10,0x10
+		sb r0, RAM_New_Width
+		j RETURN_New_Line
+		nop
+
+
+	FUNC_Copy_RAM:
+
+		// Register Inputs:
+		// 	r4 - Source RAM 2 (r5 + 0x4)
+		// 	r5 - Source RAM
+		// 	r6 - Destination RAM
+		// 	r7 - Row block counter (starts at 0)
+
+		// Used registers:
+		//	r2, r3
+		addiu r4, r0, 0x0			// Blank r4 - Row counter
+		addu r7,r0,r0					// Blank r7 - Row Block Counter
+
+
+
+
+		LOOP_Row_Blocks:
+			// 4 Rows of Pixels Loop
+			LOOP_Rows:
+				blt r7, 0x2, @@Not_Last_Row			// Skip row 12!
+				nop
+				bge r4, 0x3, END_LOOP_Rows
+
+				@@Not_Last_Row:
+				lhu r2, 0x0000(r5)
+				addiu r5, r5, 0x2
+				srlv r2, r2, r4				// Shift right by row counter
+				andi r2, r2, 0x1111
+				sh r2, RAM_Row_Buffer
+				nop
+
+				lhu r2, 0x0000(r5)
+				addiu r5, r5, 0x2
+				srlv r2, r2, r4				// Shift right by row counter
+				andi r2, r2, 0x1111
+				sh r2, RAM_Row_Buffer+2
+				nop
+
+
+				lhu r2, 0x0000(r5)
+				addiu r5, r5, 0x2
+				srlv r2, r2, r4				// Shift right by row counter
+				andi r2, r2, 0x1111
+				sh r2, RAM_Row_Buffer+4
+				nop
+
+
+				addiu r4, r4, 0x1			// Increment Row Counter
+
+
+				li r2, NEWFUNC_VWF_Draw
+				jr r2
+				nop
+			RETURN_VWF_Draw:
+
+				// Next Line
+				lh r3,0x0004(r17)				// Max Chars
+				nop
+				sll r2,r3,0x01
+				addu r2,r2,r3
+				sll r2,r2,0x01
+				addu r6,r6,r2
+
+				addiu r5, r5, -0x6
+				blt r4, 0x4, LOOP_Rows
+				nop
+
+
+			END_LOOP_Rows:
+
+				bge r7, 0x2, END_LOOP_Row_Blocks
+				nop
+				addiu r5, r5, 0x6				// Inc. Source
+				addu r4, r0, r0					// Reset Row Counter
+
+				j LOOP_Row_Blocks
+				addiu r7, r7, 0x1				// Inc. Row Block Counter
+
+		END_LOOP_Row_Blocks:
+
+			j FUNC_Text_Draw
+			addiu r10, r10, 0x1				// Inc ?? Counter
+
+
+
+// ----------------------------------------------------------
+//  END Text/Graphic Routine 0x8002a838 - 0x8002aac8
+// ----------------------------------------------------------
+
+
+// ----------------------------------------------------------
+// Hijack Newline/end
+// ----------------------------------------------------------
+.org 0x8002aac8
+	FUNC_New_Line:
+		j NEWFUNC_New_Line
+		lh r3,0x0004(r17)
+	RETURN_New_Line:
+
+// ----------------------------------------------------------
+// DMA Creation routine
+// ----------------------------------------------------------
+.org 0x8002ae50
+
+	// DMA Writing Routine (?)
+	FUNC_Dma_Routine:
+		// Checks if text byte = 0 - skips writing
+		lbu r2,0x0000(r7)
+		nop
+		beq r2,r0,0x8002aeb8
+		addiu r2,r5,0x0001
+
+		// Unknown check? (Possibly Character Count check)
+		sll r2,r11,0x10
+		sra r2,r2,0x10
+		slt r2,r2,r15
+		beq r2,r0,0x8002aeb8
+		addiu r2,r5,0x0001
+
+		// Jump to DMA Width Routine
+		lbu r2,0x0000(r7)
+		li r3, NEWFUNC_Dma_Width
+		jr r3
+		nop
+		nop
+		nop
+		nop
+		nop
+		nop
+		nop
+		nop
+		nop
+	RETURN_Dma_Width:
+
+
+// ----------------------------------------------------------
+// Hijack DMA End of Line Check
+// ----------------------------------------------------------
+.org 0x8002aec8
+	li r2, NEWFUNC_Dma_Line_End_Check
+	jr r2
+	nop
+	RETURN_Dma_Line_End_Check:
+		
+// ----------------------------------------------------------
+//  Include Intro Hack
+// ----------------------------------------------------------
+
+.include ./Code/Intro.asm		
+
+// ----------------------------------------------------------
+// Request DMA Hack (r31 = link register)
+// ----------------------------------------------------------
+
+.close
+
+.open "D:\AtelierElie\Decompressed\REQUEST.CRS","D:\AtelierElie\New\Unpacked\OV\REQUEST.CRS",0x8014B700		//  Open REQUEST.CRS for output.
+
+
+.org 0x80158768
+
+	jal NEWFUNC_Get_Width
+	nop
+	END_Get_Width:
+	addiu r4,r16,0x0020
+  nop
+  jal 0x8002a74c
+  sh r2, 0x0006(r16)
+  
+.org 0x80157930
+ 
+ 	sll r2, r3, 0x4
+ 	nop
+ 	nop
+ 	
+.org 0x801579a0
+ 	
+ 	addu r7, r0, r8
+ 	nop
+ 	sll r7, r7, 0x10
+
+.org 0x801579f4
+	
+	sll r2, r3, 0x4
+ 	nop
+ 	nop
+
+.org 0x80157a64
+	addu r7, r0, r8
+ 	nop
+ 	sll r7, r7, 0x10
+
+
+.close
+//  EMPTY
