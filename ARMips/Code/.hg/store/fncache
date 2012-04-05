@@ -1,9 +1,0 @@
-data/base.asm.i
-data/Intro.asm.i
-data/Hijacks/TextDrawToVRAM.asm.i
-data/TextDrawToVRAM/TextDrawToVRAM.asm.i
-data/newfuncs.asm.i
-data/DialogueDMA.asm.i
-data/GetTextWidth.asm.i
-data/Hijacks/DialogueDMA.asm.i
-data/TextDrawToVRAM.asm.i

@@ -1,0 +1,6760 @@
+Block 0000:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは…。
+		NEW: Hello...
+
+	Textblock 0004:
+		OLD: …何か元気なさそうですけど…？
+		NEW: You don't look too well...?
+
+	Textblock 0005:
+		OLD: はい…。実はフローベル教会では毎年９月２９日にアルテナ様のご降臨パーティをおこなうことになっているんです。
+		NEW: Yes... Actually, Flaubel Church holds a party every year on the 29th Sept. to celebrate the advent of the Goddess Altena.
+
+	Textblock 0006:
+		OLD: ところがパーティに使うロウソクが足りないことが分かったんです。ロウソクは毎年教会で作るんですけど、ロウが…。
+		NEW: I'm aware that we don't have enough candles for the party. The church makes the candles, but as for the wax...
+
+	Textblock 0007:
+		OLD: ロウがない？
+		NEW: You don't have wax?
+
+	Textblock 0008:
+		OLD: はい。８０ほど。
+		NEW: Yes, we need about 80.
+
+	Textblock 0009:
+		OLD: は、８０！？￥それ、全く無いって言ってるのと同じですよ！
+		NEW: What, 80!?\nThat's the same as saying you have none at all!
+
+	Textblock 0010:
+		OLD: エルフィールさんならロウを作ることが出来るのではないかと思ってうかがったんですけど、作っていただけませんか？
+		NEW: I was wondering if you could make the wax for me. Would you do me the favor?
+
+	Textblock 0011:
+		OLD: それは出来るけど…。８０かあ、どうしようかなあ？
+		NEW: I can make them... but 80... \nWhat should I do?
+
+	Textblock 0012:
+		OLD: それじゃ、やってみます。でも量が量だから、足りなかったらゴメンナサイ。
+		NEW: Well then, I'll try. But the quantity is so large- if I don't make enough, then I'm sorry.
+
+	Textblock 0013:
+		OLD: ありがとうございます！￥ロウソクを作る時間も必要なので…１０日後くらいにまたうかがいます。
+		NEW: Thank you!\nWe need time to make the candles... so I'll come again in 10 days.
+
+	Textblock 0014:
+		OLD: ごめんなさい。作ること自体は出来るけど数が多すぎてちょっと無理のような気がします。
+		NEW: I'm sorry. I know how to make them, but the quantity is just too large that I feel it's impossible.
+
+	Textblock 0015:
+		OLD: そうですか…。そうですよね、いきなり無理な話ですよね。…他をあたってみます。お騒がせしてすみませんでした。
+		NEW: I see... You're right; requesting this of you so suddenly... I will try other people. Sorry for my disruption.
+
+
+
+Block 0001:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。…あの、お願いしておいたロウは出来ましたか？
+		NEW: Hello... Um, did you make the wax that I asked for?
+
+	Textblock 0004:
+		OLD: へへー、バッチリ。８０個だったっけ。
+		NEW: Hehe, totally- 80 of them.
+
+	Textblock 0005:
+		OLD: 本当ですか！ありがとうございます！
+		NEW: Really!? Thank you!
+
+	Textblock 0006:
+		OLD: でも……本当は出来てないのでは、って思っていたんです。人にお願いしておいて信じてないなんてダメですね、私…。
+		NEW: But to be honest, I didn't think you could do it... Asking people to help, yet don't believe in them: I'm such a miserable being.
+
+	Textblock 0007:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my expression of gratitude. Although it's not much...
+
+	Textblock 0008:
+		OLD: ごめんなさい。やっぱり出来ませんでした。数が多すぎて…。
+		NEW: Sorry, I couldn't do it. There are simply too many to make...
+
+	Textblock 0009:
+		OLD: そうですか…。残念ですけど、無理な注文だったのですから仕方ないですね。お騒がせしてすみませんでした。
+		NEW: I see... That's unfortunate, yet I did make an unreasonable request, so it can't be helped. Sorry for my disruption.
+
+	Textblock 0010:
+		OLD: まあ！わざわざ持ってきていただけるなんて、なんと感謝したら良いのでしょうか。ありがとうございます。
+		NEW: My! You went to all the trouble of bringing them here- how should I show my gratitude? Thank you.
+
+	Textblock 0011:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my thanks. Although it's not a lot...
+
+	Textblock 0012:
+		OLD: 申しわけありません。せっかく持ってきていただいたのに…、もう今からではロウソクを作る時間がないのです。
+		NEW: I'm so sorry, you brought them all the way here, but... there's simply not enough time left to make the candles.
+
+	Textblock 0013:
+		OLD: ですから、お願いしておいて身勝手なのですが、ロウはいらなくなってしまいました。本当にすみません。
+		NEW: So, while this is selfish of me, I no longer need the wax. I am truly sorry.
+
+
+
+Block 0002:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。…あの、お願いしておいたロウは出来ましたか？
+		NEW: Hello... Um, did you make the wax I asked for?
+
+	Textblock 0004:
+		OLD: へへー、バッチリ。８０個だったっけ。
+		NEW: Hehe, completely- 80 of them.
+
+	Textblock 0005:
+		OLD: 本当ですか！ありがとうございます！
+		NEW: Really!? Thank you!
+
+	Textblock 0006:
+		OLD: でも……本当は出来てないのでは、って思っていたんです。人にお願いしておいて信じてないなんてダメですね、私…。
+		NEW: But to be honest, I didn't think you could do it... Asking people to help, yet don't believe in them: I'm so miserable.
+
+	Textblock 0007:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my expression of gratitude. Although it's not much...
+
+	Textblock 0008:
+		OLD: ごめんなさい。やっぱり出来ませんでした。数が多すぎて…。
+		NEW: Sorry, I couldn't do it. There are simply too many to make...
+
+	Textblock 0009:
+		OLD: そうですか…。残念ですけど、無理な注文だったのですから仕方ないですね。お騒がせしてすみませんでした。
+		NEW: Is that so... That's unfortunate, yet I did make an unreasonable request, so it can't be helped. Sorry for my disruption.
+
+	Textblock 0010:
+		OLD: まあ！わざわざ持ってきていただけるなんて、なんと感謝したら良いのでしょうか。ありがとうございます。
+		NEW: My! You went to all the trouble of bringing them here- how should I show my gratitude? Thank you.
+
+	Textblock 0011:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my thanks. Although it's not a lot...
+
+	Textblock 0012:
+		OLD: 申しわけありません。せっかく持ってきていただいたのに…、もう今からではロウソクを作る時間がないのです。
+		NEW: I'm so sorry, you brought them all the way here, but... there's simply not enough time left to make the candles.
+
+	Textblock 0013:
+		OLD: ですから、お願いしておいて身勝手なのですが、ロウはいらなくなってしまいました。本当にすみません。
+		NEW: So, while this is selfish of me, I no longer need the wax. I am truly sorry.
+
+
+
+Block 0003:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。…あの、お願いしておいたロウは出来ましたか？
+		NEW: Hello... Um, did you make the wax I asked for?
+
+	Textblock 0004:
+		OLD: へへー、バッチリ。８０個だったっけ。
+		NEW: Hehe, completely- 80 of them.
+
+	Textblock 0005:
+		OLD: 本当ですか！ありがとうございます！
+		NEW: Really!? Thank you!
+
+	Textblock 0006:
+		OLD: でも……本当は出来てないのでは、って思っていたんです。人にお願いしておいて信じてないなんてダメですね、私…。
+		NEW: But to be honest, I didn't think you could do it... Asking people to help, yet don't believe in them: I'm so miserable.
+
+	Textblock 0007:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my expression of gratitude. Although it's not much...
+
+	Textblock 0008:
+		OLD: ごめんなさい。やっぱり出来ませんでした。数が多すぎて…。
+		NEW: Sorry, I couldn't do it. There are simply too many to make...
+
+	Textblock 0009:
+		OLD: そうですか…。残念ですけど、無理な注文だったのですから仕方ないですね。お騒がせしてすみませんでした。
+		NEW: Is that so... That's unfortunate, yet I did make an unreasonable request, so it can't be helped. Sorry for my disruption.
+
+	Textblock 0010:
+		OLD: まあ！わざわざ持ってきていただけるなんて、なんと感謝したら良いのでしょうか。ありがとうございます。
+		NEW: My! You went to all the trouble of bringing them here- how should I show my gratitude? Thank you.
+
+	Textblock 0011:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my thanks. Although it's not a lot...
+
+	Textblock 0012:
+		OLD: 申しわけありません。せっかく持ってきていただいたのに…、もう今からではロウソクを作る時間がないのです。
+		NEW: I'm so sorry, you brought them all the way here, but... there's simply not enough time left to make the candles.
+
+	Textblock 0013:
+		OLD: ですから、お願いしておいて身勝手なのですが、ロウはいらなくなってしまいました。本当にすみません。
+		NEW: So, while this is selfish of me, I no longer need the wax. I am truly sorry.
+
+
+
+Block 0004:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。…あの、お願いしておいたロウは出来ましたか？
+		NEW: Hello... Um, did you make the wax I asked for?
+
+	Textblock 0004:
+		OLD: へへー、バッチリ。８０個だったっけ。
+		NEW: Hehe, completely- 80 of them.
+
+	Textblock 0005:
+		OLD: 本当ですか！ありがとうございます！
+		NEW: Really!? Thank you!
+
+	Textblock 0006:
+		OLD: でも……本当は出来てないのでは、って思っていたんです。人にお願いしておいて信じてないなんてダメですね、私…。
+		NEW: But to be honest, I didn't think you could do it... Asking people to help, yet don't believe in them: I'm so miserable.
+
+	Textblock 0007:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my expression of gratitude. Although it's not much...
+
+	Textblock 0008:
+		OLD: ごめんなさい。やっぱり出来ませんでした。数が多すぎて…。
+		NEW: Sorry, I couldn't do it. There are simply too many to make...
+
+	Textblock 0009:
+		OLD: そうですか…。残念ですけど、無理な注文だったのですから仕方ないですね。お騒がせしてすみませんでした。
+		NEW: Is that so... That's unfortunate, yet I did make an unreasonable request, so it can't be helped. Sorry for my disruption.
+
+	Textblock 0010:
+		OLD: まあ！わざわざ持ってきていただけるなんて、なんと感謝したら良いのでしょうか。ありがとうございます。
+		NEW: My! You went to all the trouble of bringing them here- how should I show my gratitude? Thank you.
+
+	Textblock 0011:
+		OLD: あ、これはお礼です。あまり多くないですけど…。
+		NEW: Ah, here's my thanks. Although it's not a lot...
+
+	Textblock 0012:
+		OLD: 申しわけありません。せっかく持ってきていただいたのに…、もう今からではロウソクを作る時間がないのです。
+		NEW: I'm so sorry, you brought them all the way here, but... there's simply not enough time left to make the candles.
+
+	Textblock 0013:
+		OLD: ですから、お願いしておいて身勝手なのですが、ロウはいらなくなってしまいました。本当にすみません。
+		NEW: So, while this is selfish of me, I no longer need the wax. I am truly sorry.
+
+
+
+Block 0005:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?\n
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。これから教会でパーティを開くのでお誘いに来たのですが、いかがでしょうか？
+		NEW: Hello. I've come to invite you to the party at the church. Would you be willing?
+
+	Textblock 0004:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0005:
+		OLD: ふわぁ～、パーティってこんな感じなんだ。……あ、あれは！
+		NEW: Whoa, so this is what a party's like... Ah, that's...!
+
+	Textblock 0006:
+		OLD: チーズケーキだあ！！
+		NEW: Cheesecake!!
+
+	Textblock 0007:
+		OLD: たくさんあるので、好きなだけ食べて下さいね。
+		NEW: We have a lot, so please eat as much as you desire.
+
+	Textblock 0008:
+		OLD: 私、チーズケーキが大好物なんだ。￥…いただきま～す。
+		NEW: I love cheesecake... Here I go!
+
+	Textblock 0009:
+		OLD: ごめんなさい。ちょっと今忙しくて…。
+		NEW: I'm sorry, I'm kind of busy right now, so...
+
+	Textblock 0010:
+		OLD: そうでしたか…。では手があいたら是非来て下さいね。
+		NEW: Is that so... Well, if you become free, please do come.
+
+
+
+Block 0006:
+
+	Textblock 0000:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0001:
+		OLD: ……（ふぅ、やっとお話が終わったあ）
+		NEW: ........... (Phew, the speeches are finally over)
+
+	Textblock 0002:
+		OLD: （入学式の話でおじいさんが出てきたから長くなりそうって思ってたけど…ずっと立ちっぱなしで足がしびれちゃった）
+		NEW: (That elderly man ranted on during his speech for the entrance ceremony...My legs are getting numb from standing)
+
+	Textblock 0003:
+		OLD: 『以上で入学式は終了です。新入生の皆さんは教科書を１冊ずつもらってから速やかに退出して下さい』
+		NEW: "This concludes the Academy's entrance ceremony. New students, please depart upon receiving your textbook"
+
+	Textblock 0004:
+		OLD: （ええと…。出口は入ってきたところと同じでいいのかな。何かみんなあっちから出てるみたいだけど…）
+		NEW: (I wonder if I can exit the same way that I entered. But everyone is leaving in the other direction...)
+
+
+
+Block 0007:
+
+	Textblock 0000:
+		OLD: （どうしよう。変なところに出ちゃったみたい…。こっちは出口じゃなかったのかなあ？）
+		NEW: (What should I do? I've come to an odd place... Wasn't this supposed to be the exit?)
+
+	Textblock 0001:
+		OLD: あら、エルフィールじゃない？
+		NEW: Oh my, aren't you Elfir?
+
+	Textblock 0002:
+		OLD: あ、先生！…あのう、私どうやら出口を間違えちゃったみたいで、どこに行ったら外に出られるんでしょう？
+		NEW: Ah, Miss Ingrid! Um... It looks like I took the wrong way. Which path should I take to go outside?
+
+	Textblock 0003:
+		OLD: ふふ…。他の人にくっついてきたのね。ここはアカデミーの寮棟よ。生徒の大半がここで生活するのよ。
+		NEW: Hehe, you followed the others? This place is the academy dormitory, where the majority of the students reside.
+
+	Textblock 0004:
+		OLD: はあ、そうだったんですか…。私、まだ全然分からないことばっかりで、もう何がなにやら。
+		NEW: Oh, is that so... There are still many things which I don't know...
+
+	Textblock 0005:
+		OLD: ……そうね、ではこの際だから何か質問があったら言いなさい。分かる範囲で答えてあげましょう。
+		NEW: Yes, though if you have any questions, feel free to ask. I will answer if it is within my scope of knowledge.
+
+	Textblock 0006:
+		OLD: そうね、あなたが優れた錬金術士になりたいのなら、今、全然足りない物が２つあるわ。
+		NEW: If you wish to become a great alchemist, you will need two things which you currently lack.
+
+	Textblock 0007:
+		OLD: それは、技術とお金。まずこの２つを充実させることから考えることね。
+		NEW: That is, skill and money. First you need to consider increasing those.
+
+	Textblock 0008:
+		OLD: どうしたらいいんでしょう？
+		NEW: How may I accomplish that?
+
+	Textblock 0009:
+		OLD: 技術を身につけるにはひたすら調合練習よ。やったことのない調合でも恐れず挑戦するの。
+		NEW: Only by practice synthesizing would you improve your skills . Try to even challenge ones you've never done before.
+
+	Textblock 0010:
+		OLD: 何度もやったことのある調合でも、やればやるだけ身に付くわ。絶対錬金術士になるんだっていう貪欲さが必要ね。
+		NEW: Even crafting items which you've already done numerous times will be beneficial. The greed to succeed is what you mustn't lack.
+
+	Textblock 0011:
+		OLD: はい！頑張ります！
+		NEW: Yes! I'll do my best!
+
+	Textblock 0012:
+		OLD: でもね、技術を身につけるにはどうしても少なからずお金が必要なの。
+		NEW: However, in order to acquire skills; money, no matter how little is essential.
+
+	Textblock 0013:
+		OLD: 調合する材料は買ったり外で見つけてこないといけないから…。
+		NEW: For it won't do if you don't buy ingredients that you don't find out of town...
+
+	Textblock 0014:
+		OLD: 拾ってくるならタダだけど、街の外は盗賊や怪物がいるから…。あなたを守ってくれる護衛の人を雇う必要があるわ。
+		NEW: When you go gathering outside the town, there will be thieves and monsters. It is vital to hire a bodyguard to protect you.
+
+	Textblock 0015:
+		OLD: 新しい調合を覚えるには参考書が必要だけど、本を買うにしてもお金がいるでしょう？
+		NEW: To memorize new syntheses, you will need textbooks. Even those cost money to buy, correct?
+
+	Textblock 0016:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0017:
+		OLD: とにかくどうにかしてお金を稼ぐ必要があるわね。
+		NEW: Anyhow, it is important to have a source of income.
+
+	Textblock 0018:
+		OLD: …さて、他に何かあるかしら？
+		NEW: ...Now, any other questions?
+
+	Textblock 0019:
+		OLD: そうね…。手持ちのお金だけでは苦しいでしょう。お金を稼ぐ方法を考えないといけませんね。
+		NEW: Yes... The money you have on hand is barely sufficient. It will not do if you do not come up with ways to earn income.
+
+	Textblock 0020:
+		OLD: あなたが売れる物をたくさん持っていれば問題ないのですけどね。物はない、しかも身につけている技術もない。
+		NEW: If you have many items which you can sell, then it won't be problematic. But you currently have no items nor skill.
+
+	Textblock 0021:
+		OLD: これでは、少なくとも今のままでは向こうからやってきてくれる仕事はありません。
+		NEW: As it stands now, no party would petition you a job.
+
+	Textblock 0022:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0023:
+		OLD: あまり若い女の子に勧めるのは好ましくないのですけど…。酒場に行ってごらんなさい。
+		NEW: It is not within my desires to advise young girls of this..... But please make a visit to the tavern.
+
+	Textblock 0024:
+		OLD: 酒場…？
+		NEW: The tavern...?
+
+	Textblock 0025:
+		OLD: そう。色々な仕事が舞い込んでくるところよ。中にはあなたでも出来そうな仕事があるかも知れないわよ。
+		NEW: Yes, there, various requests get dropped in. Perhaps you can find a job which you can accomplish.
+
+	Textblock 0026:
+		OLD: とにかく初めは苦しいわ。早くあなたが周りから信用に足る人間だと思われるようにならないとね。
+		NEW: Anyhow, starting out is always arduous. You can't just quickly become a person whom other people believe in.
+
+	Textblock 0027:
+		OLD: …さて、他に何かあるかしら？
+		NEW: ...Now, any other questions?
+
+	Textblock 0028:
+		OLD: …ここだけの話、授業で得られることはそんなに多くないの。どんなにすごい実験でも見ているだけではダメなのよ。
+		NEW: I only say this here, but you do not attain much from classes. It is not enough to merely witness others conducting experiments.
+
+	Textblock 0029:
+		OLD: ちゃんと自分の力で実験して、初めて身に付くのよ。失敗もするでしょうけど、とにかく暇を見つけて実験あるのみね。
+		NEW: Conduct experiments using your own abilities and you will learn. Sometimes you may fail, but try and find time to do them.
+
+	Textblock 0030:
+		OLD: 努力していれば、誰も見ていないようで案外誰かが見ているものよ。必ず報われるときが来るわ。
+		NEW: As long as you persist, others will notice. There will come a time when you will reap your rewards.
+
+	Textblock 0031:
+		OLD: …さて、他に何かあるかしら？
+		NEW: ...Now, any other questions?
+
+	Textblock 0032:
+		OLD: そう…。まあ困ったことがあったらあなたの工房の入り口に張ってある張り紙を見なさい。
+		NEW: If you find yourself struggling, read the notes which are attached next to the entrance of your workshop.
+
+	Textblock 0033:
+		OLD: あまり参考にはならないかも知れないけど、アドバイスをいくつか書いておきました。私の部屋に来てもいいですけど。
+		NEW: It's no reference book, but I've written some advices. You may visit me in my room too, if you wish.
+
+	Textblock 0034:
+		OLD: はい！頑張ります！
+		NEW: Yes! I'll do my best!
+
+
+
+Block 0008:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。
+		NEW: Hello.
+
+	Textblock 0004:
+		OLD: …あのう、どこかで会いましたっけ？
+		NEW: ...Um, have we met before?
+
+	Textblock 0005:
+		OLD: 君はエルフィールって言うんでしょ？
+		NEW: You're Elfir, yes?
+
+	Textblock 0006:
+		OLD: そうですけど…。あなたは？
+		NEW: Yes, I am.... And you are?
+
+	Textblock 0007:
+		OLD: 僕はノルディスって言うんだ。イングリド先生に聞いてここに来たんだよ。
+		NEW: I'm Nordis. I heard about you from Miss Ingrid and wanted to come pay you a vist.
+
+	Textblock 0008:
+		OLD: …てことはあなたもイングリド先生に教わってるんだ？…でもどうして私のところに？
+		NEW: ...Which means you're also being taught by Miss Ingrid? ...But why to my place?
+
+	Textblock 0009:
+		OLD: ほら、同じ先生に教わってるわけだからエルフィールと僕はクラスメイトってことじゃない？
+		NEW: You see, sharing the same teacher means we're classmates.
+
+	Textblock 0010:
+		OLD: 言われてみると、そうだね。
+		NEW: Now that you mention it, I suppose that's true.
+
+	Textblock 0011:
+		OLD: クラスメイト同士これから仲良くしようと思って。…それに工房に住んでるって聞いて興味が湧いてね。
+		NEW: It's good to be friends amongst classmates... And after hearing that you live in a workshop, I became interested.
+
+	Textblock 0012:
+		OLD: どうして？
+		NEW: Why is that?
+
+	Textblock 0013:
+		OLD: 僕、寮に住んでるんだ。だから工房ってどんな感じなのかなって思ったんだ。
+		NEW: Because I live in the dorm, so I was curious as to what a workshop is like.
+
+	Textblock 0014:
+		OLD: （寮…。てことはこの人、勉強出来るんだ…）
+		NEW: (The dorm... Which means this person can study...)
+
+	Textblock 0015:
+		OLD: まあ、そんなわけでこれからよろしく、エルフィール。
+		NEW: Well, it's been a plesaure meeting you, Elfir.
+
+	Textblock 0016:
+		OLD: …なんかそのまま名前呼ばれると変な感じがするなぁ。エリーでいいよ。
+		NEW: ...It feels strange being addressed like that- just call me Elie.
+
+	Textblock 0017:
+		OLD: 分かった。それじゃエリー、気が向いたら僕の部屋にも遊びにおいでよ。今日はジャマしちゃってごめんね。
+		NEW: Okay. Well then, Elie, if you feel like it you can visit me in my room anyday. Sorry for disrupting you.
+
+	Textblock 0018:
+		OLD: （ノルディス…。いかにも出来そうな顔してたなあ…。うん、負けられないぞ）
+		NEW: (Nordis... He sure looks smart... Alrighty, I won't lose to him)
+
+	Textblock 0019:
+		OLD: なにかいるよ！
+		NEW: Something's here!
+
+	Textblock 0020:
+		OLD: …！ああ、何だ、人だったのか。よかった。
+		NEW: ....! Ah, it's a person. Thank goodness.
+
+	Textblock 0021:
+		OLD: …私もビックリしちゃった。
+		NEW: ...I was taken by surprise too.
+
+	Textblock 0022:
+		OLD: おどかしてごめん。調合に使う材料を集めに来ていたんだ。
+		NEW: So sorry for frightening you. I came here to gather some synthesis ingredients.
+
+	Textblock 0023:
+		OLD: 調合…って、あなたアカデミーの人？
+		NEW: Synthesis.... So, you're from the Academy?
+
+	Textblock 0024:
+		OLD: うん。ノルディスって言うんだ。イングリド先生に教わってるんだよ。
+		NEW: Yes, my name's Nordis. I'm being taught by Miss Ingrid.
+
+	Textblock 0025:
+		OLD: あれ、私もイングリド先生に教わってるんだよ。…あ、私はエルフィール。
+		NEW: Hey, I'm also being taught by Miss Ingrid... Oh, and my name's Elfir.
+
+	Textblock 0026:
+		OLD: 君がエルフィールなんだ。イングリド先生に聞いてどんな人かと思ってたんだよこんなところで会うなんて奇遇だね。
+		NEW: So you're Elfir. I heard from Miss Ingrid and wondered what type of person you were. Such an unexpected meeting.
+
+	Textblock 0027:
+		OLD: うん。私の他にもこんなところまで来てる人がいるなんて思わなかった。…でもどうして？
+		NEW: Yes, I didn't think there would be someone else out here.... But why?
+
+	Textblock 0028:
+		OLD: ほら、同じ先生に教わってるわけだからエルフィールと僕はクラスメイトってことじゃない？
+		NEW: You see, sharing the same teacher means we're classmates.
+
+	Textblock 0029:
+		OLD: 言われてみると、そうだね。
+		NEW: Now that you mention it, I suppose that's true.
+
+	Textblock 0030:
+		OLD: クラスメイト同士これから仲良くしようと思って。…それに工房に住んでるって聞いて興味が湧いてね。
+		NEW: It's good to be friends amongst classmates... And after hearing that you live in a workshop, I became interested.
+
+	Textblock 0031:
+		OLD: どうして？
+		NEW: Why is that?
+
+	Textblock 0032:
+		OLD: 僕、寮に住んでるんだ。だから工房ってどんな感じなのかなって思ったんだ。
+		NEW: Because I live in the dorm, so I was curious as to what a workshop is like.
+
+	Textblock 0033:
+		OLD: （寮…。てことはこの人、勉強出来るんだ…）
+		NEW: (The dorm... Which means this person can study...)
+
+	Textblock 0034:
+		OLD: まあ、そんなわけでこれからよろしく、エルフィール。
+		NEW: Well, it's been a plesaure meeting you, Elfir.
+
+	Textblock 0035:
+		OLD: …なんかそのまま名前呼ばれると変な感じがするなぁ。エリーでいいよ。
+		NEW: ...It feels strange being addressed like that- just call me Elie.
+
+	Textblock 0036:
+		OLD: 分かった。それじゃエリー、僕はもう帰るけど気が向いたら今度部屋に遊びにおいでよ。おどかしちゃって悪かったね。
+		NEW: Okay. Well then, Elie, if you feel like it you can visit me in my room anyday. Sorry to have scared you today.
+
+	Textblock 0037:
+		OLD: （ノルディス…。いかにも出来そうな顔してたなあ…。うん、負けられないぞ）
+		NEW: (Nordis... He sure looks smart... Alrighty, I won't lose to him)
+
+
+
+Block 0009:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。
+		NEW: Hello.
+
+	Textblock 0004:
+		OLD: …あのう、どこかで会いましたっけ？
+		NEW: ...Um, have we met before?
+
+	Textblock 0005:
+		OLD: 君はエルフィールって言うんでしょ？
+		NEW: You're Elfir, yes?
+
+	Textblock 0006:
+		OLD: そうですけど…。あなたは？
+		NEW: Yes, I am.... And you are?
+
+	Textblock 0007:
+		OLD: 僕はノルディスって言うんだ。イングリド先生に聞いてここに来たんだよ。
+		NEW: I'm Nordis. I heard about you from Miss Ingrid and wanted to come pay you a vist.
+
+	Textblock 0008:
+		OLD: …てことはあなたもイングリド先生に教わってるんだ？…でもどうして私のところに？
+		NEW: ...Which means you're also being taught by Miss Ingrid? ...But why to my place?
+
+	Textblock 0009:
+		OLD: ほら、同じ先生に教わってるわけだからエルフィールと僕はクラスメイトってことじゃない？
+		NEW: You see, sharing the same teacher means we're classmates.
+
+	Textblock 0010:
+		OLD: 言われてみると、そうだね。
+		NEW: Now that you mention it, I suppose that's true.
+
+	Textblock 0011:
+		OLD: クラスメイト同士これから仲良くしようと思って。…それに工房に住んでるって聞いて興味が湧いてね。
+		NEW: It's good to be friends amongst classmates... And after hearing that you live in a workshop, I became interested.
+
+	Textblock 0012:
+		OLD: どうして？
+		NEW: Why is that?
+
+	Textblock 0013:
+		OLD: 僕、寮に住んでるんだ。だから工房ってどんな感じなのかなって思ったんだ。
+		NEW: Because I live in the dorm, so I was curious as to what a workshop is like.
+
+	Textblock 0014:
+		OLD: （寮…。てことはこの人、勉強出来るんだ…）
+		NEW: (The dorm... Which means this person can study...)
+
+	Textblock 0015:
+		OLD: まあ、そんなわけでこれからよろしく、エルフィール。
+		NEW: Well, it's been a plesaure meeting you, Elfir.
+
+	Textblock 0016:
+		OLD: …なんかそのまま名前呼ばれると変な感じがするなぁ。エリーでいいよ。
+		NEW: ...It feels strange being addressed like that- just call me Elie.
+
+	Textblock 0017:
+		OLD: 分かった。それじゃエリー、気が向いたら僕の部屋にも遊びにおいでよ。今日はジャマしちゃってごめんね。
+		NEW: Okay. Well then, Elie, if you feel like it you can visit me in my room anyday. Sorry for disrupting you.
+
+	Textblock 0018:
+		OLD: （ノルディス…。いかにも出来そうな顔してたなあ…。うん、負けられないぞ）
+		NEW: (Nordis... He sure looks smart... Alrighty, I won't lose to him)
+
+	Textblock 0019:
+		OLD: なにかいるよ！
+		NEW: There's something here!
+
+	Textblock 0020:
+		OLD: …！ああ、何だ、人だったのか。よかった。
+		NEW: ....! Ah, it's a person. Thank goodness.
+
+	Textblock 0021:
+		OLD: …私もビックリしちゃった。
+		NEW: ...I was taken by surprise too.
+
+	Textblock 0022:
+		OLD: おどかしてごめん。調合に使う材料を集めに来ていたんだ。
+		NEW: So sorry for frightening you. I came here to gather some synthesis ingredients.
+
+	Textblock 0023:
+		OLD: 調合…って、あなたアカデミーの人？
+		NEW: Synthesis.... So, you're from the Academy?
+
+	Textblock 0024:
+		OLD: うん。ノルディスって言うんだ。イングリド先生に教わってるんだよ。
+		NEW: Yes, my name's Nordis. I'm being taught by Miss Ingrid.
+
+	Textblock 0025:
+		OLD: あれ、私もイングリド先生に教わってるんだよ。…あ、私はエルフィール。
+		NEW: Hey, I'm also being taught by Miss Ingrid... Oh, and my name's Elfir.
+
+	Textblock 0026:
+		OLD: 君がエルフィールなんだ。イングリド先生に聞いてどんな人かと思ってたんだよこんなところで会うなんて奇遇だね。
+		NEW: So you're Elfir. I heard from Miss Ingrid and wondered what type of person you were. Such an unexpected meeting.
+
+	Textblock 0027:
+		OLD: うん。私の他にもこんなところまで来てる人がいるなんて思わなかった。…でもどうして？
+		NEW: Yes, I didn't think there would be someone else out here.... But why?
+
+	Textblock 0028:
+		OLD: ほら、同じ先生に教わってるわけだからエルフィールと僕はクラスメイトってことじゃない？
+		NEW: You see, sharing the same teacher means we're classmates.
+
+	Textblock 0029:
+		OLD: 言われてみると、そうだね。
+		NEW: Now that you mention it, I suppose that's true.
+
+	Textblock 0030:
+		OLD: クラスメイト同士これから仲良くしようと思って。…それに工房に住んでるって聞いて興味が湧いてね。
+		NEW: It's good to be friends amongst classmates... And after hearing that you live in a workshop, I became interested.
+
+	Textblock 0031:
+		OLD: どうして？
+		NEW: Why is that?
+
+	Textblock 0032:
+		OLD: 僕、寮に住んでるんだ。だから工房ってどんな感じなのかなって思ったんだ。
+		NEW: Because I live in the dorm, so I was curious as to what a workshop is like.
+
+	Textblock 0033:
+		OLD: （寮…。てことはこの人、勉強出来るんだ…）
+		NEW: (The dorm... Which means this person can study...)
+
+	Textblock 0034:
+		OLD: まあ、そんなわけでこれからよろしく、エルフィール。
+		NEW: Well, it's been a plesaure meeting you, Elfir.
+
+	Textblock 0035:
+		OLD: …なんかそのまま名前呼ばれると変な感じがするなぁ。エリーでいいよ。
+		NEW: ...It feels strange being addressed like that- just call me Elie.
+
+	Textblock 0036:
+		OLD: 分かった。それじゃエリー、僕はもう帰るけど気が向いたら今度部屋に遊びにおいでよ。おどかしちゃって悪かったね。
+		NEW: Okay. Well then, Elie, if you feel like it you can visit me in my room anyday. Sorry to have scared you today.
+
+	Textblock 0037:
+		OLD: （ノルディス…。いかにも出来そうな顔してたなあ…。うん、負けられないぞ）
+		NEW: (Nordis... He sure looks smart... Alrighty, I won't lose to him)
+
+
+
+Block 0010:
+
+	Textblock 0000:
+		OLD: あれ、エリーじゃない。誰かと思っちゃったよ。
+		NEW: Oh, it's Elie. I was wondering who it might be.
+
+	Textblock 0001:
+		OLD: 寮ってこういう風になってるんだ。
+		NEW: So this is what the dorm looks like...
+
+	Textblock 0002:
+		OLD: うん。今散らかってるけど…、そこのイスに座るといいよ。
+		NEW: It's a bit untidy at the moment, but please take a seat over there.
+
+	Textblock 0003:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0004:
+		OLD: …ねえ、エリーはどうしてアカデミーに入ろうと思ったんだい？
+		NEW: ...Say, why did you enroll into the Academy?
+
+	Textblock 0005:
+		OLD: え、ええとね…。
+		NEW: Uh, well....
+
+	Textblock 0006:
+		OLD: そうなのか…。それなら早くその錬金術士みたいになれるといいね。
+		NEW: Is that so...? Then it would be great if you can become an alchemist like her.
+
+	Textblock 0007:
+		OLD: うん。まだまだ先になりそうだけどね。頑張ってみるよ。
+		NEW: Yeah, but it's still too early to know. I'll try my best though.
+
+	Textblock 0008:
+		OLD: なんとなく…か。直感で決めたのかい？でもそのカンは間違ってないと思うよ。錬金術士はいい仕事だと思うんだ。
+		NEW: You followed your instincts? I don't think that feeling could be wrong, because an alchemist is a good occupation.
+
+	Textblock 0009:
+		OLD: へえ、僕も興味があるんだ。やっぱり何事も興味を持つことが大切だからね。
+		NEW: Ah, it's just the same as me. Indeed it's important to hold an interest in whatever you do.
+
+	Textblock 0010:
+		OLD: 僕はね、錬金術士になったら店を開いて錬金術の力で人助けをするような仕事をしたいんだ。
+		NEW: You see, when I become a proper alchemist, I want to open a store and use my alchemy to help others.
+
+	Textblock 0011:
+		OLD: なんだかすごいね。私、将来のことなんてあまり考えてないよ。
+		NEW: That sounds wonderful. I haven't given much thought to my future.
+
+	Textblock 0012:
+		OLD: 数年前にね、この街にすごい錬金術士がいたんだ。色んな道具を作り出して怪物を倒したり病気を治したり…。
+		NEW: Several years ago, there was a great alchemist here who made various tools to rid monsters and heal illnesses.
+
+	Textblock 0013:
+		OLD: 今はもういないんだけどね。僕、すごく憧れちゃって。１５歳になったらアカデミーに行こうって誓ったんだ。
+		NEW: That person is no longer here, but I aspire to be someone like that. I swore to enter the Academy as soon as I turn 15.
+
+	Textblock 0014:
+		OLD: でも僕は怪物を倒すのは趣味じゃないから…。薬を作って病人を助けたいなって思ってるんだ。
+		NEW: But I'm not interested in killing monsters... I want to make medicine and help those who are ill.
+
+	Textblock 0015:
+		OLD: お医者様だね。
+		NEW: So a doctor then.
+
+	Textblock 0016:
+		OLD: うん。でも今の医者は薬草を使うくらいで、後は神頼みだ。僕はもっと積極的な医者になりたいんだ。
+		NEW: Yes, but the current doctors prescribe medicinal herbs and leave the rest to fate. I want to be more proactive.
+
+	Textblock 0017:
+		OLD: そんなに強く思ってるならなれるよ、きっと。
+		NEW: If you feel so strongly about it, I'm sure you'll succeed.
+
+	Textblock 0018:
+		OLD: ありがとう。エリーも…今は何も目標がないのかも知れないけど、そのうちきっと夢が見えるときがくるよ。
+		NEW: Thanks. You too, Elie... You may not have a goal right now, but the day that you'll find your dreams will come soon.
+
+	Textblock 0019:
+		OLD: だから一緒に頑張ろうよ。
+		NEW: So, let's try our best together.
+
+	Textblock 0020:
+		OLD: うん！頑張ろう！
+		NEW: Yeah! Let's do it!
+
+
+
+Block 0011:
+
+	Textblock 0000:
+		OLD: やあ、エリー。買い物かい？
+		NEW: Hey, Elie. Been shopping?
+
+	Textblock 0001:
+		OLD: あ、ノルディス。うん、色々とね。
+		NEW: Ah, Nordis. Yup, some.
+
+	Textblock 0002:
+		OLD: 僕、工房はちょっといいなって思ってるんだけど、毎日アカデミーに来るのが大変そうだね…。
+		NEW: I was thinking that living in a workshop would be fun... But it must be tough coming to the Academy everyday.
+
+	Textblock 0003:
+		OLD: そうだね。もうちょっと近かったらいいのに。でも今はまだワガママ言っていられないし、仕方ないね。
+		NEW: That's true. If only it was a tad bit closer... But I can't complain, oh well...
+
+	Textblock 0004:
+		OLD: あら、楽しそうですこと。￥……ふう～ん、あなたがあのエルフィールねえ…。ぱっとしない顔つきね。
+		NEW: Oh my, seems like you two are enjoying yourselves. Hmm... So you're that Elfir... You don't look too happy.
+
+	Textblock 0005:
+		OLD: な、何よ！いきなり…。あなた誰！？
+		NEW: Wha, -what? What's this all of a sudden...Who are you?
+
+	Textblock 0006:
+		OLD: アカデミーにやっと入学出来たような人にはあまり名乗りたくないけど。私はアイゼル・ワイマール。覚えておく事ね。
+		NEW: Even though I don't wish to disclose my name to someone who barely made it into the Academy, I'm Eisel. Remember that.
+
+	Textblock 0007:
+		OLD: うぅ……、そのアイゼルが私に何の用なの？
+		NEW: Ugh..... And what business does this Eisel have with me?
+
+	Textblock 0008:
+		OLD: あいにくあなたには用はないの。…ノルディス、あなたこんな人と話していると学年トップの貫禄も形無しになるわよ。
+		NEW: Sadly, this has nothing to do with you. Nordis, you'll ruin your top-student image talking to the likes of her.
+
+	Textblock 0009:
+		OLD: アイゼル、それは言い過ぎじゃないか？僕、そういう言い方は嫌いだ。
+		NEW: Eisel, don't you think you're overboard? I dislike the way you're speaking.
+
+	Textblock 0010:
+		OLD: ……！
+		NEW: ....................!
+
+	Textblock 0011:
+		OLD: ふん、ジャマしたわね。それじゃ。
+		NEW: Hmph, looks like I disrupted you two. I'll excuse myself then.
+
+	Textblock 0012:
+		OLD: エリー、ごめんね。彼女はアイゼルって言って、僕の部屋のすぐそばの部屋に住んでるんだ。
+		NEW: Elie, I'm so sorry. That girl, Eisel, lives in the room beside mine.
+
+	Textblock 0013:
+		OLD: 私、あの人に何か嫌われるようなことしたのかなあ…。全然記憶にないんだけど…。
+		NEW: Did I do something that offended her...? I don't remember anything like that though...
+
+	Textblock 0014:
+		OLD: 僕もアイゼルのこと、よくは知らないけど、あんなに嫌みなこと言ったのは初めて見たよ。いつもニコニコしてるもの。
+		NEW: I don't know much about Eisel myself, but this is the first time I've seen her like that. She's usually smiling.
+
+	Textblock 0015:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0016:
+		OLD: アイゼルに直接聞いてみた方がいいかも知れないね。
+		NEW: Maybe it's best to ask Eisel directly.
+
+	Textblock 0017:
+		OLD: うん。また今度聞いてみることにする。
+		NEW: Yeah, I'll ask her next time.
+
+
+
+Block 0012:
+
+	Textblock 0000:
+		OLD: あ、あそこにいるのはアイゼル…。
+		NEW: Ah, that's Eisel over there...
+
+	Textblock 0001:
+		OLD: あら、エルフィール。あなた、こんなところに何の用？教室はこっちじゃないわよ。
+		NEW: Oh my, Elfir, what are you doing over here? This isn't the classroom.
+
+	Textblock 0002:
+		OLD: ね、ねえアイゼル。どうして私が嫌われてるのか分からないけど…、何か気に入らないことがあったならゴメンナサイ。
+		NEW: Say, I don't know what I've done to make you hate me so.... But I'm sorry if I did anything like that.
+
+	Textblock 0003:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0004:
+		OLD: 別に何もないわ。気にしないでちょうだい。
+		NEW: It's nothing particular. Don't worry about it.
+
+	Textblock 0005:
+		OLD: …よかったあ。ちょっと考え込んじゃったよ。
+		NEW: That's great... I was a bit concerned over it...
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: あなた、最初に思っていたよりいい人そうね。あんまり騒がずに大人しくしていれば仲良くしてあげてもよくてよ。
+		NEW: You're a better person than I'd imagined. We may even get along if you act more maturely and less bothersome.
+
+	Textblock 0008:
+		OLD: （最初にって…。一体どう思われてたんだろう…）
+		NEW: ('Had imagined'... What in the world did she think of me?)
+
+	Textblock 0009:
+		OLD: この階のつきあたりから２番目の部屋が私の部屋よ。たまに来てみるといいわ。私の家の部屋と比べると貧相だけど。
+		NEW: 2 rooms down from the end of this floor, is my room. You may visit me, though it's quite bare compared to my house.
+
+	Textblock 0010:
+		OLD: もっとも、あなたには珍しい物ばかりかも知れないわね。ふふ…。　　　　　　…それじゃ、私忙しいから。
+		NEW: Yet, to you, it might be full of rarities, hehe... \nSo long then, I'm rather busy.
+
+
+
+Block 0013:
+
+	Textblock 0000:
+		OLD: あら、エルフィールじゃない。ちょうど今は時間があいてるわ。
+		NEW: Oh my, isn't it Elfir? Great timing, I happen to have spare time.
+
+	Textblock 0001:
+		OLD: わあ、キレイな部屋…。私のとこと大違いだ。
+		NEW: Whoa... Such a beautiful room... It's so different to my place.
+
+	Textblock 0002:
+		OLD: まあこれくらいは貴族の身だしなみとして当然よ。
+		NEW: Well, this is expected of an aristocrat's room.
+
+	Textblock 0003:
+		OLD: いいなあ、お金持ちだと…。私の部屋なんてキレイも汚いも、部屋に置く物がなんにもないよ。
+		NEW: Being rich must be great... My room has no ornaments whatsoever.
+
+	Textblock 0004:
+		OLD: それなら錬金術を極めて金をたくさん作り出すことね。あっという間に貴族になれるわよ。私ならそうするわね。
+		NEW: Then excel in alchemy and craft gold. You can become an aristocrat by doing so. If I were you, I'd aim for that.
+
+	Textblock 0005:
+		OLD: そうか…。そうだね。
+		NEW: I see... You're right...
+
+	Textblock 0006:
+		OLD: もっとも、あなたが極める頃には私はもっと極めているでしょうから、私の方があなたより大金持ちになってるけど。
+		NEW: But as you master your alchemy, I will do the same, all the while exceeding you, being the more wealthy one.
+
+	Textblock 0007:
+		OLD: うぅ、そんなこと！私だってそう簡単に負けないよ。
+		NEW: Argh, that won't happen! I won't lose to you so easily.
+
+	Textblock 0008:
+		OLD: ふうん。ま、頑張ってみることね。…それじゃ、そろそろ勉強しようかしら。続きはまた今度にしてくれる？
+		NEW: Hm... Well, try your best then. I should get back to my studies. We'll continue next time.
+
+
+
+Block 0014:
+
+	Textblock 0000:
+		OLD: 知ってるか？ヴィラント山のてっぺん付近に温泉が湧いてるんだ。ミュラ温泉といってな。疲れがとれるらしいぜ。
+		NEW: Did you know? Near the summit of Villant Mountain is a gushing hot spring- "Mueller Onsen", it's called.
+
+	Textblock 0001:
+		OLD: …もっともあの山は凶暴な怪物ばかりだからな。温泉に行く前に疲れちまって全然役に立ちそうにないがね。
+		NEW: It can heal fatigue, but violent monsters lurk on that mountain. It may not be wise to let fatigue accumulate and head there.
+
+	Textblock 0002:
+		OLD: （あれ、あそこにあるのは…）
+		NEW: (Huh, that over there is... )
+
+	Textblock 0003:
+		OLD: （温泉だ…！これがうわさで聞いたミュラ温泉かな？）
+		NEW: (Onsen...! This is the rumored Mueller Onsen?)
+
+	Textblock 0004:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: ちょっと入っちゃおうかな…？
+		NEW: Take a short rest in there...?
+
+	Textblock 0006:
+		OLD: （ふう…いい気持ち。疲れがとれるよ）
+		NEW: (Ah.... Feels good. My fatigue dissipated)
+
+	Textblock 0007:
+		OLD: （いけないいけない。目的を忘れるところだったよ…）
+		NEW: (That won't do. I can't be distracted from my purpose... )
+
+
+
+Block 0015:
+
+	Textblock 0000:
+		OLD: 知ってるか？ヴィラント山のてっぺん付近に温泉が湧いてるんだ。ミュラ温泉といってな。疲れがとれるらしいぜ。
+		NEW: Did you know? Near the summit of Villant Mountain is a gushing hot spring- "Mueller Onsen", it's called.
+
+	Textblock 0001:
+		OLD: …もっともあの山は凶暴な怪物ばかりだからな。温泉に行く前に疲れちまって全然役に立ちそうにないがね。
+		NEW: It can heal fatigue, but violent monsters lurk on that mountain. It may not be wise to let fatigue accumulate and head there.
+
+	Textblock 0002:
+		OLD: （あれ、あそこにあるのは…）
+		NEW: (Huh, that over there is... )
+
+	Textblock 0003:
+		OLD: （温泉だ…！これがうわさで聞いたミュラ温泉かな？）
+		NEW: (Onsen...! This is the rumored Mueller Onsen?)
+
+	Textblock 0004:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: ちょっと入っちゃおうかな…？
+		NEW: Take a short rest in there...?
+
+	Textblock 0006:
+		OLD: （ふう…いい気持ち。疲れがとれるよ）
+		NEW: (Ah.... Feels good. My fatigue dissipated)
+
+	Textblock 0007:
+		OLD: （いけないいけない。目的を忘れるところだったよ…）
+		NEW: (That won't do. I can't be distracted from my purpose... )
+
+
+
+Block 0016:
+
+	Textblock 0000:
+		OLD: 風乗り鳥って知ってる？渡り鳥なんだけどすごくきれいなのよ。滅多に見られないから、見られたらラッキーよね～。
+		NEW: You know about the Wind-Rider bird?It's a migratory bird that's rare and extremely beautiful. You're lucky if you see one.
+
+	Textblock 0001:
+		OLD: （あれ？何か落ちてきた…）
+		NEW: (Huh? Something fell down... )
+
+	Textblock 0002:
+		OLD: （うわあ、すごい鳥の群…。あれが風乗り鳥…）
+		NEW: (Whoa, a majestic flock of birds... That must be the Wind-Rider birds... )
+
+	Textblock 0003:
+		OLD: あっ、羽がいっぱい落ちてるぞ！　　　今日はついてるなあ。
+		NEW: Ah! Feathers floating down from above! What a fortunate day.
+
+
+
+Block 0017:
+
+	Textblock 0000:
+		OLD: 風乗り鳥って知ってる？渡り鳥なんだけどすごくきれいなのよ。滅多に見られないから、見られたらラッキーよね～。
+		NEW: You know about the Wind-Rider bird?It's a migratory bird that's rare and extremely beautiful. You're lucky if you see one.
+
+	Textblock 0001:
+		OLD: （あれ？何か落ちてきた…）
+		NEW: (Huh? Something fell down... )
+
+	Textblock 0002:
+		OLD: （うわあ、すごい鳥の群…。あれが風乗り鳥…）
+		NEW: (Whoa, a majestic flock of birds... That must be the Wind-Rider birds... )
+
+	Textblock 0003:
+		OLD: あっ、羽がいっぱい落ちてるぞ！　　　今日はついてるなあ。
+		NEW: Ah! Feathers floating down from above! What a fortunate day.
+
+
+
+Block 0018:
+
+	Textblock 0000:
+		OLD: （あれ、家の前に誰かいる…）
+		NEW: (Huh, someone's outside my house... )
+
+	Textblock 0001:
+		OLD: あのう…、私の家に何かご用ですか？
+		NEW: Um, excuse me, is something the matter?
+
+	Textblock 0002:
+		OLD: あら、あなたがこの家に住んでるの？
+		NEW: Oh, you live in this house?
+
+	Textblock 0003:
+		OLD: はい。
+		NEW: Yes.
+
+	Textblock 0004:
+		OLD: そう…。そうよね。
+		NEW: I see...
+
+	Textblock 0005:
+		OLD: ……以前誰かがここに住んでいたんですか？
+		NEW: ....Did someone live here in the past?
+
+	Textblock 0006:
+		OLD: ええ、私の親友が…。何気なく通りかかったら人の住んでいる気配があったから帰ってきたのかと思って。
+		NEW: Yes... A dear friend of mine... I happen to walk by and saw that it's occupied, so I thought she came back.
+
+	Textblock 0007:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0008:
+		OLD: ここで知り合ったのも何かの縁ね。またたまに来てもいい？
+		NEW: Meeting you here is a form of destiny. May I come over again someday?
+
+	Textblock 0009:
+		OLD: は、はい。
+		NEW: Yes, of course.
+
+	Textblock 0010:
+		OLD: ありがとう。私はシア。シア・ドナースタークよ。よろしくね。￥それじゃ…。
+		NEW: Thank you. I'm Schia Donnerstag. Nice meeting you.\n.....Farewell then.
+
+
+
+Block 0019:
+
+	Textblock 0000:
+		OLD: ６月に教会で結婚式があるのよ。お金持ち同士なんですって。いいなあ…。
+		NEW: There will be a wedding at the church in June, held by the upper-class... How nice...
+
+	Textblock 0001:
+		OLD: そういえばもうじき大がかりな結婚式があるのよ…。知ってた？
+		NEW: By the way, did you hear that there'll be a large-scale wedding soon?
+
+	Textblock 0002:
+		OLD: ドナースターク家とエンバッハ家なんだって。どっちも金持ちだからきっと当日はすごいことになるわね。
+		NEW: A union of House Donnerstag and House Enberha. Both are loaded, so expect the scene to be grand.
+
+	Textblock 0003:
+		OLD: あーあ、何だかうらやましいわ。あたしにもステキな人いないかしら。
+		NEW: Ahhhh, how envious. Will I ever find a wonderful man...?
+
+	Textblock 0004:
+		OLD: 実は今儲かってるんだ。今度ちょっと大きな結婚式があってな。酒の注文が来てるんだ。
+		NEW: Now would be a good time to make profit. Since the wedding is big, there are orders for wine.
+
+	Textblock 0005:
+		OLD: 相手は金持ちのドナースターク家とエンバッハ家だからな。これからもこういう話なら大歓迎なんだがね。
+		NEW: A marriage between the rich House of Donnerstag and House Enberha. There'll be much talk.
+
+
+
+Block 0020:
+
+	Textblock 0000:
+		OLD: ６月に教会で結婚式があるのよ。お金持ち同士なんですって。いいなあ…。
+		NEW: There will be a wedding at the church in June, held by the upper-class... How nice...
+
+	Textblock 0001:
+		OLD: そういえばもうじき大がかりな結婚式があるのよ…。知ってた？
+		NEW: By the way, did you hear that there'll be a large-scale wedding soon?
+
+	Textblock 0002:
+		OLD: ドナースターク家とエンバッハ家なんだって。どっちも金持ちだからきっと当日はすごいことになるわね。
+		NEW: A union of House Donnerstag and House Enberha. Both are loaded, so expect the scene to be grand.
+
+	Textblock 0003:
+		OLD: あーあ、何だかうらやましいわ。あたしにもステキな人いないかしら。
+		NEW: Ahhhh, how envious. Will I ever find a wonderful man...?
+
+	Textblock 0004:
+		OLD: 実は今儲かってるんだ。今度ちょっと大きな結婚式があってな。酒の注文が来てるんだ。
+		NEW: Now would be a good time to make profit. Since the wedding is big, there are orders for wine.
+
+	Textblock 0005:
+		OLD: 相手は金持ちのドナースターク家とエンバッハ家だからな。これからもこういう話なら大歓迎なんだがね。
+		NEW: A marriage between the rich House of Donnerstag and House Enberha. There'll be much talk.
+
+
+
+Block 0021:
+
+	Textblock 0000:
+		OLD: ６月に教会で結婚式があるのよ。お金持ち同士なんですって。いいなあ…。
+		NEW: There will be a wedding at the church in June, held by the upper-class... How nice...
+
+	Textblock 0001:
+		OLD: そういえばもうじき大がかりな結婚式があるのよ…。知ってた？
+		NEW: By the way, did you hear that there'll be a large-scale wedding soon?
+
+	Textblock 0002:
+		OLD: ドナースターク家とエンバッハ家なんだって。どっちも金持ちだからきっと当日はすごいことになるわね。
+		NEW: A union of House Donnerstag and House Enberha. Both are loaded, so expect the scene to be grand.
+
+	Textblock 0003:
+		OLD: あーあ、何だかうらやましいわ。あたしにもステキな人いないかしら。
+		NEW: Ahhhh, how envious. Will I ever find a wonderful man...?
+
+	Textblock 0004:
+		OLD: 実は今儲かってるんだ。今度ちょっと大きな結婚式があってな。酒の注文が来てるんだ。
+		NEW: Now would be a good time to make profit. Since the wedding is big, there are orders for wine.
+
+	Textblock 0005:
+		OLD: 相手は金持ちのドナースターク家とエンバッハ家だからな。これからもこういう話なら大歓迎なんだがね。
+		NEW: A marriage between the rich House of Donnerstag and House Enberha. There'll be much talk.
+
+
+
+Block 0022:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。ね、あなた今日の結婚式の話聞いてる？
+		NEW: Good afternoon. Say, have you heard about today's wedding ceremony?
+
+	Textblock 0004:
+		OLD: あ、今日だったんだ…。話には聞いていたけど…。
+		NEW: Ah, it's today... I heard but...
+
+	Textblock 0005:
+		OLD: そう、それよ。もうじき始まるんだけど見に行かない？
+		NEW: Yes, that. It's about to start soon, want to go?
+
+	Textblock 0006:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0007:
+		OLD: ああもう、じれったいわね！どうせ何にもすることないんでしょ！さあ、行くわよ！
+		NEW: Gosh, I'm losing my patience! It's not like you're doing anything here! Now, just go!
+
+	Textblock 0008:
+		OLD: 花嫁さんきれいだったわよねえ。
+		NEW: The bride was beautiful, wasn't she.
+
+	Textblock 0009:
+		OLD: 途中で誰かと話してたね。変な杖持った人と。
+		NEW: She talked with someone midway- a person holding an odd staff.
+
+	Textblock 0010:
+		OLD: そお？ちょっと思い出せないけど。
+		NEW: Was that so? I don't recall.
+
+	Textblock 0011:
+		OLD: こんにちは。…結婚式を見に来たんですか？
+		NEW: Hello. Did you come to see the wedding?
+
+	Textblock 0012:
+		OLD: そうよ、シスターさん…じゃなくて、ええと……。
+		NEW: Yes, Sister...um.....
+
+	Textblock 0013:
+		OLD: 私はミルカッセといいます。あなたたちが楽しそうに話していたので、つい…。じゃましてしまったらごめんなさい。
+		NEW: You can call me Millcassee. You two seemed to be having so much fun. So sorry for disrupting you.
+
+	Textblock 0014:
+		OLD: そ、そんなことないですよ。
+		NEW: No, -no it's fine.
+
+	Textblock 0015:
+		OLD: ありがとうございます。私、この教会に住んでいるので、よかったらまた遊びに来て下さいね。
+		NEW: Thank you very much. I live in this church, and if you don't mind, please come again someday.
+
+	Textblock 0016:
+		OLD: でも…、何のおもてなしも出来ませんけど…。
+		NEW: ...Although there isn't much I can entertain you with...
+
+	Textblock 0017:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0018:
+		OLD: （そういえば…。今日ってうわさで聞いた結婚式の日だ…）
+		NEW: (Come to think of it, today's the rumored wedding ceremony... )
+
+	Textblock 0019:
+		OLD: 行ってみようかなあ？
+		NEW: Go and take a look?
+
+
+
+Block 0023:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは。ね、あなた今日の結婚式の話聞いてる？
+		NEW: Good afternoon. Say, have you heard about today's wedding ceremony?
+
+	Textblock 0004:
+		OLD: あ、今日だったんだ…。話には聞いていたけど…。
+		NEW: Ah, it's today... I heard but...
+
+	Textblock 0005:
+		OLD: そう、それよ。もうじき始まるんだけど見に行かない？
+		NEW: Yes, that. It's about to start soon, want to go?
+
+	Textblock 0006:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0007:
+		OLD: ああもう、じれったいわね！どうせ何にもすることないんでしょ！さあ、行くわよ！
+		NEW: Gosh, I'm losing my patience! It's not like you're doing anything here! Now, just go!
+
+	Textblock 0008:
+		OLD: 花嫁さんきれいだったわよねえ。
+		NEW: The bride was beautiful, wasn't she.
+
+	Textblock 0009:
+		OLD: 途中で誰かと話してたね。変な杖持った人と。
+		NEW: She talked with someone midway- a person holding an odd staff.
+
+	Textblock 0010:
+		OLD: そお？ちょっと思い出せないけど。
+		NEW: Was that so? I don't recall.
+
+	Textblock 0011:
+		OLD: こんにちは。…結婚式を見に来たんですか？
+		NEW: Hello. Did you come to see the wedding?
+
+	Textblock 0012:
+		OLD: そうよ、シスターさん…じゃなくて、ええと……。
+		NEW: Yes, Sister...um.....
+
+	Textblock 0013:
+		OLD: 私はミルカッセといいます。あなたたちが楽しそうに話していたので、つい…。じゃましてしまったらごめんなさい。
+		NEW: You can call me Millcassee. You two seemed to be having so much fun. So sorry for disrupting you.
+
+	Textblock 0014:
+		OLD: そ、そんなことないですよ。
+		NEW: No, -no it's fine.
+
+	Textblock 0015:
+		OLD: ありがとうございます。私、この教会に住んでいるので、よかったらまた遊びに来て下さいね。
+		NEW: Thank you very much. I live in this church, and if you don't mind, please come again someday.
+
+	Textblock 0016:
+		OLD: でも…、何のおもてなしも出来ませんけど…。
+		NEW: ...Although there isn't much I can entertain you with...
+
+	Textblock 0017:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0018:
+		OLD: （そういえば…。今日ってうわさで聞いた結婚式の日だ…）
+		NEW: (Come to think of it, today's the rumored wedding ceremony... )
+
+	Textblock 0019:
+		OLD: 行ってみようかなあ？
+		NEW: Go and take a look?
+
+
+
+Block 0024:
+
+	Textblock 0000:
+		OLD: あらぁ、あたしに何か用かしら？
+		NEW: Ohh, what is it?
+
+	Textblock 0001:
+		OLD: え、お店の人かなあって思って…。
+		NEW: Eh, I was just wondering if you work here...
+
+	Textblock 0002:
+		OLD: うふふ、そうね。お店の人と言われるとそうかも知れないけど…。私はロマージュ。見ての通りの踊り子よ。
+		NEW: Hehe, that's right. I suppose you can put it that way. I'm Romauge, and as you can see, I'm a dancer.
+
+	Textblock 0003:
+		OLD: ５日に１回、ここで踊っているのよ。
+		NEW: I dance here every 5 days.
+
+	Textblock 0004:
+		OLD: ロマージュが来てくれて助かるよ。全く常連客ときたらうちの娘に手を出して仕方がなくてな。苦労しているんだ。
+		NEW: Romauge helps me out a lot. She handles the customers who are smitten with my daughtor. I trouble her too much.
+
+	Textblock 0005:
+		OLD: 踊り子のロマージュさんが来てから、このお店も以前より繁盛するようになってうれしいわ。
+		NEW: Ever since Romauge- the dancer, came; I'm happy that this has become a more bustling place.
+
+
+
+Block 0025:
+
+	Textblock 0000:
+		OLD: ねえ、あなたどうして錬金術士になろうとしているの？
+		NEW: Say, why did you become an alchemist?
+
+	Textblock 0001:
+		OLD: え、ええとね…。
+		NEW: Uh, -well, that is because....
+
+	Textblock 0002:
+		OLD: 私、以前病気で倒れていたところを通りすがりの錬金術士に助けてもらって…。だから…。
+		NEW: There was a time when I fell gravely ill. An alchemist who passed by saved me... \nAnd so...
+
+	Textblock 0003:
+		OLD: ふふ～ん、なるほどね。あたし、そういう前向きな姿勢は好きよ。
+		NEW: Hmmm, I see. I like your positive attitude.
+
+	Textblock 0004:
+		OLD: エヘヘ…。そういうロマージュさんはどうして踊り子やってるの？
+		NEW: Hehe... So why did you become a dancer?
+
+	Textblock 0005:
+		OLD: …それは、ヒミツ。また今度気が向いたら教えてあげるわ。
+		NEW: Well, ...that's a secret. I'll tell you next time if I feel like it.
+
+	Textblock 0006:
+		OLD: なんとなくねえ。あたしもなんとなく踊り子をやってるようなものだからおあいこだわね。
+		NEW: You just did so? I too, became a dancer because I simply felt like it. I guess that makes us even.
+
+	Textblock 0007:
+		OLD: あらそう。でも秘密の一つ二つくらいないと面白くないわよねえ。
+		NEW: I see. But it's no fun without keeping a secret or two.
+
+	Textblock 0008:
+		OLD: エヘヘ…。そういうロマージュさんはどうして踊り子やってるの？
+		NEW: Hehe... So why did you become a dancer?
+
+	Textblock 0009:
+		OLD: うふふ。当然、ヒミツよ。
+		NEW: Why, that's a secret, of course.
+
+
+
+Block 0026:
+
+	Textblock 0000:
+		OLD: ねえ、そういえば以前、あなたを助けてくれたっていう錬金術士の話が出たわよね。
+		NEW: Hey, you mentioned something about an alchemist saving you, right?
+
+	Textblock 0001:
+		OLD: あたしね、もしかしたらその人見たかも知れない…。
+		NEW: Maybe I've seen that person before.
+
+	Textblock 0002:
+		OLD: ええっ、ホントですか！？
+		NEW: Ehhhhh, really!?!?
+
+	Textblock 0003:
+		OLD: ザールブルグから西へずっと行って、海まで出るとカスターニェっていう港街があるの。そこでそれらしい人を見たわ。
+		NEW: Far to the west of Salburg, on the coast is a port city called Kastaneh. I've seen someone like that there.
+
+	Textblock 0004:
+		OLD: カスターニェ……。
+		NEW: Kastaneh......
+
+	Textblock 0005:
+		OLD: カスターニェへは毎日荷馬車が出ているわ。歩いていっても行けるけど、馬車に乗せてもらった方が楽だし早いわ。
+		NEW: You can take the cart, or walk if you want. The cart is quicker and more fun.
+
+	Textblock 0006:
+		OLD: …乗るたびに銀貨が１００枚必要だけどね。でも銀貨１００枚なら安いものだわねえ。
+		NEW: ...Though it costs 100 sivers to ride, it's still considerably cheap.
+
+	Textblock 0007:
+		OLD: …………。
+		NEW: .........................
+
+
+
+Block 0027:
+
+	Textblock 0000:
+		OLD: （ちょっと君、君は錬金術士だろう？君に頼みたいことがあるんだ）
+		NEW: (Hey you, you're an alchemist? I have a request to ask of you)
+
+	Textblock 0001:
+		OLD: は、はあ。
+		NEW: Uh, yes?
+
+	Textblock 0002:
+		OLD: （実は僕、ある人が好きなんだ。でもその人は僕の方を向いてくれないんだ）
+		NEW: (Truth is, there's somebody I like who doesn't feel the same way)
+
+	Textblock 0003:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0004:
+		OLD: （そこで強引だけど君に惚れ薬を作ってもらいたいんだよ。相手が誰でもうまくいくくらい強力なのを。どうかな？）
+		NEW: (I know I'm being forceful, but I want you to make me a love potion- a potent one. How's that?)
+
+	Textblock 0005:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0006:
+		OLD: （ありがとう。でも僕はここからは動けないから、薬が出来たらここまで来てくれないかな。いつでもいいからさ）
+		NEW: (Thanks. I can't leave right now, so bring the potion here whenever you're done)
+
+	Textblock 0007:
+		OLD: （そうか…残念だよ。あ、今話したことは全部ヒミツだからね。決して言ってはならないよ。特にエンデルク様には…）
+		NEW: (Oh... That's too bad... Ah, please keep our conversation a secret, especially from Sir Enderk)
+
+	Textblock 0008:
+		OLD: 『君しか見えない』を渡しました。
+		NEW: Lost "Only You I See".
+
+	Textblock 0009:
+		OLD: （ありがとう！これは少ないけどお礼だよ）
+		NEW: (Thank you! This isn't much but please take it)
+
+
+
+Block 0028:
+
+	Textblock 0000:
+		OLD: （ちょっと君、君は錬金術士だろう？君に頼みたいことがあるんだ）
+		NEW: (Hey you, you're an alchemist? I have a request to ask of you)
+
+	Textblock 0001:
+		OLD: は、はあ。
+		NEW: Uh, yes?
+
+	Textblock 0002:
+		OLD: （実は僕、ある人が好きなんだ。でもその人は僕の方を向いてくれないんだ）
+		NEW: (Truth is, there's somebody I like who doesn't feel the same way)
+
+	Textblock 0003:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0004:
+		OLD: （そこで強引だけど君に惚れ薬を作ってもらいたいんだよ。相手が誰でもうまくいくくらい強力なのを。どうかな？）
+		NEW: (I know I'm being forceful, but I want you to make me a love potion- a potent one. How's that?)
+
+	Textblock 0005:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0006:
+		OLD: （ありがとう。でも僕はここからは動けないから、薬が出来たらここまで来てくれないかな。いつでもいいからさ）
+		NEW: (Thanks. I can't leave right now, so bring the potion here whenever you're done)
+
+	Textblock 0007:
+		OLD: （そうか…残念だよ。あ、今話したことは全部ヒミツだからね。決して言ってはならないよ。特にエンデルク様には…）
+		NEW: (Oh... That's too bad... Ah, please keep our conversation a secret, especially from Sir Enderk)
+
+	Textblock 0008:
+		OLD: 『君しか見えない』を渡しました。
+		NEW: Lost "Only You I See".
+
+	Textblock 0009:
+		OLD: （ありがとう！これは少ないけどお礼だよ）
+		NEW: (Thank you! This isn't much but please take it)
+
+
+
+Block 0029:
+
+	Textblock 0000:
+		OLD: （ちょっと君、君は錬金術士だろう？君に頼みたいことがあるんだ）
+		NEW: (Hey you, you're an alchemist? I have a request to ask of you)
+
+	Textblock 0001:
+		OLD: は、はあ。
+		NEW: Uh, yes?
+
+	Textblock 0002:
+		OLD: （実は僕、ある人が好きなんだ。でもその人は僕の方を向いてくれないんだ）
+		NEW: (Truth is, there's somebody I like who doesn't feel the same way)
+
+	Textblock 0003:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0004:
+		OLD: （そこで強引だけど君に惚れ薬を作ってもらいたいんだよ。相手が誰でもうまくいくくらい強力なのを。どうかな？）
+		NEW: (I know I'm being forceful, but I want you to make me a love potion- a potent one. How's that?)
+
+	Textblock 0005:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0006:
+		OLD: （ありがとう。でも僕はここからは動けないから、薬が出来たらここまで来てくれないかな。いつでもいいからさ）
+		NEW: (Thanks. I can't leave right now, so bring the potion here whenever you're done)
+
+	Textblock 0007:
+		OLD: （そうか…残念だよ。あ、今話したことは全部ヒミツだからね。決して言ってはならないよ。特にエンデルク様には…）
+		NEW: (Oh... That's too bad... Ah, please keep our conversation a secret, especially from Sir Enderk)
+
+	Textblock 0008:
+		OLD: 『君しか見えない』を渡しました。
+		NEW: Lost "Only You I See".
+
+	Textblock 0009:
+		OLD: （ありがとう！これは少ないけどお礼だよ）
+		NEW: (Thank you! This isn't much but please take it)
+
+
+
+Block 0030:
+
+	Textblock 0000:
+		OLD: （ああ、君か。薬はよく効いてるよ。といっても、僕が使う前に飼ってるネコに飲まれちゃってね）
+		NEW: (Ah, it's you. The potion was effective- that is, I meant my cat drunk it before I could use it)
+
+	Textblock 0001:
+		OLD: （今僕はネコにベタ惚れされているんだ…。悪いことは出来ないってことかな）
+		NEW: (Now I'm loved by the cat... Perhaps this is saying I shouldn't do bad things...)
+
+
+
+Block 0031:
+
+	Textblock 0000:
+		OLD: こんにちは。お祈りですか？
+		NEW: Good afternoon. Are you here to pray?
+
+	Textblock 0001:
+		OLD: ええと…、あなたはシスターさん？
+		NEW: Um... You're a sister here?
+
+	Textblock 0002:
+		OLD: はい。ミルカッセといいます。この教会に住んでいるんですよ。
+		NEW: Yes, my name's Millcassee and I live in this church.
+
+	Textblock 0003:
+		OLD: え、そうなんですか？…それじゃときどき来てもいいですか？
+		NEW: Eh, is that so? Then is it alright if I come here occasionally ?
+
+	Textblock 0004:
+		OLD: ええ、もちろん。是非来て下さい。ときどきと言わず、毎日でもいいですよ。
+		NEW: Certainly, please do. You may even come here everyday, if you wish to do so.
+
+	Textblock 0005:
+		OLD: でも…、何のおもてなしも出来ませんけど…。
+		NEW: ...Although there isn't much I can entertain you with...
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+
+
+Block 0032:
+
+	Textblock 0000:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0001:
+		OLD: …いきなり変なこと聞きますけど…、エルフィールさんは今、楽しいですか？
+		NEW: ...This is an odd question out of the blue, but Miss Elfir... are you happy?
+
+	Textblock 0002:
+		OLD: ？？？
+		NEW: ??????????
+
+	Textblock 0003:
+		OLD: 今の生活が楽しいですか？
+		NEW: Are you leading a happy life right now?
+
+	Textblock 0004:
+		OLD: え、ええとね…。
+		NEW: Uh, well....
+
+	Textblock 0005:
+		OLD: そう…。私はあまり楽しくないんです。エルフィールさんや他の人を見ているとうらやましい…。
+		NEW: I see... I'm not so happy... When I see you or other people, I become envious.
+
+	Textblock 0006:
+		OLD: 私、この教会から外にほとんど出たことがなくて…。いつもお祈りとか病人の看病とかばかりで、一日が終わるんです。
+		NEW: I rarely ever go out. All I do is stay in this church to pray and look after patients, and so the day ends.
+
+	Textblock 0007:
+		OLD: お祈りも看病も嫌いではないんですけど毎日ずっと同じことをしているから…。
+		NEW: I do not hate praying nor nursing, but repeating the same chores everyday is...
+
+	Textblock 0008:
+		OLD: …じゃあ、外に行こうよ！外に出たことがないなんて変だよ！
+		NEW: Well then, let's go out! It's strange to be cloistered like that!
+
+	Textblock 0009:
+		OLD: そうですよね…。￥きっと私は外に出ることが怖いんです。
+		NEW: That's true... Yet I feel frightened by the thought of venturing outside.
+
+	Textblock 0010:
+		OLD: 心の中では外に出てみたいと思っているのにどうしても後込みしてしまう…。
+		NEW: Deep inside my heart , I want to see the world outside, yet I end up recoiling.
+
+	Textblock 0011:
+		OLD: ……はぁぁ、ダメね、私…。￥あ、ごめんなさい。愚痴になってしまいましたね。
+		NEW: ...I'm so useless... \nAh, I'm sorry for grumbling so.
+
+	Textblock 0012:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0013:
+		OLD: まあまあ…。そうなんですか…、何だかホッとしたようなガッカリしたような気分…。
+		NEW: So-so...? I see.. For some reason I feel relieved disappointment...
+
+	Textblock 0014:
+		OLD: ？？？
+		NEW: ?????????
+
+	Textblock 0015:
+		OLD: でも…。まあまあでも、私はエルフィールさんや他の人を見ているとうらやましい…。
+		NEW: Even so... When I see you or other people, I become envious.
+
+	Textblock 0016:
+		OLD: 私、この教会から外にほとんど出たことがなくて…。いつもお祈りとか病人の看病とかばかりで、一日が終わるんです。
+		NEW: I rarely ever go out. All I do is stay in this church to pray and look after patients, and so the day ends.
+
+	Textblock 0017:
+		OLD: お祈りも看病も嫌いではないんですけど毎日ずっと同じことをしているから…。
+		NEW: I do not hate praying nor nursing, but repeating the same chores everyday is...
+
+	Textblock 0018:
+		OLD: …じゃあ、外に行こうよ！外に出たことがないなんて変だよ！
+		NEW: Well then, let's go out! It's strange to be cloistered like that!
+
+	Textblock 0019:
+		OLD: そうですよね…。￥きっと私は外に出ることが怖いんです。
+		NEW: That's true... Yet I feel frightened by the thought of venturing outside.
+
+	Textblock 0020:
+		OLD: 心の中では外に出てみたいと思っているのにどうしても後込みしてしまう…。
+		NEW: Deep inside my heart , I want to see the world outside, yet I end up recoiling.
+
+	Textblock 0021:
+		OLD: ……はぁぁ、ダメね、私…。￥あ、ごめんなさい。愚痴になってしまいましたね。
+		NEW: ...I'm so useless... \nAh, I'm sorry for grumbling so.
+
+	Textblock 0022:
+		OLD: …………。
+		NEW: .........................
+
+
+
+Block 0033:
+
+	Textblock 0000:
+		OLD: （……あれ？）
+		NEW: (Huh...?)
+
+	Textblock 0001:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0002:
+		OLD: （…あんまり見かけない人だなあ…）
+		NEW: (I haven't seen this person around... )
+
+
+
+Block 0034:
+
+	Textblock 0000:
+		OLD: （ふぅ……。困ったわねえ…）
+		NEW: (Ah, this is troubling... )
+
+	Textblock 0001:
+		OLD: どうしたんですか、先生？
+		NEW: What's wrong, Miss Ingrid?
+
+	Textblock 0002:
+		OLD: あら、エルフィール…。実はね、こんなものをもらってしまったのよ…。
+		NEW: Oh, Elfir... Truth is, I received this...
+
+	Textblock 0003:
+		OLD: ええと…『果たし状』…。果たし状！？
+		NEW: Let's see... "Letter of Challenge"... A challenge letter!?
+
+	Textblock 0004:
+		OLD: 以前、私と同期でヘルミーナという女性がいたの。何かにつけ私をライバル視していたのよ。
+		NEW: There's a woman called Hermina, who was in my year level. For some reason she viewed me as her rival.
+
+	Textblock 0005:
+		OLD: しばらく旅に出ていたのですが、あなたが入学する頃にふらっと戻ってきて。先日呼び出されたと思ったら、これよ…。
+		NEW: She was out travelling and came back around the time you enrolled. She called me out and gave me this...
+
+	Textblock 0006:
+		OLD: はあ…。
+		NEW: ...Yes....
+
+	Textblock 0007:
+		OLD: どうも私はあの女が苦手なのよ。そう、例えるならヘビみたいな人ね。あんな人の講義を受ける生徒もかわいそうだわ。
+		NEW: I cannot handle that woman who is so like a snake. I pity her students.
+
+	Textblock 0008:
+		OLD: （先生だったのか…）
+		NEW: (So she's s teacher... )
+
+	Textblock 0009:
+		OLD: あなたも、あの人には近づかないようにした方がいいわ。近づいて、何されても私は知りませんからね。
+		NEW: You too, stay away from her. I don't know what she would do to you if you go near her.
+
+	Textblock 0010:
+		OLD: はあ…。
+		NEW: Yes.......
+
+
+
+Block 0035:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール、ちょっといいかしら？
+		NEW: Elfir, would you spare me a moment?
+
+	Textblock 0004:
+		OLD: は、はいいっ！！
+		NEW: Ye, -yes!!
+
+	Textblock 0005:
+		OLD: あなた、ろくに錬金術の研究もせずに街の外にばかり行っているでしょう！？
+		NEW: You've been out wandering a lot, and neglected your alchemy studies, haven't you?
+
+	Textblock 0006:
+		OLD: このままではあなた、錬金術士ではなく冒険者になってしまいますよ。自分が何になりたいのか、よく考えなさい。
+		NEW: At this rate, you won't become an alchemist but an adventurer. Think thoroughly what you want to be.
+
+	Textblock 0007:
+		OLD: はあ…。
+		NEW: ...Yes.
+
+	Textblock 0008:
+		OLD: あ、エルフィール。いいところで会ったわ。ちょうどあなたの工房へ行こうと思っていたのよ。
+		NEW: Ah, Elfir, great timing. I was just about to pay you a visit.
+
+	Textblock 0009:
+		OLD: あなた、ろくに錬金術の研究もせずに街の外にばかり行っているでしょう！？
+		NEW: You've been out wandering a lot, and neglected your alchemy studies, haven't you?
+
+	Textblock 0010:
+		OLD: このままではあなた、錬金術士ではなく冒険者になってしまいますよ。自分が何になりたいのか、よく考えなさい。
+		NEW: At this rate, you won't become an alchemist but an adventurer. Think thoroughly what you want to be.
+
+	Textblock 0011:
+		OLD: はあ…。
+		NEW: ...Yes.
+
+
+
+Block 0036:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール、ちょっといいかしら？
+		NEW: Elfir, would you spare me a moment?
+
+	Textblock 0004:
+		OLD: は、はいいっ！！
+		NEW: Ye, -yes!!
+
+	Textblock 0005:
+		OLD: あなた、ろくに錬金術の研究もせずに街の外にばかり行っているでしょう！？
+		NEW: You've been out wandering a lot, and neglected your alchemy studies, haven't you?
+
+	Textblock 0006:
+		OLD: このままではあなた、錬金術士ではなく冒険者になってしまいますよ。自分が何になりたいのか、よく考えなさい。
+		NEW: At this rate, you won't become an alchemist but an adventurer. Think thoroughly what you want to be.
+
+	Textblock 0007:
+		OLD: はあ…。
+		NEW: ...Yes.
+
+	Textblock 0008:
+		OLD: あ、エルフィール。いいところで会ったわ。ちょうどあなたの工房へ行こうと思っていたのよ。
+		NEW: Ah, Elfir, great timing. I was just about to pay you a visit.
+
+	Textblock 0009:
+		OLD: あなた、ろくに錬金術の研究もせずに街の外にばかり行っているでしょう！？
+		NEW: You've been out wandering a lot, and neglected your alchemy studies, haven't you?
+
+	Textblock 0010:
+		OLD: このままではあなた、錬金術士ではなく冒険者になってしまいますよ。自分が何になりたいのか、よく考えなさい。
+		NEW: At this rate, you won't become an alchemist but an adventurer. Think thoroughly what you want to be.
+
+	Textblock 0011:
+		OLD: はあ…。
+		NEW: ...Yes.
+
+
+
+Block 0037:
+
+	Textblock 0000:
+		OLD: ある静かな夜のこと……
+		NEW: One quiet night...
+
+	Textblock 0001:
+		OLD: 『少女よ…。錬金術士の少女よ……』
+		NEW: "Young lady... Oh, young alchemist..."
+
+	Textblock 0002:
+		OLD: 『私に力をおくれ…』
+		NEW: "Give me your power..."
+
+	Textblock 0003:
+		OLD: （うう～ん…何か声が聞こえる…）
+		NEW: (Mmm...? I can hear a voice... )
+
+	Textblock 0004:
+		OLD: 『その机の上にある薬を私におくれ…』
+		NEW: "Give me that which is upon your desk..."
+
+	Textblock 0005:
+		OLD: （机の上……。植物用栄養剤のことかなあ…）
+		NEW: (On the desk... The Fertilizer...?)
+
+	Textblock 0006:
+		OLD: 『そうだ…。その薬を、私におくれ…』
+		NEW: "Yes... That medicine...give me..."
+
+	Textblock 0007:
+		OLD: （どうしようかなあ？）
+		NEW: (What should I do?)
+
+	Textblock 0008:
+		OLD: 『ありがとう。この恩は忘れない…』
+		NEW: "Thank you. I will not forget your graciousness..."
+
+	Textblock 0009:
+		OLD: （昨日は変な夢見たなあ…。疲れてるのかな？）
+		NEW: (I had a strange dream last night... Was I too worn out?)
+
+	Textblock 0010:
+		OLD: 『…………』
+		NEW: "............................"
+
+	Textblock 0011:
+		OLD: （昨日は変な夢見たなあ…。疲れてるのかな？）
+		NEW: (I had a strange dream last night... Was I too worn out?)
+
+
+
+Block 0038:
+
+	Textblock 0000:
+		OLD: ある静かな夜のこと……
+		NEW: One quiet night...
+
+	Textblock 0001:
+		OLD: 『少女よ…。錬金術士の少女よ……』
+		NEW: "Young lady... Oh, young alchemist..."
+
+	Textblock 0002:
+		OLD: 『私に力をおくれ…』
+		NEW: "Give me your power..."
+
+	Textblock 0003:
+		OLD: （うう～ん…何か声が聞こえる…）
+		NEW: (Mmm...? I can hear a voice... )
+
+	Textblock 0004:
+		OLD: 『その机の上にある薬を私におくれ…』
+		NEW: "Give me that which is upon your desk..."
+
+	Textblock 0005:
+		OLD: （机の上……。植物用栄養剤のことかなあ…）
+		NEW: (On the desk... The Fertilizer...?)
+
+	Textblock 0006:
+		OLD: 『そうだ…。その薬を、私におくれ…』
+		NEW: "Yes... That medicine...give me..."
+
+	Textblock 0007:
+		OLD: （どうしようかなあ？）
+		NEW: (What should I do?)
+
+	Textblock 0008:
+		OLD: 『ありがとう。この恩は忘れない…』
+		NEW: "Thank you. I will not forget your graciousness..."
+
+	Textblock 0009:
+		OLD: （昨日は変な夢見たなあ…。疲れてるのかな？）
+		NEW: (I had a strange dream last night... Was I too worn out?)
+
+	Textblock 0010:
+		OLD: 『…………』
+		NEW: "............................"
+
+	Textblock 0011:
+		OLD: （昨日は変な夢見たなあ…。疲れてるのかな？）
+		NEW: (I had a strange dream last night... Was I too worn out?)
+
+
+
+Block 0039:
+
+	Textblock 0000:
+		OLD: （今月でアカデミーの生活も終わり…。あっという間だったなあ）
+		NEW: (My academy life ends today... It seemed so short)
+
+
+
+Block 0040:
+
+	Textblock 0000:
+		OLD: （今月でアカデミーの生活も終わり…。あっという間だったなあ）
+		NEW: (My academy life ends today... It seemed so short)
+
+	Textblock 0001:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0002:
+		OLD: こんにちは。…いよいよ卒業ね。￥…どう？あなたは満足のいく生活が出来たかしら？
+		NEW: Hello... We finally graduate... So, are you content with the days you've spent here?
+
+	Textblock 0003:
+		OLD: エヘヘ…、よく分かんないや。何だかここ数日の出来事みたい。
+		NEW: Hehe... I don't really know. It all seemed so short.
+
+	Textblock 0004:
+		OLD: そうね。…でも私は満足だったわ。満足のいく生活が送れたわ。
+		NEW: Yes... But I found my days here satisfying.... 
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: 卒業したらもう会えないかも知れないわね。
+		NEW: Perhaps we won't see each other again after this.
+
+	Textblock 0008:
+		OLD: そうだね…。
+		NEW: Yes, perhaps...
+
+	Textblock 0009:
+		OLD: 私は別に構わないわ。全然、気にも、してないんだから。…ジャマしたわね。
+		NEW: It's not that I particularly mind... No, not at all...\n............Goodbye.
+
+	Textblock 0010:
+		OLD: （アイゼル……）
+		NEW: (Eisel... )
+
+	Textblock 0011:
+		OLD: こんにちは、エリー。もうじき卒業式だね。
+		NEW: Hello, Elie. It's soon our graduation ceremony.
+
+	Textblock 0012:
+		OLD: そうだね。ノルディスは卒業したらどうするの？
+		NEW: Yeah. What are you going to do after you graduate?
+
+	Textblock 0013:
+		OLD: うーん、まだ卒業するかどうか分からないんだ。僕、マイスターランクに行くかも知れないから。
+		NEW: Mmm, I'm not sure whether I'll graduate yet. I'll probably enter Meister Rank.
+
+	Textblock 0014:
+		OLD: マイスターランク？何それ。
+		NEW: Meister Rank? What's that?
+
+	Textblock 0015:
+		OLD: マイスターランクっていうのは…。まあいいや、エリーもそのうち知ることになるかも知れない。
+		NEW: Meister Rank is... Nevermind, you'll probably learn of it soon.
+
+	Textblock 0016:
+		OLD: ちぇー、ケチだなあ。…そうかあ、ノルディスは卒業しないかも知れないんだ。私はどうなるのかなあ…。
+		NEW: Pfft, meanie... So maybe you're not graduating just yet, huh? I don't know what's going to become of me...
+
+	Textblock 0017:
+		OLD: まあ泣いても笑っても、もうじき結論は出る。今悩んだって仕方がないよ。
+		NEW: Laugh or cry, you'll soon find out. There's no use worrying about it now.
+
+	Textblock 0018:
+		OLD: そうか…。そうだね。
+		NEW: Yeah...
+
+
+
+Block 0041:
+
+	Textblock 0000:
+		OLD: （今月でアカデミーの生活も終わり…。あっという間だったなあ）
+		NEW: (My academy life ends today... It seemed so short)
+
+	Textblock 0001:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0002:
+		OLD: こんにちは。…いよいよ卒業ね。￥…どう？あなたは満足のいく生活が出来たかしら？
+		NEW: Hello... We finally graduate... So, are you content with the days you've spent here?
+
+	Textblock 0003:
+		OLD: エヘヘ…、よく分かんないや。何だかここ数日の出来事みたい。
+		NEW: Hehe... I don't really know. It all seemed so short.
+
+	Textblock 0004:
+		OLD: そうね。…でも私は満足だったわ。満足のいく生活が送れたわ。
+		NEW: Yes... But I found my days here satisfying.... 
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: 卒業したらもう会えないかも知れないわね。
+		NEW: Perhaps we won't see each other again after this.
+
+	Textblock 0008:
+		OLD: そうだね…。
+		NEW: Yes, perhaps...
+
+	Textblock 0009:
+		OLD: 私は別に構わないわ。全然、気にも、してないんだから。…ジャマしたわね。
+		NEW: It's not that I particularly mind... No, not at all...\n............Goodbye.
+
+	Textblock 0010:
+		OLD: （アイゼル……）
+		NEW: (Eisel... )
+
+	Textblock 0011:
+		OLD: こんにちは、エリー。もうじき卒業式だね。
+		NEW: Hello, Elie. It's soon our graduation ceremony.
+
+	Textblock 0012:
+		OLD: そうだね。ノルディスは卒業したらどうするの？
+		NEW: Yeah. What are you going to do after you graduate?
+
+	Textblock 0013:
+		OLD: うーん、まだ卒業するかどうか分からないんだ。僕、マイスターランクに行くかも知れないから。
+		NEW: Mmm, I'm not sure whether I'll graduate yet. I'll probably enter Meister Rank.
+
+	Textblock 0014:
+		OLD: マイスターランク？何それ。
+		NEW: Meister Rank? What's that?
+
+	Textblock 0015:
+		OLD: マイスターランクっていうのは…。まあいいや、エリーもそのうち知ることになるかも知れない。
+		NEW: Meister Rank is... Nevermind, you'll probably learn of it soon.
+
+	Textblock 0016:
+		OLD: ちぇー、ケチだなあ。…そうかあ、ノルディスは卒業しないかも知れないんだ。私はどうなるのかなあ…。
+		NEW: Pfft, meanie... So maybe you're not graduating just yet, huh? I don't know what's going to become of me...
+
+	Textblock 0017:
+		OLD: まあ泣いても笑っても、もうじき結論は出る。今悩んだって仕方がないよ。
+		NEW: Laugh or cry, you'll soon find out. There's no use worrying about it now.
+
+	Textblock 0018:
+		OLD: そうか…。そうだね。
+		NEW: Yeah... 
+
+
+
+Block 0042:
+
+	Textblock 0000:
+		OLD: （今月でアカデミーの生活も終わり…。あっという間だったなあ）
+		NEW: (My academy life ends today... It seemed so short)
+
+	Textblock 0001:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0002:
+		OLD: こんにちは。…いよいよ卒業ね。￥…どう？あなたは満足のいく生活が出来たかしら？
+		NEW: Hello... We finally graduate... So, are you content with the days you've spent here?
+
+	Textblock 0003:
+		OLD: エヘヘ…、よく分かんないや。何だかここ数日の出来事みたい。
+		NEW: Hehe... I don't really know. It all seemed so short.
+
+	Textblock 0004:
+		OLD: そうね。…でも私は満足だったわ。満足のいく生活が送れたわ。
+		NEW: Yes... But I found my days here satisfying.... 
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: 卒業したらもう会えないかも知れないわね。
+		NEW: Perhaps we won't see each other again after this.
+
+	Textblock 0008:
+		OLD: そうだね…。
+		NEW: Yes, perhaps...
+
+	Textblock 0009:
+		OLD: 私は別に構わないわ。全然、気にも、してないんだから。…ジャマしたわね。
+		NEW: It's not that I particularly mind... No, not at all...\n............Goodbye.
+
+	Textblock 0010:
+		OLD: （アイゼル……）
+		NEW: (Eisel... )
+
+	Textblock 0011:
+		OLD: こんにちは、エリー。もうじき卒業式だね。
+		NEW: Hello, Elie. It's soon our graduation ceremony.
+
+	Textblock 0012:
+		OLD: そうだね。ノルディスは卒業したらどうするの？
+		NEW: Yeah. What are you going to do after you graduate?
+
+	Textblock 0013:
+		OLD: うーん、まだ卒業するかどうか分からないんだ。僕、マイスターランクに行くかも知れないから。
+		NEW: Mmm, I'm not sure whether I'll graduate yet. I'll probably enter Meister Rank.
+
+	Textblock 0014:
+		OLD: マイスターランク？何それ。
+		NEW: Meister Rank? What's that?
+
+	Textblock 0015:
+		OLD: マイスターランクっていうのは…。まあいいや、エリーもそのうち知ることになるかも知れない。
+		NEW: Meister Rank is... Nevermind, you'll probably learn of it soon.
+
+	Textblock 0016:
+		OLD: ちぇー、ケチだなあ。…そうかあ、ノルディスは卒業しないかも知れないんだ。私はどうなるのかなあ…。
+		NEW: Pfft, meanie... So maybe you're not graduating just yet, huh? I don't know what's going to become of me...
+
+	Textblock 0017:
+		OLD: まあ泣いても笑っても、もうじき結論は出る。今悩んだって仕方がないよ。
+		NEW: Laugh or cry, you'll soon find out. There's no use worrying about it now.
+
+	Textblock 0018:
+		OLD: そうか…。そうだね。
+		NEW: Yeah...
+
+
+
+Block 0043:
+
+	Textblock 0000:
+		OLD: （今月でアカデミーの生活も終わり…。あっという間だったなあ）
+		NEW: (My academy life ends today... It seemed so short)
+
+	Textblock 0001:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0002:
+		OLD: こんにちは。…いよいよ卒業ね。￥…どう？あなたは満足のいく生活が出来たかしら？
+		NEW: Hello... We finally graduate... So, are you content with the days you've spent here?
+
+	Textblock 0003:
+		OLD: エヘヘ…、よく分かんないや。何だかここ数日の出来事みたい。
+		NEW: Hehe... I don't really know. It all seemed so short.
+
+	Textblock 0004:
+		OLD: そうね。…でも私は満足だったわ。満足のいく生活が送れたわ。
+		NEW: Yes... But I found my days here satisfying.... 
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: 卒業したらもう会えないかも知れないわね。
+		NEW: Perhaps we won't see each other again after this.
+
+	Textblock 0008:
+		OLD: そうだね…。
+		NEW: Yes, perhaps...
+
+	Textblock 0009:
+		OLD: 私は別に構わないわ。全然、気にも、してないんだから。…ジャマしたわね。
+		NEW: It's not that I particularly mind... No, not at all...\n............Goodbye.
+
+	Textblock 0010:
+		OLD: （アイゼル……）
+		NEW: (Eisel... )
+
+	Textblock 0011:
+		OLD: こんにちは、エリー。もうじき卒業式だね。
+		NEW: Hello, Elie. It's soon our graduation ceremony.
+
+	Textblock 0012:
+		OLD: そうだね。ノルディスは卒業したらどうするの？
+		NEW: Yeah. What are you going to do after you graduate?
+
+	Textblock 0013:
+		OLD: うーん、まだ卒業するかどうか分からないんだ。僕、マイスターランクに行くかも知れないから。
+		NEW: Mmm, I'm not sure whether I'll graduate yet. I'll probably enter Meister Rank.
+
+	Textblock 0014:
+		OLD: マイスターランク？何それ。
+		NEW: Meister Rank? What's that?
+
+	Textblock 0015:
+		OLD: マイスターランクっていうのは…。まあいいや、エリーもそのうち知ることになるかも知れない。
+		NEW: Meister Rank is... Nevermind, you'll probably learn of it soon.
+
+	Textblock 0016:
+		OLD: ちぇー、ケチだなあ。…そうかあ、ノルディスは卒業しないかも知れないんだ。私はどうなるのかなあ…。
+		NEW: Pfft, meanie... So maybe you're not graduating just yet, huh? I don't know what's going to become of me...
+
+	Textblock 0017:
+		OLD: まあ泣いても笑っても、もうじき結論は出る。今悩んだって仕方がないよ。
+		NEW: Laugh or cry, you'll soon find out. There's no use worrying about it now.
+
+	Textblock 0018:
+		OLD: そうか…。そうだね。
+		NEW: Yeah... 
+
+
+
+Block 0044:
+
+	Textblock 0000:
+		OLD: （そうだ、今日はイングリド先生に呼ばれてるんだった）
+		NEW: (Miss Ingrid called me over today... )
+
+	Textblock 0001:
+		OLD: 来たわね、エルフィール。…なぜあなたがここに呼ばれたか、分かりますか？
+		NEW: You've come, Elfir... Do you know why I asked you to come?
+
+	Textblock 0002:
+		OLD: ええと…、分かりません。
+		NEW: Um.... No, I don't.
+
+	Textblock 0003:
+		OLD: でしょうね。分かっていたらこんなことにはなっていないでしょうから。
+		NEW: I figured. If you had known, you wouldn't be in this situation.
+
+	Textblock 0004:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0005:
+		OLD: エルフィール。あなたはこのままでは卒業出来ないと判断されました。
+		NEW: Elfir, you cannot graduate at this rate.
+
+	Textblock 0006:
+		OLD: えええっ、そんなあ～。
+		NEW: Whaaat......
+
+	Textblock 0007:
+		OLD: あなたには２つの選択肢があります。１つは卒業出来るように１年間留年して頑張ること。
+		NEW: You have two options. The first is to stay and repeat a year, performing your best.
+
+	Textblock 0008:
+		OLD: …そしてもう一つは、アカデミーをやめて家に帰ることです。
+		NEW: ... And the other is to discontinue and go home.
+
+	Textblock 0009:
+		OLD: さあエルフィール。どちらにしますか？お決めなさい。
+		NEW: Well then, which do you choose?
+
+	Textblock 0010:
+		OLD: …そう、頑張るのね？￥いいですか、入学試験の後の気持ちを決して忘れてはダメよ。
+		NEW: You'll try hard, then? That is well. Although please don't forget the passion that you had.
+
+	Textblock 0011:
+		OLD: やる気さえあれば、大抵のことは出来るのですからね。１年頑張れば、また道は開けるのですから。
+		NEW: If you're motivated, you'll be able to achieve. The path is still open, so try your best.
+
+	Textblock 0012:
+		OLD: えっ…、それは本気で言っているの？
+		NEW: Eh... Do you seriously mean it?
+
+	Textblock 0013:
+		OLD: …もう、おどかさないでちょうだい。冗談が過ぎるわ。
+		NEW: ...Please don't make jokes like that. That was inappropriate.
+
+	Textblock 0014:
+		OLD: …そう、頑張るのね？￥いいですか、入学試験の後の気持ちを決して忘れてはダメよ。
+		NEW: You'll try hard, then? That is well. Although please don't forget the passion that you had.
+
+	Textblock 0015:
+		OLD: やる気さえあれば、大抵のことは出来るのですからね。１年頑張れば、また道は開けるのですから。
+		NEW: If you're motivated, you'll be able to achieve. The path is still open, so try your best.
+
+	Textblock 0016:
+		OLD: そう…。どうやらあなたはどこかにあの入学試験の後の気持ちを忘れてきてしまったようね…。
+		NEW: I see... It seems you lost the devotion that you used to have.
+
+	Textblock 0017:
+		OLD: どうして自分がアカデミーに入ろうと思ったのか、どうして錬金術士になろうと思ったのか…。
+		NEW: For what you you entered the Academy, why you wanted to become an alchemist...
+
+	Textblock 0018:
+		OLD: 私はね、あのときのあなたにはもっと大きな物を感じていました。今はまだ小さいけれど、きっと大きくなる何かをね。
+		NEW: I had sensed something great in you. It's small, but it could become big.
+
+	Textblock 0019:
+		OLD: でもあなたの意志がこんなに小さいものだとは思っていませんでしたよ。とても残念です。
+		NEW: But I did not think that your will was this weak. Really, it's too bad.
+
+	Textblock 0020:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0021:
+		OLD: …もうお行きなさい。
+		NEW: ...You may take your leave.
+
+
+
+Block 0045:
+
+	Textblock 0000:
+		OLD: （そうだ、今日はイングリド先生に呼ばれてるんだった）
+		NEW: (Miss Ingrid called me over today... )
+
+	Textblock 0001:
+		OLD: 来たわね、エルフィール。…なぜあなたがここに呼ばれたか、分かりますか？
+		NEW: You've come, Elfir... Do you know why I asked you to come?
+
+	Textblock 0002:
+		OLD: ええと…、分かりません。
+		NEW: Um.... No, I don't.
+
+	Textblock 0003:
+		OLD: でしょうね。分かっていたらこんなことにはなっていないでしょうから。
+		NEW: I figured. If you had known, you wouldn't be in this situation.
+
+	Textblock 0004:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0005:
+		OLD: エルフィール。あなたはこのままでは卒業出来ないと判断されました。
+		NEW: Elfir, you cannot graduate at this rate.
+
+	Textblock 0006:
+		OLD: えええっ、そんなあ～。
+		NEW: Whaaat......
+
+	Textblock 0007:
+		OLD: …あなたの成績では普通に留年しただけでは到底卒業は出来ません。
+		NEW: ...You're grades are mediocre and you cannot possibly graduate with that.
+
+	Textblock 0008:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0009:
+		OLD: しかしあなたには２つの選択肢があります。一つは卒業するための特別試験を受けること。
+		NEW: But you have two options. The first is to take a special assessment.
+
+	Textblock 0010:
+		OLD: …そしてもう一つは、アカデミーをやめて家に帰ることです。
+		NEW: ... And the other is to discontinue and go home.
+
+	Textblock 0011:
+		OLD: さあエルフィール。どちらにしますか？お決めなさい。
+		NEW: Well then, which do you choose?
+
+	Textblock 0012:
+		OLD: では、あなたには、アカデミー創立以来たった１回だけおこなわれた特別試験を受けてもらいます。
+		NEW: You will take a special assessment that's only been taken once since the establishment of this academy.
+
+	Textblock 0013:
+		OLD: これから５年間で何でもいいからあなたの力だけで作った作品を持っていらっしゃい。その作品で結果を判断します。
+		NEW: 5 years from now, craft an item- whatever it may be. Your outcome will be decided by that item.
+
+	Textblock 0014:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0015:
+		OLD: いいですか、あなたはこの試験を受けるということを恥と思いなさい。
+		NEW: Do you understand? Please be ashamed that you are taking this assessment.
+
+	Textblock 0016:
+		OLD: ５年ですからね。入学しなおすより長い期間なのですからね。それだけ、あなたの成績が悪いのです。
+		NEW: 5 years is a long duration... Longer than you have been here. Your grades were too poor.
+
+	Textblock 0017:
+		OLD: ５年後、あなたが持ってきたものが評価に値する物なら卒業を認めます。でも、もしつまらない物を持ってきたときは…
+		NEW: 5 years later, we will evaluate that item and decide whether you are worthy of graduating.
+
+	Textblock 0018:
+		OLD: ……分かっているわね？
+		NEW: If you bring us an uninteresting item... you know the outcome?
+
+	Textblock 0019:
+		OLD: は、はいいっ！！
+		NEW: Ye, -yes!
+
+	Textblock 0020:
+		OLD: えっ…、それは本気で言っているの？
+		NEW: Eh... Do you seriously mean it?
+
+	Textblock 0021:
+		OLD: …もう、おどかさないでちょうだい。冗談が過ぎるわ。
+		NEW: ...Please don't make jokes like that. That was inappropriate.
+
+	Textblock 0022:
+		OLD: では、あなたには、アカデミー創立以来たった１回だけおこなわれた特別試験を受けてもらいます。
+		NEW: You will take a special assessment that's only been taken once since the establishment of this academy.
+
+	Textblock 0023:
+		OLD: これから５年間で何でもいいからあなたの力だけで作った作品を持っていらっしゃい。その作品で結果を判断します。
+		NEW: 5 years from now, craft an item- whatever it may be. Your outcome will be decided by that item.
+
+	Textblock 0024:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0025:
+		OLD: いいですか、あなたはこの試験を受けるということを恥と思いなさい。
+		NEW: Do you understand? Please be ashamed that you are taking this assessment.
+
+	Textblock 0026:
+		OLD: ５年ですからね。入学しなおすより長い期間なのですからね。それだけ、あなたの成績は悪いのです。
+		NEW: 5 years is a long duration... Longer than you have been here. Your grades were too poor.
+
+	Textblock 0027:
+		OLD: ５年後、あなたが持ってきたものが評価に値する物なら卒業を認めます。でも、もしつまらない物を持ってきたときは…
+		NEW: 5 years later, we will evaluate that item and decide whether you are worthy of graduating.
+
+	Textblock 0028:
+		OLD: ……分かっているわね？
+		NEW: If you bring us an uninteresting item... you know the outcome?
+
+	Textblock 0029:
+		OLD: は、はいいっ！！
+		NEW: Ye, -yes!
+
+	Textblock 0030:
+		OLD: そう…。どうやらあなたはどこかにあの入学試験の後の気持ちを忘れてきてしまったようね…。
+		NEW: I see... It seems you lost the devotion that you used to have.
+
+	Textblock 0031:
+		OLD: どうして自分がアカデミーに入ろうと思ったのか、どうして錬金術士になろうと思ったのか…。
+		NEW: For what you entered the Academy, why you wanted to become an alchemist...
+
+	Textblock 0032:
+		OLD: 私はね、あのときのあなたにはもっと大きな物を感じていました。今はまだ小さいけれど、きっと大きくなる何かをね。
+		NEW: I had sensed something great in you. It's small, but it could become big.
+
+	Textblock 0033:
+		OLD: でもあなたの意志がこんなに小さいものだとは思っていませんでしたよ。とても残念です。
+		NEW: But I did not think that your will was this weak. Really, it's too bad.
+
+	Textblock 0034:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0035:
+		OLD: …もうお行きなさい。
+		NEW: ...You may take your leave.
+
+
+
+Block 0046:
+
+	Textblock 0000:
+		OLD: （そうだ、今日はイングリド先生に呼ばれてるんだった）
+		NEW: (Miss Ingrid called me over today... )
+
+	Textblock 0001:
+		OLD: 来たわね、エルフィール。調子は良さそうね。
+		NEW: You've come, Elfir. Good timing.
+
+	Textblock 0002:
+		OLD: はあ…。
+		NEW: Yes...
+
+	Textblock 0003:
+		OLD: エルフィール。なぜここに呼ばれたか分かりますか？
+		NEW: Elfir... Do you know why I asked you to come?
+
+	Textblock 0004:
+		OLD: ええと…、分かりません。
+		NEW: Um.... No, I don't.
+
+	Textblock 0005:
+		OLD: …実はあなたの成績がアカデミーに認められ、あなたはマイスターランクへ進む資格を得たのよ。
+		NEW: Your hard work has been acknowledged by the Academy. You may enter Meister Rank.
+
+	Textblock 0006:
+		OLD: マイスターランク…？
+		NEW: Meister Rank...?
+
+	Textblock 0007:
+		OLD: より高度な研究を行う機関よ。成績のいい、一部の生徒しか行くことが出来ないの。…ノルディスも該当しているわね。
+		NEW: It is a body for higher research. Only a few have been selected. Nordis is one of them...
+
+	Textblock 0008:
+		OLD: あなたには２つの選択肢があります。一つはこのマイスターランクへ進み、さらに２年間研究を続けること。
+		NEW: You have 2 options. The first is to enter Meister Rank and further undertake your research for 2 years.
+
+	Textblock 0009:
+		OLD: …そしてもう一つは他の生徒たちと一緒にこのまま卒業することです。
+		NEW: ... And the other is to graduate now with the other students.
+
+	Textblock 0010:
+		OLD: どちらを選んでもあなたにとってマイナスにはならないわ。…さあ、エルフィール。お決めなさい。
+		NEW: Either choice isn't bad... Now, which do you choose?
+
+	Textblock 0011:
+		OLD: あなたならそう言ってくれると思っていたわ。大丈夫、今まで通りやればきっとマイスターランクでもうまくいくわ。
+		NEW: I knew you would say that. I'm sure you can handle Meister Rank fine.
+
+	Textblock 0012:
+		OLD: それで…いいのね？
+		NEW: Are you sure about that...?
+
+	Textblock 0013:
+		OLD: あなたが錬金術士になろうと思った本当の理由は私には分からないけれど、あなたの成績なら十分やっていけるわ。
+		NEW: I don't know for what you wanted to become an alchemist, but your grades have been impressive.
+
+	Textblock 0014:
+		OLD: 私としてはマイスターランクに進んでもらいたかったけれど…。仕方ないわね。
+		NEW: I had wanted you to enter Meister Rank... I suppose it can't be helped.
+
+
+
+Block 0047:
+
+	Textblock 0000:
+		OLD: （そうだ、今日はイングリド先生に呼ばれてるんだった）
+		NEW: (Miss Ingrid called me over today... )
+
+	Textblock 0001:
+		OLD: 来たわね、エルフィール。…なぜあなたがここに呼ばれたか、分かりますか？
+		NEW: You've come, Elfir... Do you know why I asked you to come?
+
+	Textblock 0002:
+		OLD: ええと…、分かりません。
+		NEW: Um.... No, I don't.
+
+	Textblock 0003:
+		OLD: でしょうね。分かっていたらこんなことにはなっていないでしょうから。
+		NEW: I figured. If you had known, you wouldn't be in this situation.
+
+	Textblock 0004:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0005:
+		OLD: エルフィール。あなたはこのままでは卒業出来ないと判断されました。
+		NEW: Elfir, you cannot graduate at this rate.
+
+	Textblock 0006:
+		OLD: えええっ、そんなあ～。
+		NEW: Whaaat......
+
+	Textblock 0007:
+		OLD: …あなたは１年留年したわけですが、この成績では普通に留年しただけでは到底卒業は出来ません。
+		NEW: You have repeated a year, yet your grades have not improved.
+
+	Textblock 0008:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0009:
+		OLD: しかしあなたには２つの選択肢があります。一つは卒業するための特別試験を受けること。
+		NEW: You have two options. The first is to take a special assessment.
+
+	Textblock 0010:
+		OLD: …そしてもう一つは、アカデミーをやめて家に帰ることです。
+		NEW: ... And the other is to discontinue and go home.
+
+	Textblock 0011:
+		OLD: さあエルフィール。どちらにしますか？お決めなさい。
+		NEW: Well then, which do you choose?
+
+	Textblock 0012:
+		OLD: では、あなたには、アカデミー創立以来たった１回だけおこなわれた特別試験を受けてもらいます。
+		NEW: You will take a special assessment that's only been taken once since the establishment of this academy.
+
+	Textblock 0013:
+		OLD: これから４年間で何でもいいからあなたの力だけで作った作品を持っていらっしゃい。その作品で結果を判断します。
+		NEW: 4 years from now, craft an item- whatever it may be. Your outcome will be decided by that item.
+
+	Textblock 0014:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0015:
+		OLD: いいですか、あなたはこの試験を受けるということを恥と思いなさい。
+		NEW: Do you understand? Please be ashamed that you are taking this assessment.
+
+	Textblock 0016:
+		OLD: ４年ですからね。一から入学するのと同じなのですからね。それだけ、あなたの成績は悪いのです。
+		NEW: 4 years is a long duration- it's as long as you have been here. Your grades were too poor.
+
+	Textblock 0017:
+		OLD: ４年後、あなたが持ってきたものが評価に値する物なら卒業を認めます。でも、もしつまらない物を持ってきたときは…
+		NEW: 4 years later, we will evaluate that item and decide whether you are worthy of graduating.
+
+	Textblock 0018:
+		OLD: ……分かっているわね？
+		NEW: If you bring us an uninteresting item... you know the outcome?
+
+	Textblock 0019:
+		OLD: は、はいいっ！！
+		NEW: Ye, -yes!
+
+	Textblock 0020:
+		OLD: えっ…、それは本気で言っているの？
+		NEW: Eh... Do you seriously mean it?
+
+	Textblock 0021:
+		OLD: …もう、おどかさないでちょうだい。冗談が過ぎるわ。
+		NEW: ...Please don't make jokes like that. That was inappropriate.
+
+	Textblock 0022:
+		OLD: では、あなたには、アカデミー創立以来たった１回だけおこなわれた特別試験を受けてもらいます。
+		NEW: You will take a special assessment that's only been taken once since the establishment of this academy.
+
+	Textblock 0023:
+		OLD: これから４年間で何でもいいからあなたの力だけで作った作品を持っていらっしゃい。その作品で結果を判断します。
+		NEW: 4 years from now, craft an item- whatever it may be. Your outcome will be decided by that item.
+
+	Textblock 0024:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0025:
+		OLD: いいですか、あなたはこの試験を受けるということを恥と思いなさい。
+		NEW: Do you understand? Please be ashamed that you are taking this assessment.
+
+	Textblock 0026:
+		OLD: ４年ですからね。一から入学するのと同じなのですからね。それだけ、あなたの成績は悪いのです。
+		NEW: 4 years is a long duration- it's as long as you have been here. Your grades were too poor.
+
+	Textblock 0027:
+		OLD: ４年後、あなたが持ってきたものが評価に値する物なら卒業を認めます。でも、もしつまらない物を持ってきたときは…
+		NEW: 4 years later, we will evaluate that item and decide whether you are worthy of graduating.
+
+	Textblock 0028:
+		OLD: ……分かっているわね？
+		NEW: If you bring us an uninteresting item... you know the outcome?
+
+	Textblock 0029:
+		OLD: は、はいいっ！！
+		NEW: Ye, -yes!
+
+	Textblock 0030:
+		OLD: そう…。どうやらあなたはどこかにあの入学試験の後の気持ちを忘れてきてしまったようね…。
+		NEW: I see... It seems you lost the devotion that you used to have.
+
+	Textblock 0031:
+		OLD: どうして自分がアカデミーに入ろうと思ったのか、どうして錬金術士になろうと思ったのか…。
+		NEW: For what you entered the Academy, why you wanted to become an alchemist...
+
+	Textblock 0032:
+		OLD: 私はね、あのときのあなたにはもっと大きな物を感じていました。今はまだ小さいけれど、きっと大きくなる何かをね。
+		NEW: I had sensed something great in you. It's small, but it could become big.
+
+	Textblock 0033:
+		OLD: でもあなたの意志がこんなに小さいものだとは思っていませんでしたよ。とても残念です。
+		NEW: But I did not think that your will was this weak. Really, it's too bad.
+
+	Textblock 0034:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0035:
+		OLD: …もうお行きなさい。
+		NEW: ...You may take your leave.
+
+
+
+Block 0048:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール。真面目に研究していましたか？
+		NEW: Elfir, have you been studying hard?
+
+	Textblock 0004:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0005:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0006:
+		OLD: …まあいいわ、バッチリ研究していたあなたにはこれをあげるわ。
+		NEW: ...No matter. I want to give you this.
+
+	Textblock 0007:
+		OLD: これは……？
+		NEW: This is...?
+
+	Textblock 0008:
+		OLD: これは図書室の暗証カードよ。アカデミーの図書室にはこのカードがないと入れないの。
+		NEW: This is your library pass card. You cannot enter the Academy library without it.
+
+	Textblock 0009:
+		OLD: あなたにはそろそろこのカードが必要な頃合いでしょう。大切に使いなさい。なくしてももうあげませんからね。
+		NEW: I figured it's time you need it. Take care of it because you won't get a replacement if you lose it.
+
+	Textblock 0010:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+	Textblock 0011:
+		OLD: エルフィール。毎日真面目に研究していますか？
+		NEW: Elfir, have you been studying hard everyday?
+
+	Textblock 0012:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0013:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0014:
+		OLD: …まあいいわ、バッチリ研究していたあなたにはこれをあげるわ。
+		NEW: ...No matter. I want to give you this.
+
+	Textblock 0015:
+		OLD: これは……？
+		NEW: This is...?
+
+	Textblock 0016:
+		OLD: これは図書室の暗証カードよ。アカデミーの図書室にはこのカードがないと入れないの。
+		NEW: This is your library pass card. You cannot enter the Academy library without it.
+
+	Textblock 0017:
+		OLD: あなたにはそろそろこのカードが必要な頃合いでしょう。大切に使いなさい。なくしてももうあげませんからね。
+		NEW: I figured it's time you need it. Take care of it because you won't get a replacement if you lose it.
+
+	Textblock 0018:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+
+
+Block 0049:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール。真面目に研究していましたか？
+		NEW: Elfir, have you been studying hard?
+
+	Textblock 0004:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0005:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0006:
+		OLD: …まあいいわ、バッチリ研究していたあなたにはこれをあげるわ。
+		NEW: ...No matter. I want to give you this.
+
+	Textblock 0007:
+		OLD: これは……？
+		NEW: This is...?
+
+	Textblock 0008:
+		OLD: これは図書室の暗証カードよ。アカデミーの図書室にはこのカードがないと入れないの。
+		NEW: This is your library pass card. You cannot enter the Academy library without it.
+
+	Textblock 0009:
+		OLD: あなたにはそろそろこのカードが必要な頃合いでしょう。大切に使いなさい。なくしてももうあげませんからね。
+		NEW: I figured it's time you need it. Take care of it because you won't get a replacement if you lose it.
+
+	Textblock 0010:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+	Textblock 0011:
+		OLD: エルフィール。毎日真面目に研究していますか？
+		NEW: Elfir, have you been studying hard everyday?
+
+	Textblock 0012:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0013:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0014:
+		OLD: …まあいいわ、バッチリ研究していたあなたにはこれをあげるわ。
+		NEW: ...No matter. I want to give you this.
+
+	Textblock 0015:
+		OLD: これは……？
+		NEW: This is...?
+
+	Textblock 0016:
+		OLD: これは図書室の暗証カードよ。アカデミーの図書室にはこのカードがないと入れないの。
+		NEW: This is your library pass card. You cannot enter the Academy library without it.
+
+	Textblock 0017:
+		OLD: あなたにはそろそろこのカードが必要な頃合いでしょう。大切に使いなさい。なくしてももうあげませんからね。
+		NEW: I figured it's time you need it. Take care of it because you won't get a replacement if you lose it.
+
+	Textblock 0018:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+
+
+Block 0050:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール。真面目に研究していましたか？
+		NEW: Elfir, have you been studying hard?
+
+	Textblock 0004:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0005:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0006:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0007:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0008:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0009:
+		OLD: そこで、あなたにブレンド調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do a blend synthesis.
+
+	Textblock 0010:
+		OLD: ブレンド調合……？
+		NEW: Blend synthesis...?
+
+	Textblock 0011:
+		OLD: 錬金術で作り出される品というのは、同じ材料を使ってもその配分が変わると見た目は同じでも能力が変わるの。
+		NEW: Using the exact same ingredients, you alter the amounts of each; thereby changing a recipe's power.
+
+	Textblock 0012:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0013:
+		OLD: 例えばあなたが爆弾を作るとします。そのとき、爆弾の威力を上げたいのなら主成分である『燃える砂』を増やすのよ。
+		NEW: For example- making a bomb with raised power, you would increase ingredient: "Burning Sand".
+
+	Textblock 0014:
+		OLD: そうすれば参考書に載っている爆弾よりも数段破壊力のあるものを作ることが出来る……かも知れないわね。
+		NEW: This would create a stronger bomb than ones cited in books... perhaps.
+
+	Textblock 0015:
+		OLD: ただ、気を付けねばならないのは威力が上がるからといってただ材料を増やせばいいというものではないということね。
+		NEW: However, increasing the amounts doesn't necessarily create a stronger item.
+
+	Textblock 0016:
+		OLD: どんなものでも、バランスというものがあるわ。『燃える砂』を入れすぎると爆弾自体が作れなくなるかも知れない。
+		NEW: Adding too much "Burning Sand" would cause the bomb to be unfunctionable.
+
+	Textblock 0017:
+		OLD: とにかく挑戦してみるのが一番早いわ。研究というのは何度も失敗して、初めてうまくいくものなのよ。
+		NEW: So, learn how to balance the ingredients and have numerous attempts.
+
+	Textblock 0018:
+		OLD: …では、引き続き頑張るように。いいわね？
+		NEW: Well then, continue with your hard work.
+
+	Textblock 0019:
+		OLD: …あ、言い忘れていたわ。ブレンド調合は危険を伴います。
+		NEW: Ah, almost forgot- there is some danger with blend syntheses.
+
+	Textblock 0020:
+		OLD: なので一度も作ったことのないものをブレンド調合するのは禁止します。まず参考書通りに作ってその後実行しなさい。
+		NEW: So it is prohibited to do blend syntheses on items you have never tried creating before.
+
+	Textblock 0021:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+	Textblock 0022:
+		OLD: エルフィール。毎日真面目に研究していますか？
+		NEW: Elfir, have you been studying hard everyday?
+
+	Textblock 0023:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0024:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0025:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0026:
+		OLD: 本当はこのあとあなたの家にいくつもりだったのだけれど。
+		NEW: Although I had originally intended to visit you later...
+
+	Textblock 0027:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0028:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0029:
+		OLD: そこで、あなたにブレンド調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do a blend synthesis.
+
+	Textblock 0030:
+		OLD: ブレンド調合……？
+		NEW: Blend synthesis...?
+
+	Textblock 0031:
+		OLD: 錬金術で作り出される品というのは、同じ材料を使ってもその配分が変わると見た目は同じでも能力が変わるの。
+		NEW: Using the exact same ingredients, you alter the amounts of each; thereby changing a recipe's power.
+
+	Textblock 0032:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0033:
+		OLD: 例えばあなたが爆弾を作るとします。そのとき、爆弾の威力を上げたいのなら主成分である『燃える砂』を増やすのよ。
+		NEW: For example- making a bomb with raised power, you would increase ingredient: "Burning Sand".
+
+	Textblock 0034:
+		OLD: そうすれば参考書に載っている爆弾よりも数段破壊力のあるものを作ることが出来る……かも知れないわね。
+		NEW: This would create a stronger bomb than ones cited in books... perhaps.
+
+	Textblock 0035:
+		OLD: ただ、気を付けねばならないのは威力が上がるからといってただ材料を増やせばいいというものではないということね。
+		NEW: However, increasing the amounts doesn't necessarily create a stronger item.
+
+	Textblock 0036:
+		OLD: どんなものでも、バランスというものがあるわ。『燃える砂』を入れすぎると爆弾自体が作れなくなるかも知れない。
+		NEW: Adding too much "Burning Sand" would cause the bomb to be unfunctionable.
+
+	Textblock 0037:
+		OLD: とにかく挑戦してみるのが一番早いわ。研究というのは何度も失敗して、初めてうまくいくものなのよ。
+		NEW: So, learn how to balance the ingredients and have numerous attempts.
+
+	Textblock 0038:
+		OLD: あ、それからあらかじめ言っておきますがブレンド調合は危険を伴います。
+		NEW: Ah, almost forgot- there is some danger with blend syntheses.
+
+	Textblock 0039:
+		OLD: なので一度も作ったことのないものをブレンド調合するのは禁止します。まず参考書通りに作ってその後実行しなさい。
+		NEW: So it is prohibited to do blend syntheses on items you have never tried creating before.
+
+	Textblock 0040:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+
+
+Block 0051:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール。真面目に研究していましたか？
+		NEW: Elfir, have you been studying hard?
+
+	Textblock 0004:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0005:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0006:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0007:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0008:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0009:
+		OLD: そこで、あなたにブレンド調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do a blend synthesis.
+
+	Textblock 0010:
+		OLD: ブレンド調合……？
+		NEW: Blend synthesis...?
+
+	Textblock 0011:
+		OLD: 錬金術で作り出される品というのは、同じ材料を使ってもその配分が変わると見た目は同じでも能力が変わるの。
+		NEW: Using the exact same ingredients, you alter the amounts of each; thereby changing a recipe's power.
+
+	Textblock 0012:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0013:
+		OLD: 例えばあなたが爆弾を作るとします。そのとき、爆弾の威力を上げたいのなら主成分である『燃える砂』を増やすのよ。
+		NEW: For example- making a bomb with raised power, you would increase ingredient: "Burning Sand".
+
+	Textblock 0014:
+		OLD: そうすれば参考書に載っている爆弾よりも数段破壊力のあるものを作ることが出来る……かも知れないわね。
+		NEW: This would create a stronger bomb than ones cited in books... perhaps.
+
+	Textblock 0015:
+		OLD: ただ、気を付けねばならないのは威力が上がるからといってただ材料を増やせばいいというものではないということね。
+		NEW: However, increasing the amounts doesn't necessarily create a stronger item.
+
+	Textblock 0016:
+		OLD: どんなものでも、バランスというものがあるわ。『燃える砂』を入れすぎると爆弾自体が作れなくなるかも知れない。
+		NEW: Adding too much "Burning Sand" would cause the bomb to be unfunctionable.
+
+	Textblock 0017:
+		OLD: とにかく挑戦してみるのが一番早いわ。研究というのは何度も失敗して、初めてうまくいくものなのよ。
+		NEW: So, learn how to balance the ingredients and have numerous attempts.
+
+	Textblock 0018:
+		OLD: …では、引き続き頑張るように。いいわね？
+		NEW: Well then, continue with your hard work.
+
+	Textblock 0019:
+		OLD: …あ、言い忘れていたわ。ブレンド調合は危険を伴います。
+		NEW: Ah, almost forgot- there is some danger with blend syntheses.
+
+	Textblock 0020:
+		OLD: なので一度も作ったことのないものをブレンド調合するのは禁止します。まず参考書通りに作ってその後実行しなさい。
+		NEW: So it is prohibited to do blend syntheses on items you have never tried creating before.
+
+	Textblock 0021:
+		OLD: は、はいっ！
+		NEW: Yes!
+
+	Textblock 0022:
+		OLD: エルフィール。毎日真面目に研究していますか？
+		NEW: Elfir, have you been studying hard everyday?
+
+	Textblock 0023:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0024:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0025:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0026:
+		OLD: 本当はこのあとあなたの家にいくつもりだったのだけれど。
+		NEW: Although I had originally intended to visit you later...
+
+	Textblock 0027:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0028:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0029:
+		OLD: そこで、あなたにブレンド調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do a blend synthesis.
+
+	Textblock 0030:
+		OLD: ブレンド調合……？
+		NEW: Blend synthesis...?
+
+	Textblock 0031:
+		OLD: 錬金術で作り出される品というのは、同じ材料を使ってもその配分が変わると見た目は同じでも能力が変わるの。
+		NEW: Using the exact same ingredients, you alter the amounts of each; thereby changing a recipe's power.
+
+	Textblock 0032:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0033:
+		OLD: 例えばあなたが爆弾を作るとします。そのとき、爆弾の威力を上げたいのなら主成分である『燃える砂』を増やすのよ。
+		NEW: For example- making a bomb with raised power, you would increase ingredient: "Burning Sand".
+
+	Textblock 0034:
+		OLD: そうすれば参考書に載っている爆弾よりも数段破壊力のあるものを作ることが出来る……かも知れないわね。
+		NEW: This would create a stronger bomb than ones cited in books... perhaps.
+
+	Textblock 0035:
+		OLD: ただ、気を付けねばならないのは威力が上がるからといってただ材料を増やせばいいというものではないということね。
+		NEW: However, increasing the amounts doesn't necessarily create a stronger item.
+
+	Textblock 0036:
+		OLD: どんなものでも、バランスというものがあるわ。『燃える砂』を入れすぎると爆弾自体が作れなくなるかも知れない。
+		NEW: Adding too much "Burning Sand" would cause the bomb to be unfunctionable.
+
+	Textblock 0037:
+		OLD: とにかく挑戦してみるのが一番早いわ。研究というのは何度も失敗して、初めてうまくいくものなのよ。
+		NEW: So, learn how to balance the ingredients and have numerous attempts.
+
+	Textblock 0038:
+		OLD: あ、それからあらかじめ言っておきますがブレンド調合は危険を伴います。
+		NEW: Ah, almost forgot- there is some danger with blend syntheses.
+
+	Textblock 0039:
+		OLD: なので一度も作ったことのないものをブレンド調合するのは禁止します。まず参考書通りに作ってその後実行しなさい。
+		NEW: So it is prohibited to do blend syntheses on items you have never tried creating before.
+
+	Textblock 0040:
+		OLD: は、はいっ！
+		NEW: Yes! 
+
+
+
+Block 0052:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール。真面目に研究していましたか？
+		NEW: Elfir, have you been studying hard?
+
+	Textblock 0004:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0005:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0006:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0007:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0008:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0009:
+		OLD: そこで、あなたにオリジナル調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do an original synthesis.
+
+	Textblock 0010:
+		OLD: オリジナル調合……？
+		NEW: Original synthesis...?
+
+	Textblock 0011:
+		OLD: 錬金術というのは無限の可能性を秘めたものです。参考書に載っていない調合やまだ誰も知らない調合もあるはずです。
+		NEW: Alchemy has infinite possibilities. There are syntheses which are still unknown.
+
+	Textblock 0012:
+		OLD: そういう、新たな組み合わせを研究するのがオリジナル調合です。分かりましたか？
+		NEW: So by mixing various ingredients, you may create a new item.
+
+	Textblock 0013:
+		OLD: はあ…。
+		NEW: Yes...
+
+	Textblock 0014:
+		OLD: オリジナル調合はブレンド調合に比べて格段に危険で、難しい調合です。
+		NEW: Compared to blend syntheses, this is more dangerous and difficult.
+
+	Textblock 0015:
+		OLD: 調合の仕組みや法則を理解していないとまず失敗すると思いなさい。
+		NEW: Without knowing the rules and constructions of syntheses, you will fail.
+
+	Textblock 0016:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0017:
+		OLD: 例えば火の属性と水の属性は互いに交わることがありません。また同時に３種類以上の属性が交わることもありません。
+		NEW: For example- you cannot combine together ingredients of fire characteristic with water characteristic.
+
+	Textblock 0018:
+		OLD: それから２種類の属性を混ぜるときには必ず中和剤が必要です。
+		NEW: Nor can you mix 3 characteristics at once. You have to use Neutralizers when mixing 2 characteristics.
+
+	Textblock 0019:
+		OLD: 何だか難しそう……。
+		NEW: It all sounds so hard...
+
+	Textblock 0020:
+		OLD: そうね。でもこれも何度も失敗して経験していくことが一番の近道なのよ。まずは挑戦してみることね。
+		NEW: Indeed, but you will gain experience with each failure. Try and have a challenge.
+
+	Textblock 0021:
+		OLD: はい！頑張ります！
+		NEW: Yup! I will!
+
+	Textblock 0022:
+		OLD: エルフィール。毎日真面目に研究していますか？
+		NEW: Elfir, have you been studying hard everyday?
+
+	Textblock 0023:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0024:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0025:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0026:
+		OLD: 本当はこのあとあなたの家にいくつもりだったのだけれど。
+		NEW: Although I had originally intended to visit you later...
+
+	Textblock 0027:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0028:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0029:
+		OLD: そこで、あなたにオリジナル調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do an original synthesis.
+
+	Textblock 0030:
+		OLD: オリジナル調合……？
+		NEW: Original synthesis...?
+
+	Textblock 0031:
+		OLD: 錬金術というのは無限の可能性を秘めたものです。参考書に載っていない調合やまだ誰も知らない調合もあるはずです。
+		NEW: Alchemy has infinite possibilities. There are syntheses which are yet unknown.
+
+	Textblock 0032:
+		OLD: そういう、新たな組み合わせを研究するのがオリジナル調合です。分かりましたか？
+		NEW: So by mixing various ingredients, you may create a new item.
+
+	Textblock 0033:
+		OLD: はあ…。
+		NEW: Yes...
+
+	Textblock 0034:
+		OLD: オリジナル調合はブレンド調合に比べて格段に危険で、難しい調合です。
+		NEW: Compared to blend syntheses, this is more dangerous and difficult.
+
+	Textblock 0035:
+		OLD: 調合の仕組みや法則を理解していないとまず失敗すると思いなさい。
+		NEW: Without knowing the rules and constructions of syntheses, you will fail.
+
+	Textblock 0036:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0037:
+		OLD: 例えば火の属性と水の属性は互いに交わることがありません。また同時に３種類以上の属性が交わることもありません。
+		NEW: For example- you cannot combine together ingredients of fire characteristic with water characteristic.
+
+	Textblock 0038:
+		OLD: それから２種類の属性を混ぜるときには必ず中和剤が必要です。
+		NEW: Nor can you mix 3 characteristics at once. You have to use Neutralizers when mixing 2 characteristics.
+
+	Textblock 0039:
+		OLD: 何だか難しそう……。
+		NEW: It all sounds so hard...
+
+	Textblock 0040:
+		OLD: そうね。でもこれも何度も失敗して経験していくことが一番の近道なのよ。まずは挑戦してみることね。
+		NEW: Indeed, but you will gain experience with each failure. Try and have a challenge.
+
+	Textblock 0041:
+		OLD: はい！頑張ります！
+		NEW: Yup! I will!
+
+
+
+Block 0053:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: エルフィール。真面目に研究していましたか？
+		NEW: Elfir, have you been studying hard?
+
+	Textblock 0004:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0005:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0006:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0007:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0008:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0009:
+		OLD: そこで、あなたにオリジナル調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do an original synthesis.
+
+	Textblock 0010:
+		OLD: オリジナル調合……？
+		NEW: Original synthesis...?
+
+	Textblock 0011:
+		OLD: 錬金術というのは無限の可能性を秘めたものです。参考書に載っていない調合やまだ誰も知らない調合もあるはずです。
+		NEW: Alchemy has infinite possibilities. There are syntheses which are still unknown.
+
+	Textblock 0012:
+		OLD: そういう、新たな組み合わせを研究するのがオリジナル調合です。分かりましたか？
+		NEW: So by mixing various ingredients, you may create a new item.
+
+	Textblock 0013:
+		OLD: はあ…。
+		NEW: Yes...
+
+	Textblock 0014:
+		OLD: オリジナル調合はブレンド調合に比べて格段に危険で、難しい調合です。
+		NEW: Compared to blend syntheses, this is more dangerous and difficult.
+
+	Textblock 0015:
+		OLD: 調合の仕組みや法則を理解していないとまず失敗すると思いなさい。
+		NEW: Without knowing the rules and constructions of syntheses, you will fail.
+
+	Textblock 0016:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0017:
+		OLD: 例えば火の属性と水の属性は互いに交わることがありません。また同時に３種類以上の属性が交わることもありません。
+		NEW: For example- you cannot combine together ingredients of fire characteristic with water characteristic.
+
+	Textblock 0018:
+		OLD: それから２種類の属性を混ぜるときには必ず中和剤が必要です。
+		NEW: Nor can you mix 3 characteristics at once. You have to use Neutralizers when mixing 2 characteristics.
+
+	Textblock 0019:
+		OLD: 何だか難しそう……。
+		NEW: It all sounds so hard...
+
+	Textblock 0020:
+		OLD: そうね。でもこれも何度も失敗して経験していくことが一番の近道なのよ。まずは挑戦してみることね。
+		NEW: Indeed, but you will gain experience with each failure. Try and have a challenge.
+
+	Textblock 0021:
+		OLD: はい！頑張ります！
+		NEW: Yup! I will!
+
+	Textblock 0022:
+		OLD: エルフィール。毎日真面目に研究していますか？
+		NEW: Elfir, have you been studying hard everyday?
+
+	Textblock 0023:
+		OLD: そ、それはもう…。バッチリ……。
+		NEW: Um, welll... of course...
+
+	Textblock 0024:
+		OLD: なぜ声が小さくなるのかしら？
+		NEW: Why are you answering in such a small voice?
+
+	Textblock 0025:
+		OLD: …まあいいわ、バッチリ研究していたあなたにうれしいお知らせがあるの。
+		NEW: ...No matter. I have pleasant notice for you.
+
+	Textblock 0026:
+		OLD: 本当はこのあとあなたの家にいくつもりだったのだけれど。
+		NEW: Although I had originally intended to visit you later...
+
+	Textblock 0027:
+		OLD: え、何でしょう？
+		NEW: Eh? What is it?
+
+	Textblock 0028:
+		OLD: あなたの頑張りが評価されて、あなたは次のステップに進む資格を得ました。
+		NEW: We have assessed you, and we feel you are qualified to advance the next step.
+
+	Textblock 0029:
+		OLD: そこで、あなたにオリジナル調合の仕方を教えましょう。
+		NEW: So I will now teach you how to do an original synthesis.
+
+	Textblock 0030:
+		OLD: オリジナル調合……？
+		NEW: Original synthesis...?
+
+	Textblock 0031:
+		OLD: 錬金術というのは無限の可能性を秘めたものです。参考書に載っていない調合やまだ誰も知らない調合もあるはずです。
+		NEW: Alchemy has infinite possibilities. There are syntheses which are yet unknown.
+
+	Textblock 0032:
+		OLD: そういう、新たな組み合わせを研究するのがオリジナル調合です。分かりましたか？
+		NEW: So by mixing various ingredients, you may create a new item.
+
+	Textblock 0033:
+		OLD: はあ…。
+		NEW: Yes...
+
+	Textblock 0034:
+		OLD: オリジナル調合はブレンド調合に比べて格段に危険で、難しい調合です。
+		NEW: Compared to blend syntheses, this is more dangerous and difficult.
+
+	Textblock 0035:
+		OLD: 調合の仕組みや法則を理解していないとまず失敗すると思いなさい。
+		NEW: Without knowing the rules and constructions of syntheses, you will fail.
+
+	Textblock 0036:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0037:
+		OLD: 例えば火の属性と水の属性は互いに交わることがありません。また同時に３種類以上の属性が交わることもありません。
+		NEW: For example- you cannot combine together ingredients of fire characteristic with water characteristic.
+
+	Textblock 0038:
+		OLD: それから２種類の属性を混ぜるときには必ず中和剤が必要です。
+		NEW: Nor can you mix 3 characteristics at once. You have to use Neutralizers when mixing 2 characteristics.
+
+	Textblock 0039:
+		OLD: 何だか難しそう……。
+		NEW: It all sounds so hard...
+
+	Textblock 0040:
+		OLD: そうね。でもこれも何度も失敗して経験していくことが一番の近道なのよ。まずは挑戦してみることね。
+		NEW: Indeed, but you will gain experience with each failure. Try and have a challenge.
+
+	Textblock 0041:
+		OLD: はい！頑張ります！
+		NEW: Yup! I will!
+
+
+
+Block 0054:
+
+	Textblock 0000:
+		OLD: （今日は私の誕生日……。でも日食で真っ暗だあ。トホホ）
+		NEW: (It's my birthday today..... But it's dark outside because of the eclipse... Ohhh...)
+
+
+
+Block 0055:
+
+	Textblock 0000:
+		OLD: そうだな…。あんた、よそ者みたいだから忠告しておくけど、死にたくなければ絶対海に出ちゃいけねえぜ。
+		NEW: You look like a foreigner so I'll warn you this: if you don't wanna die, don't go out to sea.
+
+	Textblock 0001:
+		OLD: 港の近海で怪物が出るのさ。名前はフラウ・シュトライト。海竜だ。￥……もう何人もやられた。
+		NEW: A monster dwells in the sea near this harbour: a dragon by the name of "Frau Streit".
+
+
+
+Block 0056:
+
+	Textblock 0000:
+		OLD: ……あ～あ、イヤになっちまうなァ…。
+		NEW: Arghhhh.......... This is bad...
+
+	Textblock 0001:
+		OLD: どうしたんですか？
+		NEW: What's wrong?
+
+	Textblock 0002:
+		OLD: どうしたもこうしたもねぇや。…ここの港からちょっと沖に出るとな、フラウ・シュトライトっていう怪物が出るのさ。
+		NEW: It's that monster- Frau Streit, lurkin' in the sea not too far from the port.
+
+	Textblock 0003:
+		OLD: あいつがいるせいで、この街の誰もおおっぴらに船が出せねぇ。奴がいなさそうなときにこっそり出るんだ。
+		NEW: As long as that bastard's there, no chap is gonna sail out there openly. They only dare when it seems to be away.
+
+	Textblock 0004:
+		OLD: 分かるかァ！？船乗りなのに海に出られねぇんだぜ？…冒険に行けなくて酒場でくすぶってる冒険者と同じだ……。
+		NEW: Ya understand? They're men of sea yet they can't sail! Same with adventurers idlin' by in the tavern.
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0006:
+		OLD: ……あ～あ、イヤになっちまうなァ…。
+		NEW: ......Arghhhh...... This is bad...
+
+
+
+Block 0057:
+
+	Textblock 0000:
+		OLD: ……ああ、歯がゆいなぁ。
+		NEW: Ahhhhh........ How irritatin'...
+
+	Textblock 0001:
+		OLD: どうしたんですか？
+		NEW: What's wrong?
+
+	Textblock 0002:
+		OLD: ああ、いやなに、うちは品揃えが豊富なのがウリなんだがここんとこ新しい武器を仕入れようにも仕入れられねえのよ。
+		NEW: I sell a variety of weapons here but recently, I can't stock new items even if I wanted to.
+
+	Textblock 0003:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0004:
+		OLD: フラウ・シュトライトっていう海ヘビの親分みてえな怪物がいるんだ。船よりもでけえ奴だ。
+		NEW: It's that Frau Streit- the boss of sea snakes or somethin'- a monster even larger than ships.
+
+	Textblock 0005:
+		OLD: で、こいつが港のそばで暴れるもんだから誰も船が出せねえ。
+		NEW: As long as it's rampagin' near the port, no boat will depart.
+
+	Textblock 0006:
+		OLD: しかも客が来なくなっちまって商売にならねえ。俺は見ての通り武器屋だからまだいいが、漁師連中は飯の食い上げだ。
+		NEW: Customers don't come anymore. My weapon shop is managin' somehow, but the fishermen are losin' their livelihoods.
+
+	Textblock 0007:
+		OLD: 奴さえ倒しちまえば丸く収まるんだが…それが出来れば苦労しねえよなあ。
+		NEW: Everythin' would be settled if it's slayed... That would be a tough task, though.
+
+
+
+Block 0058:
+
+	Textblock 0000:
+		OLD: 俺も今じゃこうして宿屋をやってるが、以前は船乗りだったんだ。…だが船ごとフラウ・シュトライトに襲われてな。
+		NEW: I used to be a sailor before I became an innkeeper... My boat was attacked by Frau Streit...
+
+	Textblock 0001:
+		OLD: 俺の脇腹にはデカい傷がある。傷は治ったがもう俺は船乗りには戻れねえ。ま、生きて戻れただけでもツイてたんだな。
+		NEW: I was badly injured near my stomach. It's healed, but I can't go back out to sea. At least I'm still alive.
+
+	Textblock 0002:
+		OLD: あんたが何のためにここに来たか知らねえけどな。海には行かねえことだ。死にたくなかったらな。
+		NEW: I dunno for what you came here, but stay clear from the sea if you don't wanna die.
+
+	Textblock 0003:
+		OLD: ……そういや、あいつどうしたかな…。フラウ・シュトライトはピンピンしてるから…死んじまったかなあ。
+		NEW: .........Oh yeah, I wonder what happened to that missy... Killed by Frau Streit, maybe.
+
+	Textblock 0004:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0005:
+		OLD: いや、大したことじゃねえ。以前にもあんたのような人が来てな。海の向こうに行きたいとか何とか…。
+		NEW: Oh nah, it's just there was someone like you who wanted to cross the sea.
+
+	Textblock 0006:
+		OLD: みんな止めたのに行っちまいやがった。何だかね、海の向こうったってどこまで行っても海なのによ……。
+		NEW: People have all stopped sailing but she wanted to get to the other side no matter what...
+
+	Textblock 0007:
+		OLD: ふうん…。
+		NEW: Hmmmm......
+
+
+
+Block 0059:
+
+	Textblock 0000:
+		OLD: …何の用だい、あんた？あたし忙しいんだ。話しかけないでくれよ。
+		NEW: ...What is it? I'm busy so don't talk to me.
+
+
+
+Block 0060:
+
+	Textblock 0000:
+		OLD: あ、あんたか。ゴメンよ、気が立ってたもんでけんか腰になっちゃってさ。
+		NEW: Ah, it's you- sorry. I was worked up about something so I've been in quarrel mode.
+
+	Textblock 0001:
+		OLD: いえ、別に気にしてません…。
+		NEW: No, don't be concerned by it...
+
+	Textblock 0002:
+		OLD: ありがとう。…あたしはユーリカ。ユーリカ・イェーダっていうんだ。この街で漁師をしてるんだ。
+		NEW: Thanks... I'm Julika Jedar, a fisherman in this town.
+
+	Textblock 0003:
+		OLD: …あたしの父さんも漁師だったんだけどあたしが小さい頃に病気で死んじゃってね。
+		NEW: My dad was also a fisherman but he died of sickness when I was little.
+
+	Textblock 0004:
+		OLD: だから今はあたしが働いててさ。色々やることが多くて忙しいんだ。
+		NEW: Which is why I'm working now. There's tonns to do and I get very busy.
+
+	Textblock 0005:
+		OLD: …それじゃ、つまらない街だけど楽しんでいきなよ。あたし、まだこのあと仕事だからさ。
+		NEW: So... it's a boring town, but try and have fun anyway. I still got work after this.
+
+
+
+Block 0061:
+
+	Textblock 0000:
+		OLD: あ、あんたか。どう、楽しんでるかい？ま、特に変わった物なんてないけどさ。
+		NEW: Ah, it's you. Been having fun? Though, there's nothing particular here.
+
+	Textblock 0001:
+		OLD: そんなことないですよ。私、海を見たの初めてで…とっても素敵なところだと思います。
+		NEW: That's not so. I saw the sea for the first time... I think it's a wonderful place here.
+
+	Textblock 0002:
+		OLD: 街がゴタゴタしていなけりゃ、もっと素敵なところなんだけどね。
+		NEW: If there weren't so much confusion in town, it'd be a more wonderful place.
+
+	Textblock 0003:
+		OLD: ……ところで、あんた何でこんな田舎に来たんだい？こんな寂れた港街なんかにさ…。
+		NEW: ...By the way, why did you come to the countryside? It's pretty desolate here.
+
+	Textblock 0004:
+		OLD: 人を捜してるんです。錬金術士の人なんですけど…命の恩人で。その時言えなかったお礼を言いたくて…。
+		NEW: I'm looking for someone- an alchemist who saved me. I didn't manage to give her my thanks...
+
+	Textblock 0005:
+		OLD: 人捜しね。…そうだな、あたしも調べておいてあげるよ。そんな格好した人なんてここではそんなに見かけないからさ。
+		NEW: Hey, I'll help you search. It's not like we often see anyone dressed in your manner.
+
+
+
+Block 0062:
+
+	Textblock 0000:
+		OLD: 分かったよ。あんたが探してるっていう錬金術士…見かけたって人がいたよ。でも、ずいぶん前の話だけどね。
+		NEW: Hey, someone saw that alchemist you were looking for... But it was a long time ago.
+
+	Textblock 0001:
+		OLD: 言われてみればあたしも見かけたような気がするんだ。確かエル・バドールに行く方法を聞かれたような気がするけど。
+		NEW: Now that I think about it, I may have seen her too. She was asking how to get to El Badoll.
+
+	Textblock 0002:
+		OLD: …エル・バドール？
+		NEW: ...El Badoll?
+
+	Textblock 0003:
+		OLD: この海のずっと向こうにある大陸なんだってさ。聞いたことはあるけど…フラウ・シュトライトがいるからダメだね。
+		NEW: It's the mainland across the sea. But with Frau Streit here, don't hope for it.
+
+	Textblock 0004:
+		OLD: フラウ・シュトライト…？
+		NEW: Frau Streit...?
+
+	Textblock 0005:
+		OLD: 誰かが話してるのを聞かなかったかい？この近辺に出没する海竜さ。そいつを何とかしないと、外には出られない。
+		NEW: Didn't you hear about it? It's a sea dragon in this area. No one can go out to sea while it's here.
+
+	Textblock 0006:
+		OLD: 運が良ければ行けないこともないんだろうけど…まあ、無理な話だね。誰も船なんて出してくれないだろうからさ。
+		NEW: If you're lucky, then it ain't totally impossible... Not that anyone would lend you a boat, though.
+
+	Textblock 0007:
+		OLD: そっか…。
+		NEW: I see.....
+
+
+
+Block 0063:
+
+	Textblock 0000:
+		OLD: ところであんたは探してる錬金術士を見つけたらどうするんだい？お礼を言うだけに会いに行くのかい？
+		NEW: By the way, what are you gonna do when you find that alchemist? Go all that way just to say thanks?
+
+	Textblock 0001:
+		OLD: 私、その人に憧れて錬金術士になろうと思ったの。困っている人を助けられる頼られるような錬金術士になりたいって。
+		NEW: I was inspired by her to become an alchemist. I want to help those in need and be someone who can be relied upon.
+
+	Textblock 0002:
+		OLD: だから会って報告したいの、あなたを目標にこんな立派な錬金術士になりましたって。…まだ未熟で、全然ダメだけど。
+		NEW: So when I see her, I will tell her, "My goal is to become a great alchemist like you." ...Yet, I'm still only a novice.
+
+	Textblock 0003:
+		OLD: いいね、そういうの。私も夢っていうのはあるけど…そんなご大層なものじゃないからね…。
+		NEW: That sounds great. I have a dream too... Not a grand one like yours, mind you.
+
+	Textblock 0004:
+		OLD: ユーリカの夢って…どんなの？
+		NEW: Your dream... What's it like?
+
+	Textblock 0005:
+		OLD: 宝探しさ。
+		NEW: To go treasure hunting.
+
+	Textblock 0006:
+		OLD: …何百年か前、この辺りにヴァルフィッシュっていう人がいたらしいんだ。
+		NEW: ....Several hundred years ago, there was a person called Walfisch in this area.
+
+	Textblock 0007:
+		OLD: 知勇兼備の猛将で周りからは恐れられていたんだけど、人々には常に優しく接していた…。ま、英雄っていうのかな。
+		NEW: He was both wise and brave. Though he was feared by those around him, he always treated others nicely... A hero, I guess.
+
+	Textblock 0008:
+		OLD: その英雄が残した財宝がつぶて島にあるんだ。
+		NEW: And that hero left his treasures on Pellet Island.
+
+	Textblock 0009:
+		OLD: つぶて島？
+		NEW: Pellet Island?
+
+	Textblock 0010:
+		OLD: そう。少し沖に出たところにある浮島なんだ。毎日島ごと移動してるからどこにあるかは分からないんだけどさ。
+		NEW: Yeah, sail for a bit and there'll be a floating island. I dunno where it is, 'cause it drifts and its position is different everyday.
+
+	Textblock 0011:
+		OLD: ただ、なぜか島のそばはいつも海がしけてるから大体の場所は分かる。
+		NEW: But for some reason it's always stormy around that island, so I do have a vague idea.
+
+	Textblock 0012:
+		OLD: …父さんの夢だったんだ。その財宝を見つけるってことがね…。でも父さんは信じてもらえなかった。
+		NEW: ...It was my dad's dream to find that treasure... But no one believed in him.
+
+	Textblock 0013:
+		OLD: 証拠も何もないただの伝説だからね。当然のことなんだけどさ…でも、あたしはそれが本当なんだって証明したいんだ。
+		NEW: It's just a legend without evidence or anything. That's naturally what it is... Yet I wanna prove that it's true.
+
+	Textblock 0014:
+		OLD: ねえ、あんたは本当にあると思うかい？そんなの…。
+		NEW: Say, do you think it's true?
+
+	Textblock 0015:
+		OLD: え、ええとね…。
+		NEW: Eh, well...
+
+	Textblock 0016:
+		OLD: …そうだよね。父さんがあんなに頑張って探してたんだ…絶対にある。あたしが父さんの代わりに見つけるんだ。
+		NEW: ...That's right, my dad gave it his all to find it... so it must exists. I'm taking my dad's place to search for it.
+
+	Textblock 0017:
+		OLD: …みんなそう言うよ。でも、あたしだけでも信じたいんだ。伝説じゃなくて父さんをね…。
+		NEW: ...Everyone says so, but I wanna believe in it, even if it's only me; that it's no legend and my dad had it right...
+
+	Textblock 0018:
+		OLD: …そうだよね。ごめん、変な話しちゃってさ…。
+		NEW: ...Yeah... Sorry for saying strange things...
+
+
+
+Block 0064:
+
+	Textblock 0000:
+		OLD: この前、あたしの夢のこと…話したろ？そこで折り入って頼みがあるんだ。私と一緒に財宝探しを手伝っておくれよ。
+		NEW: Remember, before, we talked about my dream...? I have a favor to ask of you: help find the treasure with me together.
+
+	Textblock 0001:
+		OLD: 一人で探すのは大変だし…あたしは探すことが目的だから財宝なんてどうだっていいんだ！頼むよ！
+		NEW: It's too hard to find it on one's own... I'm only keen on the finding and don't care about the treasure! Please!
+
+	Textblock 0002:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0003:
+		OLD: ほ、本当！？ありがとう！頼りにしてるよ。
+		NEW: Re, -really!? Thanks! I'm counting on you!
+
+	Textblock 0004:
+		OLD: …そうだよね。あんたにも夢があったんだっけ…。こんなところで道草を食ってるわけにはいかないか…。
+		NEW: ...Yeah, you got your own dream to persue... It won't do to keep you loitering here...
+
+
+
+Block 0065:
+
+	Textblock 0000:
+		OLD: 見えた！あれがつぶて島だ。見てのとおり今日もしけてる。ちょっと揺れるからしっかり捕まってなよ。
+		NEW: I could see it! That's the floating island. As you can see, it's also stormy today. It'll be a bit shaky, so hold on tight.
+
+	Textblock 0001:
+		OLD: （あれが…つぶて島…）
+		NEW: (That's... Pellet Island... )
+
+
+
+Block 0066:
+
+	Textblock 0000:
+		OLD: 島を探索し始めてから数時間……
+		NEW: Several hours after the search on the island had begun...
+
+	Textblock 0001:
+		OLD: ユーリカ！ここに何かあるよ！石碑…みたい。
+		NEW: Julika! There's something here! Something like... a grave stone.
+
+	Textblock 0002:
+		OLD: 石碑？どこどこ！？やっぱり父さんの言ってたことはうそじゃなかったんだ！
+		NEW: Grave stone? Where!? I knew what my dad said wasn't a lie!
+
+	Textblock 0003:
+		OLD: 何か書いてあるけど…ムズかしい字で書いてある…。
+		NEW: Something's written on it... but those are difficult letters...
+
+	Textblock 0004:
+		OLD: ええと…。
+		NEW: Let's see...
+
+	Textblock 0005:
+		OLD: 『英雄ヴァルフィッシュ：四人の部下を四方に従え彼らと共にその中央に眠る』…………。
+		NEW: "The Hero Walfisch: He that is accompanied by his four followers in the four directions, lieth asleep in the center".......
+
+	Textblock 0006:
+		OLD: …それだけ？
+		NEW: ...Is that all?
+
+	Textblock 0007:
+		OLD: そ、そんな…たったこれだけなんて…父さんの探していたものは？財宝は？
+		NEW: No way... it's just this... Where's the thing my dad was searching for? The treasure?
+
+	Textblock 0008:
+		OLD: ……ユーリカ。
+		NEW: .......Julika.
+
+	Textblock 0009:
+		OLD: そんな…たったこれだけのために…そんなのって…。
+		NEW: No way... Just for this... This can't be...
+
+	Textblock 0010:
+		OLD: …ユーリカ、もう行こう。街に戻って落ち着いて考えようよ…。ね。
+		NEW: ...Julika, let's go. We'll head back to town, settle down, then ponder about it... Okay?
+
+
+
+Block 0067:
+
+	Textblock 0000:
+		OLD: …あたし、一人でつぶて島に行ってきたよ。…でも、何もなかったよ。島には……。
+		NEW: ...I went to Pellet Island alone... but there was nothing there... Nothing on the island...
+
+	Textblock 0001:
+		OLD: 父さんもあたしも一体何を信じてたんだろう？…伝説なんて信じたあたしが馬鹿だったんだ…。
+		NEW: What in the world was it that my dad and I both believed in? ...I was such a fool for believing in a legend...
+
+	Textblock 0002:
+		OLD: ユーリカ……。
+		NEW: Julika.....
+
+
+
+Block 0068:
+
+	Textblock 0000:
+		OLD: あれ？こんなところに石碑がある…。でも何が書いてあるかよく分からないや。
+		NEW: Huh? There's a grave stone in such a place... But I don't understand whatever's written on it.
+
+	Textblock 0001:
+		OLD: ええと…。
+		NEW: Let's see...
+
+	Textblock 0002:
+		OLD: 『デルフィン：英雄ヴァルフィッシュの忠実な部下にしてよき友ここに眠る』…………。
+		NEW: "Delphine: Here lieth asleep a loyal follower of the Hero Walfisch"........
+
+	Textblock 0003:
+		OLD: こんな石碑があったんだ…。
+		NEW: So there was such a grave stone here...
+
+
+
+Block 0069:
+
+	Textblock 0000:
+		OLD: あれ？こんなところに石碑がある…。でも何が書いてあるかよく分からないや。
+		NEW: Huh? There's a grave stone in such a place... But I don't understand whatever's written on it
+
+	Textblock 0001:
+		OLD: ええと…。
+		NEW: Let's see...
+
+	Textblock 0002:
+		OLD: 『ゼレーヴェ：英雄ヴァルフィッシュの忠実な部下にしてよき友ここに眠る』…………。
+		NEW: "Zelehv: Here lieth asleep a loyal follower of the Hero Walfisch"........
+
+	Textblock 0003:
+		OLD: こんな石碑があったんだ…。
+		NEW: So there was such a grave stone here...
+
+
+
+Block 0070:
+
+	Textblock 0000:
+		OLD: あれ？こんなところに石碑がある…。でも何が書いてあるかよく分からないや。
+		NEW: Huh? There's a grave stone in such a place... But I don't understand whatever's written on it
+
+	Textblock 0001:
+		OLD: ええと…。
+		NEW: Let's see...
+
+	Textblock 0002:
+		OLD: 『ゼフント：英雄ヴァルフィッシュの忠実な部下にしてよき友ここに眠る』…………。
+		NEW: "Zefunt: Here lieth asleep a loyal follower of the Hero Walfisch"........
+
+	Textblock 0003:
+		OLD: こんな石碑があったんだ…。
+		NEW: So there was such a grave stone here...
+
+
+
+Block 0071:
+
+	Textblock 0000:
+		OLD: あれ？こんなところに石碑がある…。でも何が書いてあるかよく分からないや。
+		NEW: Huh? There's a grave stone in such a place... But I don't understand whatever's written on it
+
+	Textblock 0001:
+		OLD: ええと…。
+		NEW: Let's see...
+
+	Textblock 0002:
+		OLD: 『シュヴェア：英雄ヴァルフィッシュの忠実な部下にしてよき友ここに眠る』…………。
+		NEW: "Schwer: Here lieth asleep a loyal follower of the Hero Walfisch"........
+
+	Textblock 0003:
+		OLD: こんな石碑があったんだ…。
+		NEW: So there was such a grave stone here...
+
+
+
+Block 0072:
+
+	Textblock 0000:
+		OLD: あれ？こんなところに石碑がある…。でも何が書いてあるかよく分からないや。
+		NEW: Huh? There's a grave stone in such a place... But I don't understand whatever's written on it
+
+	Textblock 0001:
+		OLD: ええと…。
+		NEW: Let's see...
+
+	Textblock 0002:
+		OLD: 『われ、ここに思い出を封じる。ラグラータと永遠にあらんことを願って：ヴァルフィッシュ』…ヴァルフィッシュ！？
+		NEW: "Here, I seal my memories. To be with Ragrata for eternity, I wish: Walfisch" ......Walfisch!?
+
+	Textblock 0003:
+		OLD: この石碑、動くみたいだよ！
+		NEW: The grave stone- looks like it moved!
+
+	Textblock 0004:
+		OLD: 動かしてみよう。
+		NEW: Let's try moving it.
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0006:
+		OLD: 何か箱が出てきた…。開けてみようよ。
+		NEW: There's a box here... Let's open it and see.
+
+	Textblock 0007:
+		OLD: あっ、宝石だ！お金もある…。でも財宝っていうにはあんまり多くないね…。
+		NEW: Ah, gemstones! And gold too... But it's not a lot to be regarded as a treasure...
+
+	Textblock 0008:
+		OLD: このロケットは…？￥肖像画……？
+		NEW: This locket is...?\nA portrait...?
+
+	Textblock 0009:
+		OLD: …多分、その英雄の恋人、じゃないかなあ…？ラグラータってきっとこの絵の人のことだよ。
+		NEW: ... Probably the hero's lover, wouldn't it be...? Ragrata must be the person in the portrait.
+
+	Textblock 0010:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0011:
+		OLD: ……決めた。
+		NEW: .....I've decided.
+
+	Textblock 0012:
+		OLD: これと…これはあんたにやる。あたしに付き合ってくれたんだ。気にせず持っていきなよ。
+		NEW: This... and this, I leave to you. You've stayed with me this whole time. Take it.
+
+	Textblock 0013:
+		OLD: ユーリカは？
+		NEW: What about you?
+
+	Textblock 0014:
+		OLD: あたしは…何もいらない。ここにあるのは財宝なんかじゃない。ヴァルフィッシュは財宝なんか残さなかったんだ。
+		NEW: I... don't need anything. What's here isn't treasure- Walfisch didn't leave any fortunes behind.
+
+	Textblock 0015:
+		OLD: 彼が残したのは思い出…。あたしは思い出を壊したくない。もし父さんが見つけても同じ気持ちになったと思うんだ。
+		NEW: What he left was his memories... I don't wanna destroy his memories. I'm sure my dad would feel the same way.
+
+	Textblock 0016:
+		OLD: 宝石とロケットはこのままここに戻して思い出だけもらっていくことにするよ。
+		NEW: I'll place the gemstones and the locket back and just hold on to the memories.
+
+	Textblock 0017:
+		OLD: 父さんは間違っていなかった。あたしはそれだけでもう十分だよ！
+		NEW: My dad wasn't wrong. For me, that's more than enough!
+
+
+
+Block 0073:
+
+	Textblock 0000:
+		OLD: あっ、ちょっと待ちなよ。
+		NEW: Ah, wait a sec.
+
+	Textblock 0001:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0002:
+		OLD: あたしの夢は一段落ついたけど…あんたの夢はまだだろう。一応、話は聞いちゃったからね…手伝うよ。
+		NEW: My dream's resolved... but yours is still continuing. Since you put up with my ramblings... I'll help you.
+
+	Textblock 0003:
+		OLD: でも…手伝うって…？
+		NEW: But... help...?
+
+	Textblock 0004:
+		OLD: あたしの船を使いなよ。あたしが改造したカタパルトを載せてるから…当たれば効くはずだよ。
+		NEW: Use my ship. I've remodeled the catapult on it so if it hits, it should be effective.
+
+	Textblock 0005:
+		OLD: フラウ・シュトライトさえ倒せばあんたの夢もあと一歩ってところまで行くんだろう？だったら遠慮なんかいらないよ。
+		NEW: After taking down Frau Streit, you're one step closer to your dream. You don't need to have any reserves.
+
+	Textblock 0006:
+		OLD: 自分の夢を叶えるんだよ。
+		NEW: You're granting your own wish.
+
+	Textblock 0007:
+		OLD: …ありがとう、ユーリカ。
+		NEW: ...Thank you, Julika.
+
+
+
+Block 0074:
+
+	Textblock 0000:
+		OLD: 準備はいいかい！もう後戻りは出来ないよ！
+		NEW: You ready!? It'll be too late to turn back!
+
+
+
+Block 0075:
+
+	Textblock 0000:
+		OLD: 前回は負けたけど…今度こそ！
+		NEW: Last time I lost... but I won't this time!
+
+
+
+Block 0076:
+
+	Textblock 0000:
+		OLD: フラウ・シュトライトを退治してくれてありがとうよ。これでみんな船が出せるってもんだ。
+		NEW: Thanks for getting rid of Frau Streit. Now the ships can leave the port once again.
+
+	Textblock 0001:
+		OLD: あの…！船が出せるのなら、エル・バドールに連れていって下さい！
+		NEW: Um...! If the ships can depart now, please take me to El Badoll!
+
+	Textblock 0002:
+		OLD: エル・バドール…？エル・バドール……そうだ、前にここに来た錬金術士もそんなことを言っていたぞ！思い出したぜ。
+		NEW: El Badoll...? Oh, I remember now. An alchemist who came here said the same thing.
+
+	Textblock 0003:
+		OLD: 確か、エル・バドールという大陸があって、そこにケン……ケントニスとかいう街があるんだそうだ。
+		NEW: I heard there is a town called Kenntnis in the mainland of El Badoll.
+
+	Textblock 0004:
+		OLD: …あんた、さっき連れていって欲しいって言ったよなあ。…本気か？
+		NEW: ...You said you wanna be taken there... You sure about that?
+
+	Textblock 0005:
+		OLD: 本気です。
+		NEW: Absolutely.
+
+	Textblock 0006:
+		OLD: ……俺はそんなあるかどうかも分からないようなところになんか行きたくねえ。仕事もあるしな。
+		NEW: I ain't interested in going to a place I don't even know if it exists. Plus, I got work here.
+
+	Textblock 0007:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0008:
+		OLD: だから俺の船をあんたにくれてやるよ。もうかなりくたびれてるが、ちょっとしたしけくらいなら大丈夫だ。
+		NEW: So I'll give you my boat. It's rather weather-beaten, but will do fine if you fix it up a little.
+
+	Textblock 0009:
+		OLD: ありがとうございます！
+		NEW: Thank you!
+
+	Textblock 0010:
+		OLD: いいってことよ。まあ、せいぜい頑張るんだな。ヤバくなったらすぐに陸に上がるんだ。死んだら意味がねえからな。
+		NEW: Go for it; you tried hard. If you get in trouble, get back on land. It'll be pointless if you die.
+
+
+
+Block 0077:
+
+	Textblock 0000:
+		OLD: あら？あなた確か…。久しぶりだね。その様子だともう病気もバッチリ治ったみたいね。
+		NEW: Oh, you're... It's been a long time. By the looks of you, It seems you're cured completely.
+
+	Textblock 0001:
+		OLD: （誰だろう、この人？いきなり話しかけてきたけど…）
+		NEW: (Who's this person talking to me all of a sudden?)
+
+	Textblock 0002:
+		OLD: ここにいるってことは…あなた、アカデミーに入ったんだ！イングリド先生とか元気？
+		NEW: Since you're here... that means you've entered the Academy! How's Miss Ingrid?
+
+	Textblock 0003:
+		OLD: あ、でも…ザールブルグのアカデミーに入ったの？確かロブソン村からだとかなり遠かったと思ったけど…。
+		NEW: Ah, wait... Did you enter the Academy in Salburg? I thought it was pretty far from Robson Village...
+
+	Textblock 0004:
+		OLD: ……ま、まさか。
+		NEW: ............It can't be....
+
+	Textblock 0005:
+		OLD: ？？？
+		NEW: ?????
+
+	Textblock 0006:
+		OLD: マルローネさん！以前は命を救ってもらってありがとうございました！私、あなたにお礼が言いたくて…それで……！
+		NEW: Marlone! Thank you for saving my life! I've been wanting to thank you, and...!
+
+	Textblock 0007:
+		OLD: そんな、大げさだなぁ。それにあのとき村の人達にもお礼を言われたから、もう十分だよ。
+		NEW: Hey, you're overstating it. Besides, the villagers there already thanked me and that's enough.
+
+
+
+Block 0078:
+
+	Textblock 0000:
+		OLD: ねえ、あなたはあたしにお礼を言うためだけにここまで来たの？他に目的はないの？
+		NEW: So, did you come all the way here just to thank me? No other purposes?
+
+	Textblock 0001:
+		OLD: え、いえ…特にないですけど…。
+		NEW: Eh, uh... no....... nothing else...
+
+	Textblock 0002:
+		OLD: そう…。あたしと同じ目的かと思ってたよ。
+		NEW: I see... I thought we had the same goal...
+
+	Textblock 0003:
+		OLD: マルローネさんの目的って何ですか？
+		NEW: What's your goal?
+
+	Textblock 0004:
+		OLD: あたしは…錬金術って何だろうって思ってそれを解き明かすのが目的。ここに来れば何か分かると思ったんだ。
+		NEW: I've been wondering what alchemy is, and I felt that I would find the answer here- that is my goal.
+
+	Textblock 0005:
+		OLD: 錬金術って…金を作ったりすることじゃないんですか？
+		NEW: Isn't alchemy... to craft gold?
+
+	Textblock 0006:
+		OLD: …本当にそう思う？
+		NEW: Is that really what you think...?
+
+	Textblock 0007:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0008:
+		OLD: 一緒に探そうよ。本当の答えを…。
+		NEW: Let's find it together- the true answer.
+
+
+
+Block 0079:
+
+	Textblock 0000:
+		OLD: あんた、錬金術士だろ？オレはルーウェンっていうんだ。今、人を捜して旅をしている最中なんだけど…金がなくてさ。
+		NEW: Hey, you're an alchemist? I'm Ruven and I've been travelling in search of someone... But I'm short on money.
+
+	Textblock 0001:
+		OLD: 一応冒険者稼業をしているから、護衛とかの仕事があったら助けると思って声をかけてくれよ。安くしとくからさ。
+		NEW: So for the time being, I work as an adventurer. Find me if you need to be escorted and such. It's pretty cheap.
+
+
+
+Block 0080:
+
+	Textblock 0000:
+		OLD: あ、錬金術士だ、久しぶりに見たなぁ。
+		NEW: Ah, an alchemist. It's been a while since I last saw one of those.
+
+	Textblock 0001:
+		OLD: 前にもザールブルグで錬金術士の護衛とかやったことあるんだよ。結構変な人だったけどねえ。
+		NEW: I used to escort an alchemist in Salburg. She was quite a weirdo.
+
+	Textblock 0002:
+		OLD: 錬金術士の護衛って結構楽しいからさ、よかったら声かけてよ。あ、あたしはミュー。よろしくねえ。
+		NEW: It's rather fun escorting alchemists, so find me if you need help. Oh, my name's My. Nice to meet ya.
+
+
+
+Block 0081:
+
+	Textblock 0000:
+		OLD: （馬車が出てる…。話に聞いたカスターニェ行きの馬車かな？）
+		NEW: (There's a cart there... Is this the cart that's heading for Kastaneh?)
+
+	Textblock 0001:
+		OLD: 馬車に乗ろうかなあ？
+		NEW: Go by cart?
+
+	Textblock 0002:
+		OLD: （銀貨１００枚で馬車に乗れるなら安いよね…）
+		NEW: (100 silvers to ride the cart is quite cheap...)
+
+	Textblock 0003:
+		OLD: （お金が足りない…。トホホ）
+		NEW: (Not enough money... Ohhhh...)
+
+	Textblock 0004:
+		OLD: （うん、歩いていくことにしよう）
+		NEW: (Okay, let's walk)
+
+
+
+Block 0082:
+
+	Textblock 0000:
+		OLD: （馬車が出てる…。話に聞いたカスターニェ行きの馬車かな？）
+		NEW: (There's a cart there... Is this the cart that's heading for Kastaneh?)
+
+	Textblock 0001:
+		OLD: 馬車に乗ろうかなあ？
+		NEW: Go by cart?
+
+	Textblock 0002:
+		OLD: （銀貨１００枚で馬車に乗れるなら安いよね…）
+		NEW: (100 silvers to ride the cart is quite cheap...)
+
+	Textblock 0003:
+		OLD: （お金が足りない…。トホホ）
+		NEW: (Not enough money... Ohhhh...)
+
+	Textblock 0004:
+		OLD: （うん、歩いていくことにしよう）
+		NEW: (Okay, let's walk)
+
+
+
+Block 0083:
+
+	Textblock 0000:
+		OLD: （馬車が出てる…。話に聞いたカスターニェ行きの馬車かな？）
+		NEW: (There's a cart there... Is this the cart that's heading for Kastaneh?)
+
+	Textblock 0001:
+		OLD: 馬車に乗ろうかなあ？
+		NEW: Go by cart?
+
+	Textblock 0002:
+		OLD: （銀貨１００枚で馬車に乗れるなら安いよね…）
+		NEW: (100 silvers to ride the cart is quite cheap...)
+
+	Textblock 0003:
+		OLD: （お金が足りない…。トホホ）
+		NEW: (Not enough money... Ohhhh...)
+
+	Textblock 0004:
+		OLD: （うん、歩いていくことにしよう）
+		NEW: (Okay, let's walk) 
+
+
+
+Block 0084:
+
+	Textblock 0000:
+		OLD: （馬車が出てる…。話に聞いたカスターニェ行きの馬車かな？）
+		NEW: (There's a cart there... Is this the cart that's heading for Kastaneh?)
+
+	Textblock 0001:
+		OLD: 馬車に乗ろうかなあ？
+		NEW: Go by cart?
+
+	Textblock 0002:
+		OLD: （銀貨１００枚で馬車に乗れるなら安いよね…）
+		NEW: (100 silvers to ride the cart is quite cheap...)
+
+	Textblock 0003:
+		OLD: （お金が足りない…。トホホ）
+		NEW: (Not enough money... Ohhhh...)
+
+	Textblock 0004:
+		OLD: （うん、歩いていくことにしよう）
+		NEW: (Okay, let's walk)
+
+
+
+Block 0085:
+
+	Textblock 0000:
+		OLD: そういや、ヘウレンの森に吸血鬼が出るっていう話だ。王室騎士隊にも退治を依頼したんだが何故か動こうとしない。
+		NEW: I heard a vampire lurks in Heulen Forest. The knights were bidded with his disposal, but they still have yet to mobilize.
+
+	Textblock 0001:
+		OLD: それで冒険者たちが一攫千金を狙って森に入ってるらしい。吸血鬼に間違われてやられないように気をつけるんだな。
+		NEW: All the adventurers who want to get rich have entered the forest. Be careful the vampire mistaking you for them.
+
+
+
+Block 0086:
+
+	Textblock 0000:
+		OLD: …私の庭から出てゆけ……。
+		NEW: ...Get out of my garden......
+
+	Textblock 0001:
+		OLD: で、出た～！
+		NEW: He's, -he's here!
+
+	Textblock 0002:
+		OLD: 出てゆけえっ！！
+		NEW: GET OUT!!!
+
+
+
+Block 0087:
+
+	Textblock 0000:
+		OLD: …ちょっと小耳に挟んだんだが、お前、ヘウレンの森の吸血鬼倒したらしいな。
+		NEW: ...I just happened to hear this, but it seems you defeated the vampire in Heulen Forest.
+
+	Textblock 0001:
+		OLD: だって王室騎士隊がいつまでたっても退治してくれないから…しかもこっちは襲われたんだよ。倒しちゃったけど…。
+		NEW: It's because the Royal Knights haven't taken any action... Besides, I was attacked- though I took him down...
+
+	Textblock 0002:
+		OLD: 王室騎士隊が動かなかったのは悪いと思ってる。ただ、これじゃあの吸血鬼が浮かばれなくてな。
+		NEW: I know it was wrong of us to not mobilize; but that vampire couldn't rest in peace.
+
+	Textblock 0003:
+		OLD: ……浮かばれない？
+		NEW: ........Couldn't rest in peace?
+
+	Textblock 0004:
+		OLD: 俺も昔からザールブルグにいるわけじゃねえから詳しくは知らないが…。ヘウレンの森は吸血鬼の庭だったんだそうだ。
+		NEW: I haven't been in Salburg long enough to know the details, but... Heulen Forest seemed to be the vampire's garden.
+
+	Textblock 0005:
+		OLD: あの吸血鬼、フォン・シュテルンビルト伯爵っていってな。貴族って奴だな。
+		NEW: That vampire was Count Von Sternbild, an aristocrat.
+
+	Textblock 0006:
+		OLD: あの森は今でこそあんな森になっちまってるが、以前はきれいに刈り揃えられた巨大な庭園だった。
+		NEW: Despite that place becoming the forest it has now; it used to be a large, lovely, pruned garden.
+
+	Textblock 0007:
+		OLD: 伯爵、美人の奥さんと住んでたらしいんだけどな…。奥さん、病気で死んじまって…その墓がヘウレンの森にあるんだ。
+		NEW: It was where the Count and his beautiful wife lived... But his wife became ill and died... Her grave is in Heulen Forest.
+
+	Textblock 0008:
+		OLD: その後伯爵も死んだ。でもああして死んでも出てきたってことは奥さんの墓が気になって死にきれなかったんだろうな。
+		NEW: The Count soon died after that. But because he was so concerned with his wife's grave, he couldn't move on.
+
+	Textblock 0009:
+		OLD: それを知ってたから騎士隊を派遣しなかった…？
+		NEW: Did the knights know of this, and so weren't dispatched?
+
+	Textblock 0010:
+		OLD: ああ、みんなを不安がらせちまったけどな…。
+		NEW: Yeah, everyone was uncomfortable about it...
+
+	Textblock 0011:
+		OLD: …ヘウレンの森の吸血鬼を倒したそうだな。
+		NEW: ...I hear that you've eliminated the vampire in Heulen Forest.
+
+	Textblock 0012:
+		OLD: はい。だって突然襲いかかって来たんですよ？何で王室騎士隊が退治してくれなかったんですか？
+		NEW: Yes, because I was suddenly attacked. Why didn't the Royal Knights exterminate him?
+
+	Textblock 0013:
+		OLD: …ヘウレンの森はかつてあの吸血鬼…フォン・シュテルンビルト伯爵の領地だったのだ。
+		NEW: ...At one time, Heulen Forest was the vampire's... Count Von Sternbild's domain.
+
+	Textblock 0014:
+		OLD: フォン・シュテルンビルト伯爵が健在だった頃はあの森は、巨大な庭園だった。たいそう美しい庭だったと聞く…。
+		NEW: While Count Von Sternbild was still alive, that forest used to be a large garden. An extremely beautiful garden, I've heard.
+
+	Textblock 0015:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0016:
+		OLD: 伯爵には美しい妻がいたが、ずいぶん昔に病で亡くなり、その妻の墓が領内、つまりヘウレンの森にあるのだ。
+		NEW: The Count had a lovely wife who died of illness long ago. Her grave is in that domain- in other words, in Heulen Forest.
+
+	Textblock 0017:
+		OLD: その後伯爵も亡くなったのだが…妻の墓を守るため、死んでも死にきれずに森に出没していたのだろう。
+		NEW: Soon after, the Count too, passed away... However, in order to protect his wife's grave, he lingered on in the forest.
+
+	Textblock 0018:
+		OLD: …悲しい話ですね。
+		NEW: ...Such a sad story.
+
+	Textblock 0019:
+		OLD: 本来、どんな事情があるにせよ王室騎士隊が退治をしなくてはならなかった。騎士隊に代わり、礼を言う。
+		NEW: The Royal Knights were supposed to handle whatever that falls to them. I thank you on their behalf. 
+
+
+
+Block 0088:
+
+	Textblock 0000:
+		OLD: …ちょっと小耳に挟んだんだが、お前、ヘウレンの森の吸血鬼倒したらしいな。
+		NEW: ...I just happened to hear this, but it seems you defeated the vampire in Heulen Forest.
+
+	Textblock 0001:
+		OLD: だって王室騎士隊がいつまでたっても退治してくれないから…しかもこっちは襲われたんだよ。倒しちゃったけど…。
+		NEW: It's because the Royal Knights haven't taken any action... Besides, I was attacked- though I took him down...
+
+	Textblock 0002:
+		OLD: 王室騎士隊が動かなかったのは悪いと思ってる。ただ、これじゃあの吸血鬼が浮かばれなくてな。
+		NEW: I know it was wrong of us to not mobilize; but he was a vampire who couldn't rest in peace.
+
+	Textblock 0003:
+		OLD: ……浮かばれない？
+		NEW: ........Couldn't rest in peace?
+
+	Textblock 0004:
+		OLD: 俺も昔からザールブルグにいるわけじゃねえから詳しくは知らないが…。ヘウレンの森は吸血鬼の庭だったんだそうだ。
+		NEW: I haven't been in Salburg long enough to know the details, but... Heulen Forest seemed to be the vampire's garden.
+
+	Textblock 0005:
+		OLD: あの吸血鬼、フォン・シュテルンビルト伯爵っていってな。貴族って奴だな。
+		NEW: That vampire was Count Von Sternbild, an aristocrat.
+
+	Textblock 0006:
+		OLD: あの森は今でこそあんな森になっちまってるが、以前はきれいに刈り揃えられた巨大な庭園だった。
+		NEW: Despite that place becoming the forest it has now; it used to be a large, lovely, pruned garden.
+
+	Textblock 0007:
+		OLD: 伯爵、美人の奥さんと住んでたらしいんだけどな…。奥さん、病気で死んじまって…その墓がヘウレンの森にあるんだ。
+		NEW: It was where the Count and his beautiful wife lived... But his wife became ill and died... Her grave is in Heulen Forest.
+
+	Textblock 0008:
+		OLD: その後伯爵も死んだ。でもああして死んでも出てきたってことは奥さんの墓が気になって死にきれなかったんだろうな。
+		NEW: The Count soon died after that. But because he was so concerned with his wife's grave, he couldn't move on.
+
+	Textblock 0009:
+		OLD: それを知ってたから騎士隊を派遣しなかった…？
+		NEW: Did the knights know of this, and so weren't dispatched?
+
+	Textblock 0010:
+		OLD: ああ、みんなを不安がらせちまったけどな…。
+		NEW: Yeah, everyone was uncomfortable about it...
+
+	Textblock 0011:
+		OLD: …ヘウレンの森の吸血鬼を倒したそうだな。
+		NEW: ...I hear that you've eliminated the vampire in Heulen Forest.
+
+	Textblock 0012:
+		OLD: はい。だって突然襲いかかって来たんですよ？何で王室騎士隊が退治してくれなかったんですか？
+		NEW: Yes, because I was suddenly attacked. Why didn't the Royal Knights exterminate him?
+
+	Textblock 0013:
+		OLD: …ヘウレンの森はかつてあの吸血鬼…フォン・シュテルンビルト伯爵の領地だったのだ。
+		NEW: ...At one time, Heulen Forest was the vampire's... Count Von Sternbild's domain.
+
+	Textblock 0014:
+		OLD: フォン・シュテルンビルト伯爵が健在だった頃はあの森は、巨大な庭園だった。たいそう美しい庭だったと聞く…。
+		NEW: While Count Von Sternbild was still alive, that forest used to be a large garden. An extremely beautiful garden, I've heard.
+
+	Textblock 0015:
+		OLD: ……。
+		NEW: .........................
+
+	Textblock 0016:
+		OLD: 伯爵には美しい妻がいたが、ずいぶん昔に病で亡くなり、その妻の墓が領内、つまりヘウレンの森にあるのだ。
+		NEW: The Count had a lovely wife who died of illness long ago. Her grave is in that domain- in other words, in Heulen Forest.
+
+	Textblock 0017:
+		OLD: その後伯爵も亡くなったのだが…妻の墓を守るため、死んでも死にきれずに森に出没していたのだろう。
+		NEW: Soon after, the Count too, passed away... However, in order to protect his wife's grave, he lingers on in the forest.
+
+	Textblock 0018:
+		OLD: …悲しい話ですね。
+		NEW: ...Such a sad story.
+
+	Textblock 0019:
+		OLD: 本来、どんな事情があるにせよ王室騎士隊が退治をしなくてはならなかった。騎士隊に代わり、礼を言う。
+		NEW: The Royal Knights were supposed to handle whatever that falls to them. I thank you on their behalf. 
+
+
+
+Block 0089:
+
+	Textblock 0000:
+		OLD: （な、何、この怪物は！？）
+		NEW: (Wha, -what's this monster!?)
+
+	Textblock 0001:
+		OLD: うにを粗末にする者はいねーがあー！！
+		NEW: Somebody has been abusing urchins!!!
+
+
+
+Block 0090:
+
+	Textblock 0000:
+		OLD: ……うにが怒っておる。大地が怒りで張りつめておる……。
+		NEW: .....The Urchin is enraged. The earth is furious and anxious.....
+
+	Textblock 0001:
+		OLD: …怒ってる？うに？？
+		NEW: ....Enraged? Urchin??
+
+	Textblock 0002:
+		OLD: …うにを軽んじる者現れしとき、うに魔人現る。お主…、うに魔人を怒らせたようじゃな……。
+		NEW: ...When there are those who belittle urchins, the Urchin Demon appears. You... Did you arouse the Urchin Demon's anger?
+
+	Textblock 0003:
+		OLD: お、怒らせたって、そんな…！￥どうしたらいいんですか？
+		NEW: Aroused... I didn't mean...!\nWhat should I do now?
+
+	Textblock 0004:
+		OLD: うに魔人はうにそのもの…。うに以上でもうに以下でもない。ワシに分かるのはここまでじゃ。
+		NEW: The Urchin Demon is an urchin itself... No more and no less. That is all I know.
+
+	Textblock 0005:
+		OLD: …………。
+		NEW: .........................
+
+
+
+Block 0091:
+
+	Textblock 0000:
+		OLD: さらばだ…。うがっはっはあ！！
+		NEW: Farewell... Ahahaha!!
+
+
+
+Block 0092:
+
+	Textblock 0000:
+		OLD: （あれ、誰もいない…。どこ行っちゃったんだろ？）
+		NEW: (Huh, no one's here... Where did they all go?)
+
+	Textblock 0001:
+		OLD: （ん、何だろう？あの階段…。今まであんなのあったっけ？）
+		NEW: (Hm, what's this? Those stairs... There's still something like that?)
+
+
+
+Block 0093:
+
+	Textblock 0000:
+		OLD: のど自慢大会も迫ってきたなあ。今年はうまく終わってくれればいいが…。
+		NEW: The Singing Contest is drawing near. I hope it all ends successfully this year, but...
+
+	Textblock 0001:
+		OLD: そうだね。でもま、あの武器屋の親父さえ出なければうまくいくわ。
+		NEW: Yeah, it'd turn out well if that weapon shop's Oyaji doesn't participate.
+
+	Textblock 0002:
+		OLD: 永久追放だっけ？まああの歌じゃ当然だよな。あれだったら街の外の怪物の方がまだうまい…おい、どうした？
+		NEW: Banned for eternity, is he? Well, with his singing, that was inevitable. He's even worse than the monsters... Hey, what is it?
+
+	Textblock 0003:
+		OLD: う、うしろ…。
+		NEW: Be, -behind you...
+
+	Textblock 0004:
+		OLD: うしろ？…うわあっ、ぶ、武器屋の！
+		NEW: Behind? ...Whoa, the weapon shop's...!
+
+	Textblock 0005:
+		OLD: おい、今の話ちょいと聞き捨てならねえな。この俺の歌のどこがいけねえってんだ！？俺はな今年も出るからな！！
+		NEW: Hey, I can't ignore whatcha just said. Which part of my singing is trashy!? I'm gonna be participatin' this year too!!
+
+	Textblock 0006:
+		OLD: ええっ、ほ、本気ですか…！あなた永久追放でしょ！
+		NEW: Ehh, serious...!? Aren't you eternally banned!?
+
+	Textblock 0007:
+		OLD: なにを！そりゃそっちが勝手に決めた取り決めじゃねえか。大体追放って、俺様の声を聴きたい奴だっているんだぜ！！
+		NEW: What! Ya decided that all on yer own. Even if I'm banned, there must be somebody who wants to hear me sing!!
+
+	Textblock 0008:
+		OLD: （そんな人いないって！）
+		NEW: (There's no such somebody!)
+
+	Textblock 0009:
+		OLD: そ、そうだ。それじゃ他の人に聞いてみて下さいよ。あんたの歌を聴きたいかどうか。
+		NEW: How about this: we'll ask others whether they want to hear you sing or not.
+
+	Textblock 0010:
+		OLD: よーし、聞いてやろうじゃねえか。￥…おっ、いいところにいい奴が来たぜ！おおい！！
+		NEW: Alright, let's ask then.\n...Oh, good timin'! Hey!!
+
+	Textblock 0011:
+		OLD: よお！ちょっといいか。
+		NEW: Yo! Spare me a minute?
+
+	Textblock 0012:
+		OLD: な、なんでしょう。（イヤな予感）
+		NEW: What is it? (I have a bad feeling)
+
+	Textblock 0013:
+		OLD: 今度、中央広場でのど自慢大会が開かれるんだがな。あんたは俺の歌を聴きたいよな！？
+		NEW: There's gonna be a singin' contest at the town square. Ya wanna hear me sing, right!?
+
+	Textblock 0014:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0015:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0016:
+		OLD: なああ、聴きたいよなあ。聴きたいって言ってくれよ。
+		NEW: Hey, ya wanna hear, right? Just say so.
+
+	Textblock 0017:
+		OLD: どうしようかなあ？
+		NEW: What should I say?
+
+	Textblock 0018:
+		OLD: そうか！そーうだよなあ！…ほれみろ、ちゃあんといるじゃねえか。そうと決まればさっそく準備だ！あばよ！
+		NEW: I knew it! Of course! See, there's somebody right here. I better start preparin' then! Laters!
+
+	Textblock 0019:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0020:
+		OLD: あんた、余計なこと言ってくれたね…。一生恨みますよ……。
+		NEW: You said something most unnecessary...\nI will resent you for my entire life...
+
+	Textblock 0021:
+		OLD: そうら、聞いたとおりでしょ。あんたは大会には出ちゃダメですよ。
+		NEW: See, it's as you heard. You can't enter the contest.
+
+	Textblock 0022:
+		OLD: くっ……！
+		NEW: Ugh.....!
+
+	Textblock 0023:
+		OLD: チキショー、みんなで俺をのけ者にしやがって覚えてろよ！
+		NEW: Damn, I'll remember how ya all ostracized me!
+
+	Textblock 0024:
+		OLD: な…！あんたまでそんなこと言うのか！大体、あんた俺の歌を聴いたことないだろう！
+		NEW: What...! Even ya say that!? Ya haven't heard my singin' before!
+
+	Textblock 0025:
+		OLD: 聴いたことなくてもあんたの歌の話は有名だから…。
+		NEW: Even if one hasn't heard you sing, they've heard the infamous stories surrounding it.
+
+	Textblock 0026:
+		OLD: そーうかい。そこまで言うんだ、さぞやあんたは歌がうまいんだろうな。
+		NEW: Is that so. To say it with such conviction, surely ya must be skilled at singin' then.
+
+	Textblock 0027:
+		OLD: よし、それなら俺の代わりに出て歌ってみろよ。そうしないと俺の腹の虫がおさまらねえ！絶対だぞ、見に行くからな！
+		NEW: Alright, ya go sing in my place. Otherwise, my temper will erupt! Ya have to; 'cause I'll go watcha!
+
+	Textblock 0028:
+		OLD: そ、そんなあ…。トホホ……。
+		NEW: What, -that's..... Ohhhh
+
+
+
+Block 0094:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: よお……。俺だ。
+		NEW: Yo..... It's me...
+
+	Textblock 0004:
+		OLD: 俺はやっぱり歌が下手なのかも知れねえなあ…。
+		NEW: Maybe I really do suck at singin'....
+
+	Textblock 0005:
+		OLD: …何かあったんですか……？
+		NEW: ...Did something happen.....?
+
+	Textblock 0006:
+		OLD: 子供は泣き出すし、婆さんは倒れるし、どうして俺のこの熱い気持ちが伝わらねえのかなあ。
+		NEW: The kids cried, grannies collapsed; why hasn't my passion reached them...
+
+	Textblock 0007:
+		OLD: は、はあ。
+		NEW: Ye.. yeah.
+
+	Textblock 0008:
+		OLD: あーあ、俺はもうダメだ。
+		NEW: Ahhh, I can't take this anymore.
+
+	Textblock 0009:
+		OLD: ああ……、あんたか。
+		NEW: Ahhh....... it's you.
+
+	Textblock 0010:
+		OLD: 俺はやっぱり歌が下手なのかも知れねえなあ…。
+		NEW: Maybe I really do suck at singin'....
+
+	Textblock 0011:
+		OLD: …何かあったんですか……？
+		NEW: ...Did something happen.....?
+
+	Textblock 0012:
+		OLD: 子供は泣き出すし、婆さんは倒れるし、どうして俺のこの熱い気持ちが伝わらねえのかなあ。
+		NEW: The kids cried, grannies collapsed; why hasn't my passion reached them...
+
+	Textblock 0013:
+		OLD: は、はあ。
+		NEW: Ye.. yeah.
+
+	Textblock 0014:
+		OLD: あーあ、俺はもうダメだ。悪いが今日はもう帰ってくれ…。
+		NEW: Ahhh, I can't take this anymore. Sorry, but go home for today...
+
+
+
+Block 0095:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: よお……。俺だ。
+		NEW: Yo..... It's me...
+
+	Textblock 0004:
+		OLD: 俺はやっぱり歌が下手なのかも知れねえなあ…。
+		NEW: Maybe I really do suck at singin'....
+
+	Textblock 0005:
+		OLD: …何かあったんですか……？
+		NEW: ...Did something happen.....?
+
+	Textblock 0006:
+		OLD: 子供は泣き出すし、婆さんは倒れるし、どうして俺のこの熱い気持ちが伝わらねえのかなあ。
+		NEW: The kids cried, grannies collapsed; why hasn't my passion reached them...
+
+	Textblock 0007:
+		OLD: は、はあ。
+		NEW: Ye.. yeah.
+
+	Textblock 0008:
+		OLD: あーあ、俺はもうダメだ。
+		NEW: Ahhh, I can't take this anymore.
+
+	Textblock 0009:
+		OLD: ああ……、あんたか。
+		NEW: Ahhh....... it's you.
+
+	Textblock 0010:
+		OLD: 俺はやっぱり歌が下手なのかも知れねえなあ…。
+		NEW: Maybe I really do suck at singin'....
+
+	Textblock 0011:
+		OLD: …何かあったんですか……？
+		NEW: ...Did something happen.....?
+
+	Textblock 0012:
+		OLD: 子供は泣き出すし、婆さんは倒れるし、どうして俺のこの熱い気持ちが伝わらねえのかなあ。
+		NEW: The kids cried, grannies collapsed; why hasn't my passion reached them...
+
+	Textblock 0013:
+		OLD: は、はあ。
+		NEW: Ye.. yeah.
+
+	Textblock 0014:
+		OLD: あーあ、俺はもうダメだ。悪いが今日はもう帰ってくれ…。
+		NEW: Ahhh, I can't take this anymore. Sorry, but go home for today...
+
+
+
+Block 0096:
+
+	Textblock 0000:
+		OLD: （そうだ、今日は確かのど自慢大会の日だ…。私、うまく歌えるかなあ？）
+		NEW: (Oh yeah, today's the Singing Contest... Will I sing well enough?)
+
+	Textblock 0001:
+		OLD: そしてのど自慢大会本番……
+		NEW: At the Singing Contest......
+
+	Textblock 0002:
+		OLD: （次は私の番だ…）
+		NEW: (Next is my turn... )
+
+	Textblock 0003:
+		OLD: さあ、次は可愛い女の子の登場だ！
+		NEW: Now, a cute lady next upl!
+
+	Textblock 0004:
+		OLD: （ふう、何とか終わったよ…）
+		NEW: (Phew, finally over... )
+
+	Textblock 0005:
+		OLD: よう…聴かせてもらったぜ。￥…さすがだ。俺の歌にケチをつけるだけのことはあるようだな。
+		NEW: Yo... I heard... That was great. It makes my singin' petty in comparison.
+
+	Textblock 0006:
+		OLD: 俺もまだまだか。…もっと頑張らねえとなあ。
+		NEW: I still got a long way to go... Gotta work harder.
+
+	Textblock 0007:
+		OLD: は、はあ。
+		NEW: Ye... yeah.
+
+	Textblock 0008:
+		OLD: よう…聴かせてもらったぜ。￥…もっと出来るかと思っていたが、俺とどっこいどっこいのようだな。
+		NEW: Yo... I heard... I thought ya could do better than that. We're on the same level.
+
+	Textblock 0009:
+		OLD: は、はあ。
+		NEW: Ye... yeah.
+
+
+
+Block 0097:
+
+	Textblock 0000:
+		OLD: （そうだ、今日は確かのど自慢大会の日だ…。私、うまく歌えるかなあ？）
+		NEW: (Oh yeah, today's the Singing Contest... Will I sing well enough?)
+
+	Textblock 0001:
+		OLD: そしてのど自慢大会本番……
+		NEW: At the Singing Contest......
+
+	Textblock 0002:
+		OLD: （次は私の番だ…）
+		NEW: (Next is my turn... )
+
+	Textblock 0003:
+		OLD: さあ、次は可愛い女の子の登場だ！
+		NEW: Now, a cute lady next upl!
+
+	Textblock 0004:
+		OLD: （ふう、何とか終わったよ…）
+		NEW: (Phew, finally over... )
+
+	Textblock 0005:
+		OLD: よう…聴かせてもらったぜ。￥…さすがだ。俺の歌にケチをつけるだけのことはあるようだな。
+		NEW: Yo... I heard... That was great. It makes my singin' petty in comparison.
+
+	Textblock 0006:
+		OLD: 俺もまだまだか。…もっと頑張らねえとなあ。
+		NEW: I still got a long way to go... Gotta work harder.
+
+	Textblock 0007:
+		OLD: は、はあ。
+		NEW: Ye... yeah.
+
+	Textblock 0008:
+		OLD: よう…聴かせてもらったぜ。￥…もっと出来るかと思っていたが、俺とどっこいどっこいのようだな。
+		NEW: Yo... I heard... I thought ya could do better than that. We're on the same level.
+
+	Textblock 0009:
+		OLD: は、はあ。
+		NEW: Ye... yeah.
+
+
+
+Block 0098:
+
+	Textblock 0000:
+		OLD: なあ…あんた、のど自慢大会すっぽかしただろう？みんなカンカンになって怒ってたぜ……。
+		NEW: Hey... You backed out of the Singing Contest? Everyone's mad and infuriated...
+
+	Textblock 0001:
+		OLD: まさかのど自慢大会すっぽかすとは思わなかったぜ…。期待してたのによ……。今日はもう帰ってくれ。
+		NEW: To think ya would cop out of the Singin' Contest... And there I was, anticipatin'... Just go home for today.
+
+	Textblock 0002:
+		OLD: この間ののど自慢大会でね、出るはずだったのにすっぽかした人がいたのよ。あたしに恐れをなしたのね、きっと。
+		NEW: The Singing Contest recently- someone backed out. That person must be scared of me.
+
+
+
+Block 0099:
+
+	Textblock 0000:
+		OLD: なあ…あんた、のど自慢大会すっぽかしただろう？みんなカンカンになって怒ってたぜ……。
+		NEW: Hey... You backed out of the Singing Contest? Everyone's mad and infuriated...
+
+	Textblock 0001:
+		OLD: まさかのど自慢大会すっぽかすとは思わなかったぜ…。期待してたのによ……。今日はもう帰ってくれ。
+		NEW: To think ya would cop out of the Singin' Contest... And there I was, anticipatin'... Just go home for today.
+
+	Textblock 0002:
+		OLD: この間ののど自慢大会でね、出るはずだったのにすっぽかした人がいたのよ。あたしに恐れをなしたのね、きっと。
+		NEW: The Singing Contest recently- someone backed out. That person must be scared of me.  
+
+
+
+Block 0100:
+
+	Textblock 0000:
+		OLD: なあ…あんた、のど自慢大会すっぽかしただろう？みんなカンカンになって怒ってたぜ……。
+		NEW: Hey... You backed out of the Singing Contest? Everyone's mad and infuriated...
+
+	Textblock 0001:
+		OLD: まさかのど自慢大会すっぽかすとは思わなかったぜ…。期待してたのによ……。今日はもう帰ってくれ。
+		NEW: To think ya would cop out of the Singin' Contest... And there I was, anticipatin'... Just go home for today.
+
+	Textblock 0002:
+		OLD: この間ののど自慢大会でね、出るはずだったのにすっぽかした人がいたのよ。あたしに恐れをなしたのね、きっと。
+		NEW: The Singing Contest recently- someone backed out. That person must be scared of me. 
+
+
+
+Block 0101:
+
+	Textblock 0000:
+		OLD: そうだな、材料を取るならストルデル川がいいらしいな。薬草や鉱物があるが結構取れるって話だ。
+		NEW: If you're gathering ingredients, Stordel River would be a good place. It's abundant with medicinal plants and minerals.
+
+	Textblock 0001:
+		OLD: 本当はストルデルの滝の方が色々取れるんだが前に凶暴な怪物が現れて、今では王室から立ち入り禁止令が出ている。
+		NEW: At the waterfall would be even better, but there's been fierce monsters, so now it's off limits by royal decree.
+
+	Textblock 0002:
+		OLD: まあ、大した差はないらしいから、そこで十分だろう。
+		NEW: Well, it doesn't make much difference. You can gather plenty enough at Stordel River.
+
+
+
+Block 0102:
+
+	Textblock 0000:
+		OLD: 鉱物を取るならエルフィン洞窟だな。いくらドラゴンが倒されたっていってもあの山が危険なところに変わりはない。
+		NEW: Elfin Cave would be the place to find minerals. No matter how many dragons have been slayed there, it's still dangerous.
+
+	Textblock 0001:
+		OLD: エルフィン洞窟は以前からヴィラント山の代わりに鉱物を取りに行くヤツが多かったからな。結構、物はあるはずだぜ。
+		NEW: It has long since been the mineral gathering point in place of Villant Mountain. It should provide you with a lot there.
+
+
+
+Block 0103:
+
+	Textblock 0000:
+		OLD: 変わった採取先ねえ？俺はそこら辺は分かんねえしなぁ…。大体、俺は最近このザールブルグに来たからなあ。
+		NEW: A different gathering point? I ain't familiar with things around here... I mean, I just recently came to Salburg.
+
+	Textblock 0001:
+		OLD: 要は草が取れりゃあいいんだろ？だったらここに来る途中にそれらしい草が取れそうなところがあったぜ。
+		NEW: Point is, you just wanna pick grass, right? If so, then there's a good place en route here with those grass.
+
+	Textblock 0002:
+		OLD: ここら辺の人たちは東の台地って呼んでる。その名のとおり東の方にあるから行ってみるのもいいかもな。
+		NEW: The folks here call that place the Eastern Lands. True to its name, it's in the east. Maybe you should try heading there.
+
+
+
+Block 0104:
+
+	Textblock 0000:
+		OLD: 近くの森より色んな種類の薬草を採りたいならヘウレンの森だな。あの森は最近なかなかの採取場所だって評判なんだ。
+		NEW: A place where you can gather more varieties of medicinal plants than in Nearby Woods would be Heulen Forest.
+
+	Textblock 0001:
+		OLD: ここ１、２年前はメディアの森という巨大な森が材料採取に最適な場所だったんだが土地が痩せ始めてきてな…。
+		NEW: A year or 2 ago, there used to be a large forest suitable for gathering, called Mehdia Forest. It's becoming barren, though.
+
+	Textblock 0002:
+		OLD: 土地開発も程々にしないと後で自分の首を絞めることになるな…。
+		NEW: If there are no land developements or any actions taken, we'll just be wringing our own necks later on...
+
+
+
+Block 0105:
+
+	Textblock 0000:
+		OLD: あまり外に出歩かないことだな…。命は粗末にしてはいけない。…うむ、そうだな、ひとつ忠告しておこう。
+		NEW: You don't venture out much... True, it won't do to handle your life crudely... Hmm, yes, a word of advice.
+
+	Textblock 0001:
+		OLD: この街から少し行ったところにあるエアフォルクの塔にだけは近づくな。塔には危険な怪物が多く生息しているのでな。
+		NEW: A short distance away from this town is Erfolg Tower, where you musn't go near. Dangerous monsters inhabit the tower.
+
+
+
+Block 0106:
+
+	Textblock 0000:
+		OLD: なあ、宝石とか売ってくれねえかな？どうもここんとこ、仕入れが悪くてよ。
+		NEW: Hey, ya got any gemstones to sell me? Gettin' supplies of those here is hard.
+
+	Textblock 0001:
+		OLD: 前はアーベントの丘の採掘場で取れる奴を仕入れてたんだけどよ…どうも最近出が悪いようなんだ。
+		NEW: We used to have a guy gatherin' them on Abend Hill... But recently, that place has become rather depleted.
+
+	Textblock 0002:
+		OLD: アーベントの丘？
+		NEW: Abend Hill?
+
+	Textblock 0003:
+		OLD: アーベントの丘はここから北東だ。露天掘りの採掘場があるから行きゃすぐ分かる。
+		NEW: Abend Hill is to the north of here. It's an open-pit mine so ya can't miss it.
+
+	Textblock 0004:
+		OLD: もっとも出が悪くなったって言っても全くなくなったわけじゃねえ。宝石を見つけたらよろしく頼むぜ。
+		NEW: Even though I say it's depleted, there's no way it has absolutely nothin'. If ya find any gems, I'll be happy to buy them.
+
+
+
+Block 0107:
+
+	Textblock 0000:
+		OLD: 薬草が採れる場所ねえ…それを言ったらちょっと行ったところにある大草原しかねえなあ。
+		NEW: A site for picking medicinal plants, hmm.... I'd say it has to be the Vast Meadow that's not too far from here.
+
+	Textblock 0001:
+		OLD: あそこには海風を受けても枯れない丈夫な植物がたくさん生えてる。きっとあんたの気に入るような草も生えてるぜ。
+		NEW: There're plants there that do not wither despite the sea breeze. I believe you'll find something of interest to you.
+
+
+
+Block 0108:
+
+	Textblock 0000:
+		OLD: そうだな、千年亀砂丘なんていいところだぜ。景色がよくてよ…。
+		NEW: Ah yes, the Millennial Turtle Dune is a nice place. Great sceneries...
+
+	Textblock 0001:
+		OLD: 昔はその名の通り千年亀が毎年産卵に来たもんだけどな、今はめっきり数が減っちまって見れたら幸せってなところだ。
+		NEW: Long ago, the Millennial Turtles laid their eggs there each year. The numbers have now reduced dramatically that you're considered lucky to see one.
+
+
+
+Block 0109:
+
+	Textblock 0000:
+		OLD: アンタの知らないような場所っていやあそうだな、ミケネー島なんか行ったことねえだろう？
+		NEW: Let's see, a place which you don't seem to know- have you been to Mykene Island?
+
+	Textblock 0001:
+		OLD: あそこにはちょっと普通じゃない化け物がいるからな…ここら辺の連中も滅多に近づかない場所だ。
+		NEW: The monsters there ain't your regulars... It's a place where folks here seldom go near.
+
+	Textblock 0002:
+		OLD: まあ、そんなところだからよ、変わったもんがあるかも知れねえけど、無茶はすんなよ。
+		NEW: Well, that's the type of place it is. Dunno if anything's changed, but don't strain yourself.
+
+
+
+Block 0110:
+
+	Textblock 0000:
+		OLD: あ…あの、すみませんけど、よろしければ教会にご寄付をお願いしたいのですけど……。
+		NEW: Um.... Excuse me, if you don't mind would you like to make a donation to our church...?
+
+	Textblock 0001:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0002:
+		OLD: あ、ありがとうございます！
+		NEW: Th, -thank you very much!
+
+	Textblock 0003:
+		OLD: そうですか…残念です。
+		NEW: I see.... Too bad, then.
+
+
+
+Block 0111:
+
+	Textblock 0000:
+		OLD: すみません…ちょっと変な質問なんですけど…エルフィールさんは今、何かしたいことってありますか？
+		NEW: I'm sorry for asking you a queer question... but do you have something you want to do?
+
+	Textblock 0001:
+		OLD: 興味を持っていることとか、目指していることとか、そういったものなのですけど……。
+		NEW: Like, something you're interested in, or something you're aiming for: such things....
+
+	Textblock 0002:
+		OLD: え、ええとね…。
+		NEW: Eh, well....
+
+	Textblock 0003:
+		OLD: 素敵ですね…。私はずっとこの教会にいなくてはいけないので…うらやましいです。
+		NEW: How wonderful... I cannot be absent from this church for long periods... so I envy you.
+
+	Textblock 0004:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: そうですね…。エルフィールさんのように何度も来てくれる方がいれば、私ももっと友達が出来るんでしょうけど…。
+		NEW: I see... If there were other people like you who would visit me often, I would be able to make more friends...
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: いいですね…。自分の好きなことに打ち込んでいる人って…。私には打ち込めるものがないので……。
+		NEW: That's great... Being dedicated to something you like... I have nothing to dedicate myself to...
+
+	Textblock 0008:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0009:
+		OLD: 私もこれといってすることがないんですよ…。何だかさみしいですね。
+		NEW: I, too, don't have anything particular to do... It feels somewhat lonely.
+
+	Textblock 0010:
+		OLD: …………。
+		NEW: .........................
+
+
+
+Block 0112:
+
+	Textblock 0000:
+		OLD: すみません…ちょっと変な質問なんですけど…エルフィールさんは今、何かしたいことってありますか？
+		NEW: I'm sorry for asking you a queer question... but do you have something you want to do?
+
+	Textblock 0001:
+		OLD: 興味を持っていることとか、目指していることとか、そういったものなのですけど……。
+		NEW: Like, something you're interested in, or something you're aiming for: such things....
+
+	Textblock 0002:
+		OLD: え、ええとね…。
+		NEW: Eh, well....
+
+	Textblock 0003:
+		OLD: 素敵ですね…。私はずっとこの教会にいなくてはいけないので…うらやましいです。
+		NEW: How wonderful... I cannot be absent from this church for long periods... so I envy you.
+
+	Textblock 0004:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: そうですね…。エルフィールさんのように何度も来てくれる方がいれば、私ももっと友達が出来るんでしょうけど…。
+		NEW: I see... If there were other people like you who would visit me often, I would be able to make more friends...
+
+	Textblock 0006:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0007:
+		OLD: いいですね…。自分の好きなことに打ち込んでいる人って…。私には打ち込めるものがないので……。
+		NEW: That's great... Being dedicated to something you like... I have nothing to dedicate myself to...
+
+	Textblock 0008:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0009:
+		OLD: 私もこれといってすることがないんですよ…。何だかさみしいですね。
+		NEW: I, too, don't have anything particular to do... It feels somewhat lonely.
+
+	Textblock 0010:
+		OLD: …………。
+		NEW: ......................... 
+
+
+
+Block 0113:
+
+	Textblock 0000:
+		OLD: 私、以前から疑問に思っていたんです。…私、毎日この教会にいらっしゃる人たちの悩みを聞いているんですけど…。
+		NEW: I've been questioning myself about this from long ago... Everyday, I listen to the worries of those who come to this church...
+
+	Textblock 0001:
+		OLD: …私のようにたくさんの迷いや悩みを持つ人間が他の人の悩みの相談に乗るなんて…失礼なことではないでしょうか？
+		NEW: ...A person like me who hold so many doubts, discussing with others on their problems... Isn't it rude to them? 
+
+	Textblock 0002:
+		OLD: …私って一体何だろうかと…。このままずっとここでシスターとして街の人の悩みを聞いて生きていくのかと……。
+		NEW: ...What exactly am I...? Do I continue living here as a sister, listening to the troubles of the people in this town...?
+
+	Textblock 0003:
+		OLD: 以前も話したように、今の仕事が嫌いではないんです。…嫌いなのは何も変えようとしないでいる私自身……。
+		NEW: Like I've said before, I don't detest this job... What I despise is myself for not changing anything.
+
+	Textblock 0004:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: ……そうですよね。誰でも悩みの一つや二つは持っているものですよね。
+		NEW: .......That's true. Everyone has a trouble or two of their own.
+
+
+
+Block 0114:
+
+	Textblock 0000:
+		OLD: エルフィールさん。私、決めました。外の世界を知るためにもエルフィールさんと一緒に行動してみようと思います。
+		NEW: Miss Elfir, I've made up my mind. In order to know the outside world, I'm going to travel with you.
+
+	Textblock 0001:
+		OLD: 私、見ての通り街の外で怪物が出たら何の役にも立てませんけど…それでもいいのでしたら……よろしくお願いします。
+		NEW: As you can see, I'll be of little use if monsters were to attack... If you're fine with that, then I'm counting on you.
+
+	Textblock 0002:
+		OLD: こちらこそ…よろしくね！
+		NEW: Same here... I'm counting on you!
+
+
+
+Block 0115:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちは！ボク、妖精のポックス。　ボクたち妖精は人間のお仕事の手伝いをして生活してるんだよ。
+		NEW: Good day! I'm Pox, a fairy. We fairies live our lives giving a helping hand to humans.
+
+	Textblock 0004:
+		OLD: …ねえ、ボク。そんなこと言ってないでお家に帰ろうね。お母さん、きっと心配してるよ。
+		NEW: ...Hey, forget what I just said. I'm going home; my mum must be worried.
+
+	Textblock 0005:
+		OLD: この腕輪をあげるよ。これがあれば妖精の森に行けるようになるからさ。￥じゃあねー！
+		NEW: I'll give you this bangle. With this, you can now go to Fairy Forest.\nByeeee!
+
+	Textblock 0006:
+		OLD: （カッコ悪い腕輪もらっちゃったけど…何だったんだろう、あの子）
+		NEW: (I've received an ugly bangle... What was up with that child?)
+
+
+
+Block 0116:
+
+	Textblock 0000:
+		OLD: あの～すいません。ポックスっていう子から腕輪をもらったんですけど…。
+		NEW: Um, excuse me. I've received this bangle from a child by the name of Pox...
+
+	Textblock 0001:
+		OLD: ……はて？ポックス？何じゃそれは？　それにしても久しぶりじゃな…洗濯屋の方は上手くいってるかのう？
+		NEW: .....Oh my? Pox? What's this? Even so, it's been a long time... You want one who's good with laundry?
+
+	Textblock 0002:
+		OLD: （…今日初めて来たんだけど…洗濯屋？妙なこと言ってるし…このおじいさん本当に大丈夫かな？）
+		NEW: (...This is only the first time I've been here.. What laundry? Strange things he's saying... Is he alright?)
+
+	Textblock 0003:
+		OLD: ところで今日は誰を雇うんじゃ？みんな働き者じゃて、きっとお主の役に立ってくれるぞい。
+		NEW: So who do you wish to hire? All of them are hard workers, certainly will be of use to their masters.
+
+	Textblock 0004:
+		OLD: （そう言えばポックスが人間の仕事を手伝って生活してるって言ってたっけ…あの子、本物の妖精さんだったんだ…）
+		NEW: (Come to think of it, Pox did say he lives his life helping humans... So, he really is a fairy...)
+
+
+
+Block 0117:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちはー！
+		NEW: Hello!
+
+	Textblock 0004:
+		OLD: あら、前に来たのと違う子ね。今日はどうしたの？
+		NEW: Oh, you're a different child to the one who came last time. What's up today?
+
+	Textblock 0005:
+		OLD: …すごいや、おねえさん。人間って僕らの見分けがつかないのに…。ボクはポックスの友達でパテットっていうんだよ。
+		NEW: ...Amazing. Humans can't usually tell us apart... My name's Patitto, Pox's friend.
+
+	Textblock 0006:
+		OLD: ふうん、そうなんだ…。ところで腕輪だったらもうポックスにもらったからいらないわよ。
+		NEW: Hmm, I see... If it's the bangle, I've already received one from Pox, so I don't need another one.
+
+	Textblock 0007:
+		OLD: ボクは森で採れる食材を売り歩いてるんだ。おねえさん、何か買ってよ。
+		NEW: I wander around, selling food ingredients that I gathered in the forest. Come buy something.
+
+	Textblock 0008:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0009:
+		OLD: それじゃねー。
+		NEW: Bye then!
+
+
+
+Block 0118:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちはー！
+		NEW: Hello!
+
+	Textblock 0004:
+		OLD: あら、パテット。こんにちは。
+		NEW: Oh, Patitto, hello.
+
+	Textblock 0005:
+		OLD: また森の食材を持ってきたよ！おねえさん、買ってくれない？
+		NEW: I brought foodstuffs again from the forest! Won't you buy something?
+
+	Textblock 0006:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0007:
+		OLD: それじゃねー。
+		NEW: Bye then!
+
+
+
+Block 0119:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちわー！
+		NEW: Hello!
+
+	Textblock 0004:
+		OLD: あら、前に来たのと違う子ね。今日はどうしたの？
+		NEW: Oh, you're a different child to the ones who have come here before. What's up today?
+
+	Textblock 0005:
+		OLD: ボク、パテットの弟でピッケって言うんだ。
+		NEW: I'm Pikke, Patitto's little brother.
+
+	Textblock 0006:
+		OLD: おねえさんの部屋、随分と散らかってるね。でもボクだったら１日銀貨１０枚でピカピカにする自信があるよ。
+		NEW: Your house is very messy. But I'm confident that I can make it spick and span in 1 day, for 10 silvers.
+
+	Textblock 0007:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0008:
+		OLD: …ホントにピカピカになっちゃった。
+		NEW: ...You really did make it spick and span.
+
+	Textblock 0009:
+		OLD: そんじゃねー。
+		NEW: Bye then!
+
+
+
+Block 0120:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちわー！
+		NEW: Hello!
+
+	Textblock 0004:
+		OLD: あら、ピッケじゃない。こんにちは。
+		NEW: Oh, it's Pikke. Hello.
+
+	Textblock 0005:
+		OLD: そろそろ部屋が汚くなってる頃だと思って来たんだけど。この部屋だったら１日銀貨１０枚でピカピカにしてあげるよ。
+		NEW: I figured it's about time your house has gotten dirty, so I came. I can clean this up in 1 day, for 10 silvers.
+
+	Textblock 0006:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0007:
+		OLD: そんじゃあねー。
+		NEW: Bye then!
+
+
+
+Block 0121:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちわー！
+		NEW: Hello!
+
+	Textblock 0004:
+		OLD: あら、前に来たのと違う子ね。今日はどうしたの？
+		NEW: Oh, you're a different child to the ones who have come here before. What's up today?
+
+	Textblock 0005:
+		OLD: ボク、パテットの弟でピッケって言うんだ。
+		NEW: I'm Pikke, Patitto's little brother.
+
+	Textblock 0006:
+		OLD: おねえさんの部屋、随分と散らかってるね。でもボクだったら２日銀貨２０枚でピカピカにする自信があるよ。
+		NEW: Your house is very messy. But I'm confident that I can make it spick and span in 2 days, for 20 silvers.
+
+	Textblock 0007:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0008:
+		OLD: …ホントにピカピカになっちゃった。
+		NEW: ...You really did make it spick and span.
+
+	Textblock 0009:
+		OLD: そんじゃねー。
+		NEW: Bye then!
+
+
+
+Block 0122:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: こんにちわー！
+		NEW: Hello!
+
+	Textblock 0004:
+		OLD: あら、ピッケじゃない。こんにちは。
+		NEW: Oh, it's Pikke. Hello.
+
+	Textblock 0005:
+		OLD: そろそろ部屋が汚くなってる頃だと思って来たんだけど。この部屋だったら２日銀貨２０枚でピカピカにしてあげるよ。
+		NEW: I figured it's about time your house has gotten dirty, so I came. I can clean this up in 2 days, for 20 silvers.
+
+	Textblock 0006:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0007:
+		OLD: そんじゃあねー。
+		NEW: Bye then!
+
+
+
+Block 0123:
+
+	Textblock 0000:
+		OLD: （あれ…あの妖精さん、何だか様子が変だ…）
+		NEW: (Huh, that fairy... He looks somewhat strange...)
+
+	Textblock 0001:
+		OLD: ボ、ボクは…たった今、究極の虹妖精になったんだ！
+		NEW: I, -I've... just now evolved into one of the ultimate rainbow fairies!
+
+	Textblock 0002:
+		OLD: へいへい、おいら究極の虹妖精になったぜ、ベイベ！！
+		NEW: Hey, hey! I've become a rainbow fairy, baby!!
+
+	Textblock 0003:
+		OLD: ボ、ボク……ついに夢だった虹妖精になれたんだ…。
+		NEW: Finally... my dream of turning into a rainblow fairy has come true...
+
+	Textblock 0004:
+		OLD: （虹妖精…）
+		NEW: (Rainbow fairy...)
+
+
+
+Block 0124:
+
+	Textblock 0000:
+		OLD: （あれ…あの妖精さん、何だか様子が変だ…）
+		NEW: (Huh, that fairy... He looks somewhat strange...)
+
+	Textblock 0001:
+		OLD: ボ、ボクは…たった今、究極の虹妖精になったんだ！
+		NEW: I, -I've... just now evolved into one of the ultimate rainbow fairies!
+
+	Textblock 0002:
+		OLD: へいへい、おいら究極の虹妖精になったぜ、ベイベ！！
+		NEW: Hey, hey! I've become a rainbow fairy, baby!!
+
+	Textblock 0003:
+		OLD: ボ、ボク……ついに夢だった虹妖精になれたんだ…。
+		NEW: Finally... my dream of turning into a rainblow fairy has come true...
+
+	Textblock 0004:
+		OLD: （虹妖精…）
+		NEW: (Rainbow fairy...)
+
+
+
+Block 0125:
+
+	Textblock 0000:
+		OLD: （あれ…あの妖精さん、何だか様子が変だ…）
+		NEW: (Huh, that fairy... He looks somewhat strange...)
+
+	Textblock 0001:
+		OLD: ボ、ボクは…たった今、究極の虹妖精になったんだ！
+		NEW: I, -I've... just now evolved into one of the ultimate rainbow fairies!
+
+	Textblock 0002:
+		OLD: へいへい、おいら究極の虹妖精になったぜ、ベイベ！！
+		NEW: Hey, hey! I've become a rainbow fairy, baby!!
+
+	Textblock 0003:
+		OLD: ボ、ボク……ついに夢だった虹妖精になれたんだ…。
+		NEW: Finally... my dream of turning into a rainblow fairy has come true...
+
+	Textblock 0004:
+		OLD: （虹妖精…）
+		NEW: (Rainbow fairy...)
+
+
+
+Block 0126:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: よお……。俺だ。
+		NEW: Hey..... It's me.
+
+	Textblock 0004:
+		OLD: …何か元気なさそうですけど…？
+		NEW: ...You don't look too well...?
+
+	Textblock 0005:
+		OLD: …いや、実はな…。俺の人生に関わる話なんだ…。
+		NEW: ...Well, to tell ya the truth... This involves the rest of my ife...
+
+	Textblock 0006:
+		OLD: （いつもの陽気なおじさんじゃない…。何をそんなに悩んでるんだろう？）
+		NEW: (He's not his usual spirited self... What is it that he's worrying about?)
+
+	Textblock 0007:
+		OLD: …俺って見ての通りハゲだろ…。今まで何度も色んな方法で努力をして来たんだけどもよ…１つも効果なしだ。
+		NEW: ...As ya see, I'm bald... I've tried various ways to improve it, but not one thing worked.
+
+	Textblock 0008:
+		OLD: そこでだ！ザールブルグにその人あり！と言われるあんたに頼みに来たってわけなんだ。頼む！毛生え薬を作ってくれ！
+		NEW: But there is! There's a person here in Salburg! And so I've come to ask of ya... Make me a hair growth treatment! Please!
+
+	Textblock 0009:
+		OLD: ……別に似合ってるんですから、無理に髪を生やさなくてもいいと思うんですけど…？
+		NEW: .........It wouldn't really suit you anyway, so I don't think you need to be so persistent with it...?
+
+	Textblock 0010:
+		OLD: くぅ～あんた分かってないな！髪は長い友達って言うだろ？あんたに友達のいない俺の気持ちなんか分かりゃしねえよ。
+		NEW: Ugh! Ya don't get it! Isn't there a phrase- "furry friends"? Ya don't understand how a friendless guy like me feel.
+
+	Textblock 0011:
+		OLD: （…うう、そんな怖い顔で泣いて頼まれちゃっても…）
+		NEW: (...Ugh, even if you're asking me while crying with such a scary face...)
+
+	Textblock 0012:
+		OLD: ん！？おおっ！そうか、あるんだったら早く言ってくれよ！さっそく今夜にでも試してみるぜ！これはとっといてくれ。
+		NEW: Hm!? Oooh! Ya shoulda said so earlier if ya have that kinda thing! I'll try it out tonight at once! Now I'll just take this.
+
+	Textblock 0013:
+		OLD: ……飛んでっちゃった。
+		NEW: .......He flew off.
+
+	Textblock 0014:
+		OLD: くぅ～あんたそれでこそ漢ってもんだ！それじゃ期待して待ってるからよ！よろしく頼むぜ！
+		NEW: Whoa, you're the man! Well then, I'll be waitin'!\nI'm countin' on ya!
+
+	Textblock 0015:
+		OLD: （……私、女なんだけど…）
+		NEW: (.....But I'm a girl...)
+
+	Textblock 0016:
+		OLD: なっ…だ、ダメなのか？も、もう、あの青春の日々は戻らねえのか？ちっくしょううう！！！
+		NEW: Wha- ya can't? Ca, -can I no longer return to my youthful days? DAMNNN!!!
+
+	Textblock 0017:
+		OLD: ……泣きながら帰っちゃった…。ちょっと可哀想だったかな…。
+		NEW: ..........He left while crying... I kind of feel sorry for him...
+
+
+
+Block 0127:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: よお……。俺だ。
+		NEW: Hey..... It's me.
+
+	Textblock 0004:
+		OLD: …何か元気なさそうですけど…？
+		NEW: ...You don't look too well...?
+
+	Textblock 0005:
+		OLD: …いや、実はな…。俺の人生に関わる話なんだ…。
+		NEW: ...Well, to tell ya the truth... This involves the rest of my ife...
+
+	Textblock 0006:
+		OLD: （いつもの陽気なおじさんじゃない…。何をそんなに悩んでるんだろう？）
+		NEW: (He's not his usual spirited self... What is it that he's worrying about?)
+
+	Textblock 0007:
+		OLD: …俺って見ての通りハゲだろ…。今まで何度も色んな方法で努力をして来たんだけどもよ…１つも効果なしだ。
+		NEW: ...As ya see, I'm bald... I've tried various ways to improve it, but not one thing worked.
+
+	Textblock 0008:
+		OLD: そこでだ！ザールブルグにその人あり！と言われるあんたに頼みに来たってわけなんだ。頼む！毛生え薬を作ってくれ！
+		NEW: But there is! There's a person here in Salburg! And so I've come to ask of ya... Make me a hair growth treatment! Please!
+
+	Textblock 0009:
+		OLD: ……別に似合ってるんですから、無理に髪を生やさなくてもいいと思うんですけど…？
+		NEW: .........It wouldn't really suit you anyway, so I don't think you need to be so persistent with it...?
+
+	Textblock 0010:
+		OLD: くぅ～あんた分かってないな！髪は長い友達って言うだろ？あんたに友達のいない俺の気持ちなんか分かりゃしねえよ。
+		NEW: Ugh! Ya don't get it! Isn't there a phrase- "furry friends"? Ya don't understand how a friendless guy like me feel.
+
+	Textblock 0011:
+		OLD: （…うう、そんな怖い顔で泣いて頼まれちゃっても…）
+		NEW: (...Ugh, even if you're asking me while crying with such a scary face...)
+
+	Textblock 0012:
+		OLD: ん！？おおっ！そうか、あるんだったら早く言ってくれよ！さっそく今夜にでも試してみるぜ！これはとっといてくれ。
+		NEW: Hm!? Oooh! Ya shoulda said so earlier if ya have that kinda thing! I'll try it out tonight at once! Now I'll just take this.
+
+	Textblock 0013:
+		OLD: ……飛んでっちゃった。
+		NEW: .......He flew off.
+
+	Textblock 0014:
+		OLD: くぅ～あんたそれでこそ漢ってもんだ！それじゃ期待して待ってるからよ！よろしく頼むぜ！
+		NEW: Whoa, you're the man! Well then, I'll be waitin'!\nI'm countin' on ya!
+
+	Textblock 0015:
+		OLD: （……私、女なんだけど…）
+		NEW: (.....But I'm a girl...)
+
+	Textblock 0016:
+		OLD: なっ…だ、ダメなのか？も、もう、あの青春の日々は戻らねえのか？ちっくしょううう！！！
+		NEW: Wha- ya can't? Ca, -can I no longer return to my youthful days? DAMNNN!!!
+
+	Textblock 0017:
+		OLD: ……泣きながら帰っちゃった…。ちょっと可哀想だったかな…。
+		NEW: ..........He left while crying... I kind of feel sorry for him...
+
+
+
+Block 0128:
+
+	Textblock 0000:
+		OLD: おう、いらっしゃい！
+		NEW: Oooh, welcome!
+
+	Textblock 0001:
+		OLD: （……おじさん。例の薬、出来たから持ってきましたよ…）
+		NEW: (.....Sir, that medicine... I've made it and brought it here...)
+
+	Textblock 0002:
+		OLD: おお！そうか出来たか！￥…ところで何でさっきから小声でしゃべってるんだ？
+		NEW: Oooh! I see, ya did it!\n...By the way, why were ya whisperin' just now?
+
+	Textblock 0003:
+		OLD: え？…だってこういうクスリを頼んだなんて…他の人に聞かれるのって嫌じゃないですか？
+		NEW: Eh?....Well, requesting such medicine... Wouldn't you hate others to overhear?
+
+	Textblock 0004:
+		OLD: くぅ～、そんなところまで気を使ってもらっちまって…俺ぁ嬉しくて涙が出てくるね。
+		NEW: Whoa, yer being so considerate to me... I feel so happy I'm gonna cry.
+
+	Textblock 0005:
+		OLD: そうだ、これは礼だ。遠慮なくとっといてくれ。俺は今日にでも試してみるからよ。結果が楽しみだぜ。
+		NEW: Oh yeah, here's my thanks. Don't be polite, just take it. I'll try this out today. I look forward to the results.
+
+
+
+Block 0130:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: よう……。俺だ。
+		NEW: Yo..... It's me.
+
+	Textblock 0004:
+		OLD: あれ？その頭…ああ、やっぱり不評だったんで剃ったんですね。私もそっちの方がよく似合うと思いますよ。
+		NEW: Huh? That hair... Ah, it must have been ill-received and so you shaved it off. I think this suits you better too.
+
+	Textblock 0005:
+		OLD: …違うんだよ～。数日しか効き目がなくてよう…。どうしても元のハゲに戻っちまうんだ。
+		NEW: ......Wrong... It was only effective for a few days... I was reverted to my bald self.
+
+	Textblock 0006:
+		OLD: ええ～？おかしいなぁ…。
+		NEW: Ehh? That's strange...
+
+	Textblock 0007:
+		OLD: 俺はもうガッカリだ。仕事する気にもならねえや……。
+		NEW: I'm feelin' so down. I got no mood to work......
+
+	Textblock 0008:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0009:
+		OLD: あれ？その頭…ああ、やっぱり不評だったんで剃ったんですね。私もそっちの方がよく似合うと思いますよ。
+		NEW: Huh? That hair... Ah, it must have been ill-received and so you shaved it off. I think this suits you better too.
+
+	Textblock 0010:
+		OLD: 俺はもうガッカリだ。仕事する気にもならねえや……。
+		NEW: I'm feelin' so down. I got no mood to work......
+
+	Textblock 0011:
+		OLD: ええ～？おかしいなぁ…。
+		NEW: Ehh? That's strange...
+
+	Textblock 0012:
+		OLD: 俺はもうガッカリだ。仕事する気にもならねえや……。
+		NEW: I'm feelin' so down. I got no mood to work......
+
+
+
+Block 0131:
+
+	Textblock 0000:
+		OLD: 誰か来たみたい…。調合中だけど…どうしようかなあ。
+		NEW: Someone's here... But I'm in the middle of a synthesis... What should I do?
+
+	Textblock 0001:
+		OLD: 誰か来たみたい…。どうしようかなあ。
+		NEW: Someone's here... What should I do?
+
+	Textblock 0002:
+		OLD: はーい、開いてます～。
+		NEW: Please come in! The door's opened!
+
+	Textblock 0003:
+		OLD: よう……。俺だ。
+		NEW: Yo..... It's me.
+
+	Textblock 0004:
+		OLD: あれ？その頭…ああ、やっぱり不評だったんで剃ったんですね。私もそっちの方がよく似合うと思いますよ。
+		NEW: Huh? That hair... Ah, it must have been ill-received and so you shaved it off. I think this suits you better too.
+
+	Textblock 0005:
+		OLD: …違うんだよ～。数日しか効き目がなくてよう…。どうしても元のハゲに戻っちまうんだ。
+		NEW: ......Wrong... It was only effective for a few days... I was reverted to my bald self.
+
+	Textblock 0006:
+		OLD: ええ～？おかしいなぁ…。
+		NEW: Ehh? That's strange...
+
+	Textblock 0007:
+		OLD: 俺はもうガッカリだ。仕事する気にもならねえや……。
+		NEW: I'm feelin' so down. I got no mood to work......
+
+	Textblock 0008:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0009:
+		OLD: あれ？その頭…ああ、やっぱり不評だったんで剃ったんですね。私もそっちの方がよく似合うと思いますよ。
+		NEW: Huh? That hair... Ah, it must have been ill-received and so you shaved it off. I think this suits you better too.
+
+	Textblock 0010:
+		OLD: 俺はもうガッカリだ。仕事する気にもならねえや……。
+		NEW: I'm feelin' so down. I got no mood to work......
+
+	Textblock 0011:
+		OLD: ええ～？おかしいなぁ…。
+		NEW: Ehh? That's strange...
+
+	Textblock 0012:
+		OLD: 俺はもうガッカリだ。仕事する気にもならねえや……。
+		NEW: I'm feelin' so down. I got no mood to work......
+
+
+
+Block 0132:
+
+
+
+Block 0135:
+
+
+
+Block 0142:
+
+
+
+Block 0144:
+
+
+
+Block 0145:
+
+	Textblock 0000:
+		OLD: こんにちは、毎日忙しそうね。これからお仕事かしら？
+		NEW: Hello, you seem to be busy everyday. Are you working now?
+
+	Textblock 0001:
+		OLD: あ、はい。ちょっとこれから材料集めでもしようかな、なんて…。ブラブラしてるだけなんですけど。
+		NEW: Er, yes. I had planned to gather some ingredients... but I ended up strolling around...
+
+	Textblock 0002:
+		OLD: 材料集めね…私も昔、友達に付き合って外に行ったわよ。足を引っ張ってばかりだったけど…。
+		NEW: Ingredient gathering... I used to go out of town with a friend. I had to drag my feet a lot, though...
+
+	Textblock 0003:
+		OLD: 今思うと、私って意外と強かったのかもね。だってそのとき私、はたきで怪物と戦っていたんだもの。笑っちゃうわね。
+		NEW: Now that I think about it, I may have been unexpectedly strong. Well, I battled monsters with a feather duster. How funny.
+
+
+
+Block 0146:
+
+	Textblock 0000:
+		OLD: あら、あなたは確かイングリドの…。エルフィールだったわね。…アイゼルのいいライバルになりそうじゃない。
+		NEW: My, you are Ingrid's... Elfir, was it? You look like you can become a good rival to Eisel.
+
+	Textblock 0001:
+		OLD: そう、昔の私とイングリドのように……ふふ…ふふふふふ……。
+		NEW: Yes... Just like how Ingrid and I used to be..... Haha... Hahahaha......
+
+	Textblock 0002:
+		OLD: （うあぁ、こ、怖いよう）
+		NEW: (Whoa, scary)
+
+
+
+Block 0147:
+
+	Textblock 0000:
+		OLD: （あれ？あそこに妖精さんがいる…。こんなところに採取をお願いした覚えはないんだけど…）
+		NEW: (Huh? There's a fairy over there... I don't remember asking any to gather ingredients here...)
+
+	Textblock 0001:
+		OLD: （あ、そうか、多分他の人が雇った妖精さんだあ）
+		NEW: (Ah, I see. This fairy is probably hired by someone else)
+
+	Textblock 0002:
+		OLD: こんにちは。…あれ？どうしたの、何だか困ってるみたいだけど…。
+		NEW: Hello... Hm? What's wrong? You look troubled.....
+
+	Textblock 0003:
+		OLD: 実は……ちょっと頼まれた物があるんだけど…どうしても見つかんないんだぁ。
+		NEW: To tell you the truth..... There's supposed to be the ingredient that was requested here... but I can't find it.
+
+	Textblock 0004:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0005:
+		OLD: ホント！？やったー！￥…でもいいの？お姉さんも忙しそうだけど…？
+		NEW: Really!? Yay!\n....But is that really okay with you? You seem busy too...?
+
+	Textblock 0006:
+		OLD: 大丈夫よ。それにあなたの仲間たちには色々お世話になってるからね。
+		NEW: It's alright. Besides, your kin has helped me out with a lot.
+
+	Textblock 0007:
+		OLD: うん。ボク、頑張るよ。
+		NEW: Okay, I'll work hard.
+
+
+
+Block 0148:
+
+	Textblock 0000:
+		OLD: （……私、疲れてるのかな？頭がフラフラする…）
+		NEW: (.....Am I tired? I'm feeling dizzy...)
+
+	Textblock 0001:
+		OLD: あら、こんな所であなたを見かけるなんて珍しいわね。眠たそうな目をして…ここに昼寝でもしに来たのかしら？
+		NEW: Oh my, how rare to see you here. You look like you've been sleeping... Did you come here to take a nap?
+
+	Textblock 0002:
+		OLD: （……あ、アイゼルだ…何言ってるのかよく分からないや…。何だか辺りがグルグル回ってる……）
+		NEW: (.......Ah, it's Eisel... I don't really know what she was saying... but everything here is swirling round and round.....)
+
+	Textblock 0003:
+		OLD: ちょ、ちょっとあなた！どうしたの？　ね、ねえ、ちょっと…………！
+		NEW: Hey, what are you-! What's wrong?\nHey............!
+
+	Textblock 0004:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: （あれ？ここは…）
+		NEW: (Hm? This place is...)
+
+	Textblock 0006:
+		OLD: 気が付いた？ああ、無理はしないで。そのまま寝てたらいいよ。薬も飲ませたから、じきに良くなるよ。
+		NEW: You're awake? Ah, don't force yourself, just stay in bed. I've fed you medicine, so you'll be better soon.
+
+	Textblock 0007:
+		OLD: …ゴメンね。薬まで飲ませてもらって。ノルディスが作ってくれたんでしょ？
+		NEW: ........Sorry.\nYou even fed me medicine... Did you make it yourself?
+
+	Textblock 0008:
+		OLD: え？…いや、実は…アイゼルが持ってきたんだ。彼女ああいう性格だから…エリーには教えないでって言われてたけど。
+		NEW: Eh? ...No, truth is... Eisel brought it here. Her personality's like that... She told me not to tell you.
+
+	Textblock 0009:
+		OLD: エリーを運んできたあと、すぐに薬の調合をしたみたいだね。手に火傷をしてたよ。…きっとよほど慌ててたんだね。
+		NEW: After she moved you here, she crafted the medicine immediately. Her hand was burnt... She must have been flustered
+
+	Textblock 0010:
+		OLD: （……そっか、アイゼルが…）
+		NEW: (......I see, so Eisel...)
+
+
+
+Block 0149:
+
+	Textblock 0000:
+		OLD: あら、元気になったようね。いきなり私の目の前で倒れるんですもの。まったく先日は迷惑な一日だったわ。
+		NEW: My, seems you've recovered. You fainted right before my eyes. That was a troublesome day.
+
+	Textblock 0001:
+		OLD: （…本当だ。手に火傷のあとがある）
+		NEW: (.... It's true, her hand has a burn mark)
+
+	Textblock 0002:
+		OLD: 何よ。人が調合に失敗したのがそんなに嬉しいの？
+		NEW: What? Does it make you so happy to see somebody make a mistake during a synthesis?
+
+	Textblock 0003:
+		OLD: き、気持ち悪いわね。お礼ならノルディスに言いなさいよ。私は何もしなかったんだから…。
+		NEW: Don't be so repulsive. Nordis is the one whom you should thank. I didn't do anything...
+
+	Textblock 0004:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0005:
+		OLD: まあいいわ。でも今度から私の前で倒れるのだけは勘弁して欲しいわ。
+		NEW: Whatever. But I want you to spare me from having you collapsing in front of me.
+
+
+
+Block 0150:
+
+	Textblock 0000:
+		OLD: そういえばエリー。身を守ってくれる石の話って聞いたことある？
+		NEW: By the way Elie, do you know of a stone that could give protection to one's body from harm?
+
+	Textblock 0001:
+		OLD: 身を守ってくれる石？なにそれ？
+		NEW: A stone that could give protection? What's that?
+
+	Textblock 0002:
+		OLD: うーん…エリーも知らないのか…。実は最近、ちょっとした本を調べていたらそんなようなことが書かれていたんだよ。
+		NEW: Hm... You don't know too... Truth is, recently, while I was looking into some books, I came across that.
+
+	Textblock 0003:
+		OLD: 読めば読むほど非の打ち所がないくらい便利に思えるんだけど……今まで聞いたことがないし…。
+		NEW: From reading about it, it seems like a perfectly handy item...... yet, I have never heard of it...
+
+	Textblock 0004:
+		OLD: うん、私も知らない。ちょっとヘンだよね。でも、実際にあったら便利そうな石だね。
+		NEW: Yes, neither have I. That's a bit strange, though in practice it would be a very useful stone to have.
+
+	Textblock 0005:
+		OLD: うん、そうだね。
+		NEW: Yes, absolutely.
+
+
+
+Block 0151:
+
+	Textblock 0000:
+		OLD: ねえ、この店ってあなたから見てどう思う？ほら、酔っ払いが多いとかちょっと入りづらいとか…。
+		NEW: Say, what do you think of this bar? Like, full of drunkards, or finding it hard to come in...?
+
+	Textblock 0001:
+		OLD: え？別になんてことはないと思いますけど…？
+		NEW: Eh? Not really...?
+
+	Textblock 0002:
+		OLD: 私ね、前々からこの店って女の子とかが入りづらくないかって思ってるの。
+		NEW: I've been thinking from a long time ago, that females are finding it hard to come into this place.
+
+	Textblock 0003:
+		OLD: はあ…。
+		NEW: Okay...
+
+	Textblock 0004:
+		OLD: それでね。ちょっと女の子向けの新メニューを用意してみたいのよ。お酒じゃなくてね。
+		NEW: And so I want to prepare a new menu that targets females. Nothing alcoholic.
+
+	Textblock 0005:
+		OLD: 前に噂で聞いたんだけど『ヨーグルリンク』っていう飲み物があって、美味しいらしいのよ。私、ぜひ出してみたくて。
+		NEW: I've heard there's a drink called "Yoghurink" which seems delicious. I want to try bringing out this drink without fail.
+
+	Textblock 0006:
+		OLD: そこで、これは私からの依頼。ヨーグルリンクを１０個ほどお願いたいのよ。
+		NEW: So, this is a request by me. I hope you could make me 10 Yoghurinks.
+
+	Textblock 0007:
+		OLD: 持ってきてくれたらそれなりのお礼をするわ。…お願い出来るかしら？
+		NEW: If you bring them here, I will pay you in return... Can you do it?
+
+	Textblock 0008:
+		OLD: 確か、これは今持ってるなあ…。
+		NEW: I believe I'm carrying them with me now...
+
+	Textblock 0009:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0010:
+		OLD: はい、これですよね。もうバッチリですよ。
+		NEW: Yes, is this what you're after? I have enough here.
+
+	Textblock 0011:
+		OLD: ありがとう、これお礼よ。早速明日にでもメニューに加えてみるわね。
+		NEW: Thank you, this is my repayment. I will add this to the menu immediately tomorrow and see.
+
+	Textblock 0012:
+		OLD: いつでもいいから、お願い出来るかしら？
+		NEW: Anytime would be fine. Can you do it?
+
+	Textblock 0013:
+		OLD: 本当？…それじゃ、お願いするわね。私がいるときならいつでもいいから。
+		NEW: Really? ...Well then, I leave it in your hands. You can bring them anytime as long as I'm here.
+
+	Textblock 0014:
+		OLD: そう…残念だわ。それじゃ、他の人に頼んでみることにするわね。
+		NEW: I see... That's too bad. Well then, I'll try asking others.
+
+
+
+Block 0152:
+
+	Textblock 0000:
+		OLD: ねえ、この店ってあなたから見てどう思う？ほら、酔っ払いが多いとかちょっと入りづらいとか…。
+		NEW: Say, what do you think of this bar? Like, full of drunkards, or finding it hard to come in...?
+
+	Textblock 0001:
+		OLD: え？別になんてことはないと思いますけど…？
+		NEW: Eh? Not really...?
+
+	Textblock 0002:
+		OLD: 私ね、前々からこの店って女の子とかが入りづらくないかって思ってるの。
+		NEW: I've been thinking from a long time ago, that females are finding it hard to come into this place.
+
+	Textblock 0003:
+		OLD: はあ…。
+		NEW: Okay...
+
+	Textblock 0004:
+		OLD: それでね。ちょっと女の子向けの新メニューを用意してみたいのよ。お酒じゃなくてね。
+		NEW: And so I want to prepare a new menu that targets females. Nothing alcoholic.
+
+	Textblock 0005:
+		OLD: 前に噂で聞いたんだけど『ヨーグルリンク』っていう飲み物があって、美味しいらしいのよ。私、ぜひ出してみたくて。
+		NEW: I've heard there's a drink called "Yoghurink" which seems delicious. I want to try bringing out this drink without fail.
+
+	Textblock 0006:
+		OLD: そこで、これは私からの依頼。ヨーグルリンクを１０個ほどお願いたいのよ。
+		NEW: So, this is a request by me. I hope you could make me 10 Yoghurinks.
+
+	Textblock 0007:
+		OLD: 持ってきてくれたらそれなりのお礼をするわ。…お願い出来るかしら？
+		NEW: If you bring them here, I will pay you in return... Can you do it?
+
+	Textblock 0008:
+		OLD: 確か、これは今持ってるなあ…。
+		NEW: I believe I'm carrying them with me now...
+
+	Textblock 0009:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0010:
+		OLD: はい、これですよね。もうバッチリですよ。
+		NEW: Yes, is this what you're after? I have enough here.
+
+	Textblock 0011:
+		OLD: ありがとう、これお礼よ。早速明日にでもメニューに加えてみるわね。
+		NEW: Thank you, this is my repayment. I will add this to the menu immediately tomorrow and see.
+
+	Textblock 0012:
+		OLD: いつでもいいから、お願い出来るかしら？
+		NEW: Anytime would be fine. Can you do it?
+
+	Textblock 0013:
+		OLD: 本当？…それじゃ、お願いするわね。私がいるときならいつでもいいから。
+		NEW: Really? ...Well then, I leave it in your hands. You can bring them anytime as long as I'm here.
+
+	Textblock 0014:
+		OLD: そう…残念だわ。それじゃ、他の人に頼んでみることにするわね。
+		NEW: I see... That's too bad. Well then, I'll try asking others.
+
+
+
+Block 0153:
+
+	Textblock 0000:
+		OLD: ねえ、ヨーグルリンク、出来た？
+		NEW: Say, have you made the Yoghurinks?
+
+	Textblock 0001:
+		OLD: はい、これですよね。もうバッチリですよ。
+		NEW: Yes, is this what you're after? I have enough here.
+
+	Textblock 0002:
+		OLD: ありがとう、これお礼よ。早速明日にでもメニューに加えてみるわね。
+		NEW: Thank you, this is my repayment. I will add this to the menu immediately tomorrow and see.
+
+
+
+Block 0154:
+
+	Textblock 0000:
+		OLD: あら、こんにちは。この間は無理なお願いを聞いてもらっちゃって……。おかげさまでヨーグルリンクは大人気よ。
+		NEW: Oh my, hello. Last time I made such an unreasonable request... But thanks to you, the Yoghurink is very popular.
+
+	Textblock 0001:
+		OLD: 大人気って…女性客が全然見あたらないですけど…？
+		NEW: You say it's very popular... But I don't see any female customers at all...?
+
+	Textblock 0002:
+		OLD: 味見程度に常連さんに出したら、大好評になっちゃって…でもお客さんが喜んでくれるのはやっぱり嬉しいわね。
+		NEW: I offered it to regular customers for sampling
+
+	Textblock 0003:
+		OLD: 酔い覚ましにピッタリの新メニューが出来たもんだから、酒が益々美味しく飲めるようになったよ。ふぉふぉ。
+		NEW: As the new menu just fit to sober has been provided, we (I) will be able to drink alcohol deliciously more than ever\nBecause the new menu is perfect for sobering me up, now I can enjoy alcohol more than ever.
+
+
+
+Block 0155:
+
+
+
+Block 0156:
+
+
+
+Block 0157:
+
+	Textblock 0000:
+		OLD: あらぁ？それ、笛じゃない。ねえ、ちょっと吹かせてよ。これでも昔は結構うまかったんだから。
+		NEW: Oh, my? Isn't that a flute? Hey, let me play a bit. I used to be very good at this.
+
+	Textblock 0001:
+		OLD: へぇ、結構いい音するじゃない。
+		NEW: Hmm, this sounds pretty good.
+
+	Textblock 0002:
+		OLD: あ～、ダメダメ！やっぱり笛なんてあたしには向いてないわ。
+		NEW: Ahhh, this is no good! Flutes just don't suit me.
+
+
+
+Block 0158:
+
+	Textblock 0000:
+		OLD: あらぁ？それ、笛じゃない。ねえ、ちょっと吹かせてよ。これでも昔は結構うまかったんだから。
+		NEW: Oh, my? Isn't that a flute? Hey, let me play a bit. I used to be very good at this.
+
+	Textblock 0001:
+		OLD: へぇ、結構いい音するじゃない。
+		NEW: Hmm, this sounds pretty good.
+
+	Textblock 0002:
+		OLD: あ～、ダメダメ！やっぱり笛なんてあたしには向いてないわ。
+		NEW: Ahhh, this is no good! Flutes just don't suit me.
+
+
+
+Block 0159:
+
+	Textblock 0000:
+		OLD: グラセン鉱石か…ちょっくらウチもいじってみるか？
+		NEW: Glansen Ores, huh... Maybe I'll try fiddlin' with them too?
+
+
+
+Block 0160:
+
+	Textblock 0000:
+		OLD: アンタの知り合いの武器屋は大した奴だよ…。俺にゃグラセン鉱石は手に負えねえや。
+		NEW: That weapon shop owner friend of yours is an amazin' man... I couldn't handle the Glansen Ores.
+
+
+
+Block 0161:
+
+	Textblock 0000:
+		OLD: ねえ、お姉さん。
+		NEW: Hey, big sister.
+
+	Textblock 0001:
+		OLD: ん？なあに？
+		NEW: Hm? What is it?
+
+	Textblock 0002:
+		OLD: 今日の夜ね、ボクの友達がここに遊びに来たいって言うんだ。呼んでもいいかなぁ？
+		NEW: My friends said they want to come over and play tonight. Is it fine for me to invite them over?
+
+	Textblock 0003:
+		OLD: どうしようかなあ？
+		NEW: What should I do?
+
+	Textblock 0004:
+		OLD: ホント！？やったあ！じゃあさっそく呼んでくるね！
+		NEW: Really!? Yay! I'll tell them straight away!
+
+	Textblock 0005:
+		OLD: （あぁ…とんでもないことになってきちゃった。これじゃ、眠れないし、調合も出来ないよ。トホホ……）
+		NEW: (Ahh... This is crazy. I won't be able to sleep, nor synthesize. Ohh.......)
+
+	Textblock 0006:
+		OLD: （みんな好き放題騒いでるし…こんなのが一晩続くと思うと…どうしよう…）
+		NEW: (They're all being as noisy as they please... If this continues through the night... What am I going to do...)
+
+	Textblock 0007:
+		OLD: ……そうだよね。お仕事のジャマだもんね…。
+		NEW: .......That's true, it would be a hindrance to work...
+
+
+
+Block 0162:
+
+	Textblock 0000:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0001:
+		OLD: …………。
+		NEW: .........................
+
+	Textblock 0002:
+		OLD: ああ！もう！うるさい！！￥これじゃ、眠れないし調合も出来ないでしょ！
+		NEW: Arghhh! Enough! Quieten down!!\nAt this rate I won't be able to sleep or synthesize!
+
+	Textblock 0003:
+		OLD: （……あれ？）
+		NEW: (.......Huh?)
+
+	Textblock 0004:
+		OLD: ……ごめんなさい。やっぱりこんな大勢で押し掛けたら迷惑だったんだね。￥ボクたち、帰るよ。
+		NEW: ........We're sorry. Of course with so many of us intruding, it would cause you inconvenience. We'll go home.
+
+	Textblock 0005:
+		OLD: （…みんな帰っちゃった。ちょっと言い過ぎたかなあ）
+		NEW: (....They all returned home. Was I a bit too harsh?)
+
+	Textblock 0006:
+		OLD: （がまんがまん。￥……がまん、がまん）
+		NEW: (Endurance, endurance........ endurance, endurance)
+
+	Textblock 0007:
+		OLD: （だ、ダメだあ。こんなところにいたら頭がおかしくなっちゃうよ）
+		NEW: (It's no good. My brain will go weird if I stay here)
+
+
+
+Block 0163:
+
+	Textblock 0000:
+		OLD: （工房を飛び出して来ちゃったけど…これからどうしようかなあ？）
+		NEW: (I fled from my workshop to here... but now what?)
+
+	Textblock 0001:
+		OLD: （…結局、アカデミーに着いちゃった。知ってる人と言えばアイゼルぐらいしかいないし…泊めてくれないかなあ？）
+		NEW: (...In the end 
+
+
+
+Block 0169:
+
+
+
+Block 0377:
+
+
+
+Block 0444:
+
+
+
+Block 0447:
+
+
+
+Choice Main Block 0000:
+
+	Choice Block 0002:
+
+		Choice 00:
+		OLD: まず何をしたらいいんでしょう？
+		NEW: What should I do for starters?
+
+		Choice 01:
+		OLD: どうやってお金を稼いだらいいのでしょう？
+		NEW: How do I make money?
+
+		Choice 02:
+		OLD: どうやって勉強したらいいんでしょう？
+		NEW: How should I study?
+
+		Choice 03:
+		OLD: 特にないです。
+		NEW: Nothing in particular.
+
