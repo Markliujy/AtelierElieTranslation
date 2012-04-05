@@ -1,3 +1,19 @@
 ========================================
 Atelier Elie English Translation Project
 ========================================
+
+WARNING: It is likely that nothing will work as intended due to missing files etc.
+
+The files still need a substantial amount of sorting through, updating for dependencies etc.
+
+Folder Overview:
+
+	Assembly 								- Assembly routines for VWF, Font, etc
+	Atelier Elie Scripter		- C# Script Editing Program.
+	AtelierElieCode 				- Python Scripts for Compression, Font Dumping, etc.
+	CD Image								- TODO: Where you will put the iso image in the future to process.
+	Font										- Feidan and some test fonts. I don't believe it was used in the end.
+	Notes										- XMind file with some information I dug up before.
+	Original Files					- Original Files after decompression, conversion etc.
+	Translated Files				- Where the translated files will go for conversion, packing and reinsertion.
+	Translations						- Where the script will go. Currently has what was done previously. Also includes translations of other images etc.
