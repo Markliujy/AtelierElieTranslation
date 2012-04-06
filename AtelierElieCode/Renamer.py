@@ -1,10 +1,3 @@
-#! /usr/bin/python
-
-# To change this template, choose Tools | Templates
-# and open the template in the editor.
-
-__author__="Mark Liu"
-__date__ ="$18/01/2010 1:17:17 PM$"
 
 import os
 

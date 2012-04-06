@@ -6,6 +6,11 @@ import math
 import StringIO
 
 def CreateTIM(Palette, Palette_Header, Graphic, Graphic_Header):
+	'''
+	
+	Creates TIM File from Palette and Graphic pairs
+	
+	'''
 	TIM = ""
 	
 	#TIM Header
@@ -35,9 +40,9 @@ def CreateTIM(Palette, Palette_Header, Graphic, Graphic_Header):
 
 if __name__ == "__main__":
 
-	DIR = "../Unpacked2/"
-	HEADER = "../Unpacked2/Headers/"
-	NEWDIR = "../Unpacked2/TIM"
+	DIR = "../Original Files/Unpacked"
+	HEADER = "../Original Files/Unpacked/Headers/"
+	NEWDIR = "../Original Files/Unpacked/TIM"
 
 
 	FILES = []

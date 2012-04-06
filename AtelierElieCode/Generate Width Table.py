@@ -2,9 +2,14 @@ from struct import unpack, pack
 import binascii
 import StringIO
 from PIL import Image
-import bitstring as bin
+import bitstring as bin # Requires Python Bitstring
 
 def genWidthTable(fontfile, width, height, space_width = 3):
+	'''
+	
+	Generate Width Table for VWF
+	
+	'''
 	BaseImage = Image.open(fontfile)
 	w, h = BaseImage.size
 	no_w = w / width
@@ -45,12 +50,10 @@ def genWidthTable(fontfile, width, height, space_width = 3):
 
 if __name__ == "__main__":
 
-        
-        #f = open("../New/Font.bmp", "rb")
-        f = open("../Fonttest.bmp", "rb")
+	f = open("../Translated Files/Font.bmp", "rb")
 	new = genWidthTable(f, 12, 12)
 	f.close()
 
-	f = open("../ARMips/Width_Table.bin", "wb")
+	f = open("../Assembly/Bin/Width_Table.bin", "wb")
 	f.write(new)
 	f.close()

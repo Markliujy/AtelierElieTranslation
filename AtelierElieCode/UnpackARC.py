@@ -30,7 +30,7 @@ import StringIO
 
 
 
-def UnpackPair(f, prefix, number, auto_decompress = False, create_TIMs = False):
+def UnpackPair(f, prefix, number, auto_decompress=False, create_TIMs=False):
 
 	f.seek(0)
 	format = unpack("<L", f.read(4))[0]
@@ -50,7 +50,7 @@ def UnpackPair(f, prefix, number, auto_decompress = False, create_TIMs = False):
 	File_Blocks = [unpack("<L", f.read(4))[0], unpack("<L", f.read(4))[0]]
 
 	#First file block
-	f.seek(3*4)
+	f.seek(3 * 4)
 
 	extra_data = []
 	if File_Blocks[0] % 2:
@@ -133,7 +133,7 @@ def GetARCLength(f):
 
 	return length
 
-def UnpackARC(f, prefix = [], auto_decompress = False, create_TIMs = False):
+def UnpackARC(f, prefix=[], auto_decompress=False, create_TIMs=False):
 
 	PREFIX = prefix
 
@@ -155,7 +155,7 @@ def UnpackARC(f, prefix = [], auto_decompress = False, create_TIMs = False):
 
 	for i in xrange(FILE_COUNT):
 		FILE_START = FILE_OFFSETS[i]
-		FILE_END = FILE_OFFSETS[i+1]
+		FILE_END = FILE_OFFSETS[i + 1]
 		NO = str(i).rjust(3, '0')
 
 		f.seek(FILE_START)
@@ -166,8 +166,8 @@ def UnpackARC(f, prefix = [], auto_decompress = False, create_TIMs = False):
 			f.seek(FILE_START)
 			length = FILE_END - FILE_START
 			prefix = PREFIX[:]
-			prefix.append("%03d" %i + '/')
-			Data = UnpackARC(StringIO.StringIO(f.read(length)), prefix, auto_decompress, create_TIMs )
+			prefix.append("%03d" % i + '/')
+			Data = UnpackARC(StringIO.StringIO(f.read(length)), prefix, auto_decompress, create_TIMs)
 
 			FINAL_FILES.extend(Data)
 
@@ -181,7 +181,7 @@ def UnpackARC(f, prefix = [], auto_decompress = False, create_TIMs = False):
 		else:
 			#print 'Error: Out of consideration:' + str(hex(unpack(">L", Header)[0]))
 			try:
-				print 'Unknown Archived File Format: '+ str(hex(unpack(">L", Header)[0])), "File:", '/'.join(PREFIX) + NO + '.Bin' + ' Pos:' + str(hex(FILE_START))
+				print 'Unknown Archived File Format: ' + str(hex(unpack(">L", Header)[0])), "File:", '/'.join(PREFIX) + NO + '.Bin' + ' Pos:' + str(hex(FILE_START))
 			except:
 				print 'Unknown Archived File Format', "File:", '/'.join(PREFIX) + '/' + NO + '.Bin'
 			f.seek(FILE_START)
@@ -193,15 +193,13 @@ def UnpackARC(f, prefix = [], auto_decompress = False, create_TIMs = False):
 
 	return FINAL_FILES
 
-
 def GetPairLength(f):
 	f.seek(8)
 	offset = unpack("<L", f.read(4))[0]
 	f.seek(12 + offset + 12)
 	return unpack("<L", f.read(4))[0] + f.tell()
 
-
-def UnpackFile(f, auto_decompress = False, create_TIMs = False):
+def UnpackFile(f, auto_decompress=False, create_TIMs=False):
 	"""
 	Unpacks file according to its format:
 
@@ -260,7 +258,7 @@ def UnpackFile(f, auto_decompress = False, create_TIMs = False):
 					#Still ARC files - Dump block inbetween
 					else:
 						prefix = ["0x%08X/" % Position]
-						RESULT.append((prefix, 'Data', '', '.bin', Binary[Position:pos+Position]))
+						RESULT.append((prefix, 'Data', '', '.bin', Binary[Position:pos + Position]))
 
 					#Found more ARC files
 					f.seek(Position)
@@ -275,7 +273,7 @@ def UnpackFile(f, auto_decompress = False, create_TIMs = False):
 
 				prefix = ["0x%08X/" % pos]
 				
-				data = UnpackARC(data, prefix, auto_decompress = auto_decompress, create_TIMs = create_TIMs)
+				data = UnpackARC(data, prefix, auto_decompress=auto_decompress, create_TIMs=create_TIMs)
 				RESULT.extend(data)
 
 				Position = pos + length
@@ -283,7 +281,7 @@ def UnpackFile(f, auto_decompress = False, create_TIMs = False):
 
 		#Only the ARC file in the file - Simple Unpack
 		else:
-			RESULT.extend(UnpackARC(f, auto_decompress = auto_decompress, create_TIMs = create_TIMs))
+			RESULT.extend(UnpackARC(f, auto_decompress=auto_decompress, create_TIMs=create_TIMs))
 
 
 
@@ -333,7 +331,7 @@ def UnpackFile(f, auto_decompress = False, create_TIMs = False):
 
 			prefix = ["0x%08X/" % pos]
 
-			data = UnpackPair(data, prefix, 'Data',auto_decompress = auto_decompress, create_TIMs = create_TIMs)
+			data = UnpackPair(data, prefix, 'Data', auto_decompress=auto_decompress, create_TIMs=create_TIMs)
 			RESULT.extend(data)
 
 			Position = pos + length
@@ -366,69 +364,70 @@ def UnpackFile(f, auto_decompress = False, create_TIMs = False):
 	
 	return RESULT
 
-
-
-#		files = UnpackARC(f)
-#		length = files.pop()
-#
-#		f.seek(0)
-#
-#
-#		print len(Binary), length
-#		if len(Binary) > length:
-#			print 'test'
-
-
-#BasePath = "D:/Atelier Marie/Dump/"
-#BaseExtractPath = "D:/Atelier Marie/Unpacked"
-#BaseExtractPath = "../Unpacked"
-#BasePath = "../Dump/"
-BaseExtractPath = "../New/Test/"
-BasePath = "../New/Packed/"
-
-
-
-FolderList = ["OP"]
-FolderList = os.listdir(BasePath)
-
-for Folder in FolderList:
-
-	##FileList = ["E_21.AR2"]
-	FileList = os.listdir(BasePath + Folder)
+if __name__ == "__main__":
 	
-	for FileName in FileList:
-		NewPath = os.path.join(BaseExtractPath, Folder, os.path.splitext(FileName)[0])
-
-		print "Extracting " + FileName + "..."
-
-		f = open(BasePath + Folder + "/" + FileName, "rb")
-		files = UnpackFile(f, create_TIMs = True)
+	#		files = UnpackARC(f)
+	#		length = files.pop()
+	#
+	#		f.seek(0)
+	#
+	#
+	#		print len(Binary), length
+	#		if len(Binary) > length:
+	#			print 'test'
 	
 	
-		Dir = NewPath + "/"
+	#BasePath = "D:/Atelier Marie/Dump/"
+	#BaseExtractPath = "D:/Atelier Marie/Unpacked"
+	#BaseExtractPath = "../Unpacked"
+	#BasePath = "../Dump/"
+	BaseExtractPath = "../Original Files/Unpacked/"
+	BasePath = "../Image Dump/"
 	
-		if not os.path.exists(Dir):
-			os.makedirs(Dir)
 	
 	
-		for File in files:
 
-			(prefix, number, suffix, ext, Data) = File
+	FolderList = os.listdir(BasePath)
+	FolderList = ["OP"]
 	
-			path = os.path.join(Dir, *prefix)
+	for Folder in FolderList:
 	
+		##FileList = ["E_21.AR2"]
+		FileList = os.listdir(BasePath + Folder)
+		
+		for FileName in FileList:
+			NewPath = os.path.join(BaseExtractPath, Folder, os.path.splitext(FileName)[0])
 	
-			if not os.path.exists(path):
-				os.makedirs(path)
+			print "Extracting " + FileName + "..."
 	
-			fname = number + suffix + ext
+			f = open(BasePath + Folder + "/" + FileName, "rb")
+			files = UnpackFile(f, create_TIMs=True)
+		
+		
+			Dir = NewPath + "/"
+		
+			if not os.path.exists(Dir):
+				os.makedirs(Dir)
+		
+		
+			for File in files:
 	
+				(prefix, number, suffix, ext, Data) = File
+		
+				path = os.path.join(Dir, *prefix)
+		
+		
+				if not os.path.exists(path):
+					os.makedirs(path)
+		
+				fname = number + suffix + ext
+		
+		
+				f = open(path + fname, "wb")
+				f.write(Data)
+				f.close()
 	
-			f = open(path + fname,  "wb")
-			f.write(Data)
-			f.close()
-
-		print ""
+			print ""
 
 
 

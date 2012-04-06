@@ -86,12 +86,12 @@ def remakeFont(file):
 
 
 if __name__ == "__main__":
-	f = open("../Fonttest.bmp", "rb")
+	f = open("../Translated Files/Font.bmp", "rb")
 
 	new = remakeFont(f)
 	f.close()
 
-	f = open("../ARMips/New_Font.bin", "wb")
+	f = open("../Assembly/Bin/New_Font.bin", "wb")
 	f.write(new)
 	f.close()
 

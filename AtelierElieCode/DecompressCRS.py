@@ -4,6 +4,11 @@ import os
 import sys
 
 def Decompress(f):
+	'''
+	
+	Decompression Routine on file
+	
+	'''
 	f.seek(0)
 	format = unpack(">H", f.read(2))[0]
 	if format != 0x4330:
@@ -110,6 +115,8 @@ def Decompress(f):
 
 if __name__ == "__main__":
 	
+	#Test Routine for Recompressed Items
+	'''
 	f = open("../test2", "rb")
 	decomp = Decompress(f)
 	f.close()
@@ -118,33 +125,35 @@ if __name__ == "__main__":
 	f.close()
 
 	print 'Done'
+	'''
+	
+	Path= "..//Unpacked2//"  # Input Path to Compressed Items
 
-#	Path="..//Unpacked2//"  # insert the path to the directory of interest
-#
-#	NewDir = "..//Unpacked2//"
-#	if not os.path.exists(NewDir):
-#		os.makedirs(NewDir)
-#
-#	dirList=os.listdir(Path)
-#	for fname in dirList:
-#		newname, ext = os.path.splitext(fname)
-#		path = os.path.join(Path, fname)
-#
-#
-#		if ext == '.C0':
-#			f = open(path, "rb")
-#			decomp = Decompress(f)
-#
-#
-#			path = os.path.join(NewDir, newname + '.Bin')
-#
-#			f = open(path,  "wb")
-#			f.write(decomp)
-#			f.close()
-#
-#
-#			print 'Written' + fname
-#
+	NewDir = "..//Unpacked2//" # Output Path for decompressed items
+	
+	if not os.path.exists(NewDir):
+		os.makedirs(NewDir)
+
+	dirList=os.listdir(Path)
+	for fname in dirList:
+		newname, ext = os.path.splitext(fname)
+		path = os.path.join(Path, fname)
+
+		# Only decompress compressed files
+		if ext == '.C0':
+			f = open(path, "rb")
+			decomp = Decompress(f)
+
+
+			path = os.path.join(NewDir, newname + '.Bin')
+
+			f = open(path,  "wb")
+			f.write(decomp)
+			f.close()
+
+
+			print 'Written' + fname
+
 
 
 

@@ -10,12 +10,12 @@
 ; ./code/hijacks/dialoguedma.asm
 ; ./code/intro.asm
 
-00000000 .open "OLD_SLPS_017.51","D:\AtelierElie\New\Packed\SLPS_017.51",0x8000F800; ./Code/base.asm line 6
+00000000 .open "OLD_SLPS_017.51","..\Translated Files\Final\SLPS_017.51",0x8000F800; ./Code/base.asm line 6
 8000F800 .org 0x800C2358                                              ; ./Code/base.asm line 17
 800C2358 data_font_table:                                             ; ./Code/base.asm line 18
-800C2358 .incbin "new_font.bin"                                       ; ./Code/base.asm line 19
+800C2358 .incbin "./bin/new_font.bin"                                 ; ./Code/base.asm line 19
 800C2A18 data_width_table:                                            ; ./Code/base.asm line 21
-800C2A18 .incbin "width_table.bin"                                    ; ./Code/base.asm line 22
+800C2A18 .incbin "./bin/width_table.bin"                              ; ./Code/base.asm line 22
 800C2A78 ram_new_width:                                               ; ./Code/base.asm line 24
 800C2A78 .fill 0x00000001,0x00                                        ; ./Code/base.asm line 25
 800C2A79 ram_prev_width:                                              ; ./Code/base.asm line 27
@@ -27,7 +27,7 @@
 800C2A83 ram_dte_buffer:                                              ; ./Code/base.asm line 36
 800C2A83 .fill 0x00000001,0x00                                        ; ./Code/base.asm line 37
 800C2A84 data_dte_table:                                              ; ./Code/base.asm line 39
-800C2A84 .incbin "dte_table.bin"                                      ; ./Code/base.asm line 40
+800C2A84 .incbin "./bin/dte_table.bin"                                ; ./Code/base.asm line 40
 800C2BD0 .align 0x00000004                                            ; ./Code/base.asm line 42
 800C2BD0 textdrawtovram:                                              ; ./code/textdrawtovram.asm line 16
 800C2BD0    lbu     r2,0x0(r16)                                       ; ./code/textdrawtovram.asm line 19
@@ -501,7 +501,7 @@
 80159540 .org 0x801566F4                                              ; ./code/intro.asm line 23
 801566F4 .halfword 0x00AD                                             ; ./code/intro.asm line 24
 801566F6 .close                                                       ; ./Code/base.asm line 69
-801566F6 .open "D:\AtelierElie\Decompressed\REQUEST.CRS","D:\AtelierElie\New\Unpacked\OV\REQUEST.CRS",0x8014B700; ./Code/base.asm line 77
+801566F6 .open "..\Original Files\Decompressed\OV\REQUEST.CRS","..\Translated Files\Unpacked\OV\REQUEST.CRS",0x8014B700; ./Code/base.asm line 77
 8014B700 .org 0x80158768                                              ; ./Code/base.asm line 80
 80158768    jal     0x800C30F8                                        ; ./Code/base.asm line 82
 8015876C    nop                                                       ; ./Code/base.asm line 83

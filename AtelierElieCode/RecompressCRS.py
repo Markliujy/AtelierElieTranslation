@@ -7,16 +7,24 @@ import sys
 import types
 
 def print_timing(func):
-    def wrapper(*arg):
-        t1 = time.time()
-        res = func(*arg)
-        t2 = time.time()
-        print '%s took %0.3f ms' % (func.func_name, (t2-t1)*1000.0)
-        return res
-    return wrapper
+	'''
+	
+	Time how long the compression took
+	
+	'''
+	def wrapper(*arg):
+		t1 = time.time()
+		res = func(*arg)
+		t2 = time.time()
+		print '%s took %0.3f ms' % (func.func_name, (t2-t1)*1000.0)
+		return res
+	return wrapper
 
 @print_timing
 def Compress(BINARY):
+	'''
+	Compression Routine
+	'''
 	FINAL = []
 	LENGTH = len(BINARY)
 	SET_OFFSET = []
@@ -250,21 +258,21 @@ def Compress(BINARY):
 	return CompressionHeader(RESULT, SET_OFFSET) + RESULT
 
 def CompressionHeader(Data, Offset):
+	'''Generates Compression Header'''
 	return pack("B", 0x43) + pack("B", 0x30) + pack("<H", Offset) + pack("<L", len(Data))
 
 
 
 if __name__ == "__main__":
-	f = open("D:/AtelierElie/New/Unpacked/OV/EV_001.CRS", "rb")
+	f = open("../Translated Files/Unpacked/OV/EV_001.CRS", "rb")
 
 	BINARY = f.read()
 	f.close()
 
 	Data = Compress(BINARY)
 
-	f = open("D:/AtelierElie/New/Packed/OV/EV_001.CRS", "wb")
+	f = open("../Translated Files/Final/OV/EV_001.CRS", "wb")
 	f.write(Data)
 	f.close()
 
 	print 'Done'
-

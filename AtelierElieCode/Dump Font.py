@@ -1,9 +1,14 @@
 from struct import unpack, pack
 import binascii
 import StringIO
-from PIL import Image
+from PIL import Image	# Requires PIL Library
 
 def ConvertPointer(Pointer):
+	'''
+	
+	Simple Pointer conversion
+	
+	'''
 	return Pointer - 0x8000F800
 
 def _bin(x, width = 8):
@@ -61,7 +66,7 @@ def _genBMP(tilebytes):
 	return Image.open(bitmap)
 
 
-f = open("../ARMips/SLPS_017.51", "rb")
+f = open("../Image Dump/SLPS_017.51", "rb")
 f.seek(0xb2b58)
 r = f.read(18)
 f.close()

@@ -11,9 +11,17 @@ Folder Overview:
 	Assembly - Assembly routines
 	Atelier Elie Scripter - C# Script Editing Program.
 	AtelierElieCode - Python Scripts
-	CD Image - TODO: ISO Placeholder
-	Font - Useless?
+		Dependencies:
+			http://code.google.com/p/python-bitstring/
+			http://www.pythonware.com/products/pil/
 	Notes - Information
 	Original Files - Original Files
 	Translated Files - Translated Files for Insertion
 	Translations - Translations
+	
+Dependent Folders (not included and to be implemented):
+
+	CD Image - ISO of the game.
+	Image Dump - Dump of all the files in the ISO.
+	
+See the Wiki for more detailed information.

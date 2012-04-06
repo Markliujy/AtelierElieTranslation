@@ -3,7 +3,7 @@
 .psx					//  Set the architecture to PSX
 
 
-.open "OLD_SLPS_017.51","D:\AtelierElie\New\Packed\SLPS_017.51",0x8000F800		//  Open SLPS_010.57 for output.
+.open "OLD_SLPS_017.51","..\Translated Files\Final\SLPS_017.51",0x8000F800		//  Open SLPS_010.57 for output.
 
 FreeSpace equ 0x800C2358			// Start of Freespace block (From Font Tables)
 TestValue equ 0x32						// Test Value for NonASCII bytes
@@ -16,10 +16,10 @@ ASCIIBound equ 0x5A						// Number of Characs in Font Table
 
 .org FreeSpace
 	DATA_Font_Table:
-		.incbin New_Font.bin
+		.incbin ./Bin/New_Font.bin
 
 	DATA_Width_Table:
-		.incbin Width_Table.bin
+		.incbin ./Bin/Width_Table.bin
 
 	RAM_New_Width:
 		.fill 0x1
@@ -37,7 +37,7 @@ ASCIIBound equ 0x5A						// Number of Characs in Font Table
 		.fill 0x1
 		
 	DATA_DTE_Table:
-		.incbin DTE_Table.bin
+		.incbin ./Bin/DTE_Table.bin
 
 	.align
 
@@ -74,7 +74,7 @@ ASCIIBound equ 0x5A						// Number of Characs in Font Table
 
 
 
-.open "D:\AtelierElie\Decompressed\REQUEST.CRS","D:\AtelierElie\New\Unpacked\OV\REQUEST.CRS",0x8014B700		//  Open REQUEST.CRS for output.
+.open "..\Original Files\Decompressed\OV\REQUEST.CRS","..\Translated Files\Unpacked\OV\REQUEST.CRS",0x8014B700		//  Open REQUEST.CRS for output.
 
 
 .org 0x80158768

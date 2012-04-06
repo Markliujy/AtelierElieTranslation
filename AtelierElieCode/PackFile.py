@@ -7,6 +7,11 @@ import StringIO
 
 
 def ripTIM(f):
+	'''
+	
+	Rip Graphic out of TIM
+	
+	'''
 	f.seek(8)
 	clut_len = unpack("<L", f.read(4))[0]
 	
@@ -23,6 +28,11 @@ def ripTIM(f):
 
 
 def packPair(pal, graphic, pal_head, graphic_head, extra):
+	'''
+	
+	Repack pair of Graphic and Palette
+	
+	'''
 	data = pal_head + pal
 
 	extrapal = 0
@@ -54,6 +64,11 @@ def packPair(pal, graphic, pal_head, graphic_head, extra):
 	return head + data + graphic_head + graphic
 
 def packARC(Base_Dir, Prefix = []):
+	'''
+	
+	Pack Archives in Directory
+	
+	'''
 	Dir = os.path.join(Base_Dir, *Prefix)
 	
 	Files = os.listdir(Dir)
@@ -77,6 +92,8 @@ def packARC(Base_Dir, Prefix = []):
 		#Pair
 		elif Number+"_Graphic.Bin" in Files:
 
+			# Get Palette
+			# NO CHANGE POSSIBLE TO PALETTE
 			pal = os.path.join(Dir, 'Compressed', Number+"_Palette.C0")
 			if os.path.exists(pal):
 				pal = open(pal, "rb")
@@ -85,12 +102,14 @@ def packARC(Base_Dir, Prefix = []):
 				pal = open(pal, "rb")
 
 			graphic = os.path.join(Dir, 'Compressed', Number+"_Graphic.C0")
+			
+			
 			New_Tim = Prefix[:]
 			New_Tim.append(Number+'.TIM')
 			New_Tim = '_'.join(New_Tim)
 			New_Tim = os.path.join(Base_Dir, 'New_Tims', New_Tim)
 
-
+			# If New TIM file exists, use that instead for the Graphic and compress
 			if os.path.exists(New_Tim):
 				print New_Tim
 				tim = open(New_Tim, 'rb')
@@ -101,7 +120,8 @@ def packARC(Base_Dir, Prefix = []):
 					graphic = compress
 				
 				graphic = StringIO.StringIO(graphic)
-					
+			
+			# Else if Compressed Graphic exists, use that		
 			elif os.path.exists(graphic):
 				graphic = open(graphic, "rb")
 			else:
@@ -170,6 +190,11 @@ def packARC(Base_Dir, Prefix = []):
 
 
 def packFiles(Dir):
+	'''
+	
+	Pack File depending on Type
+	
+	'''
 	Final = ''
 
 	Files = os.listdir(Dir)
@@ -177,6 +202,7 @@ def packFiles(Dir):
 	#If simple unpacked ARC
 	if 'Header' in Files:
 		return packARC(Dir)
+	
 	#If simple uncompressed file
 	elif 'Data.bin' in Files:
 		if len(Files) > 1:
@@ -207,10 +233,9 @@ def packFiles(Dir):
 
 
 if __name__ == "__main__":
-	DIR = "D:/AtelierElie/New/Unpacked/BOOT/BOOT_T"
-
-
-	NewFile = "D:/AtelierElie/New/Packed/BOOT/BOOT_T.ARC"
+	
+	DIR = "../Translated Files/Unpacked/BOOT/BOOT_T/"
+	NewFile = "../Translated Files/Final/BOOT/BOOT_T.ARC"
 	f = open(NewFile, 'wb')
 	result = packFiles(DIR)
 	f.write(result)
